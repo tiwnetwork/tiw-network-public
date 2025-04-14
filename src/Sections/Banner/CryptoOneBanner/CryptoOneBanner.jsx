@@ -71,7 +71,7 @@ const CryptoOneBanner = () => {
             Become part of a thriving community of over 200 property investors and developers.
             Unlock exclusive benefits, expert insights, and unparalleled networking opportunities.
             </p>
-            <NavLink to={"/sign-up"} className="crypto-glow-btn">
+            <NavLink to={"/"} className="crypto-glow-btn">
               <span className="btn-inner">
                 <span className="btn-normal-text">Join Network</span>
                 <span className="btn-hover-text">Join Network </span>
