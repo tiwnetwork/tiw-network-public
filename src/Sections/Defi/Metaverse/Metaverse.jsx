@@ -10,7 +10,7 @@ import objectImg from "../../../assets/images/defi/object.png";
 import metavarseCardBgImg from "../../../assets/images/tiwmedia/metavarse-card-bg.png";
 import metavarseCardBg3Img from "../../../assets/images/tiwmedia/metavarse-card-bg3.png";
 import arrowRightYellowImg from "../../../assets/images/crypto-token/arrow-right-yellow.svg";
-import metavarseImg2Img from "../../../assets/images/defi/metavarse-img2.png";
+import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-bi-weekly.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import tiwlogo from "../../../assets/images/logo/TIW-Logo.png";
 
@@ -37,7 +37,7 @@ const Metaverse = () => {
           <div className="col-md-12">
             <ScrollAnimate delay={200}>
               <div className="defi-metaverse-card">
-              <img src="../../../assets/images/tiwmedia/homepage-bi-weekly.png" alt="img" className="bi-weekly-gathering-bg "/>
+              <img src={metavarseImg2Img} alt="img" className="bi-weekly-gathering-bg "/>
                 <div className="row">
                   <div className="col-md-7">
                       
