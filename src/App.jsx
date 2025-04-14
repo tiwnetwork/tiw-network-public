@@ -32,7 +32,7 @@ import ScrollToTop from "./ScrollToTop";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/tiwnetwork">
+    <BrowserRouter basename="/tiw-network-website">
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
