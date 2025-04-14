@@ -42,22 +42,22 @@ const ScrollTopStyleWrapper = styled.div`
       color: ${({ theme }) => theme.colors.chatbotPrimary};
     }
     &.crypto {
-      color: #01ffb0;
+      color: #E6AD23;
     }
     &.crypto2 {
-      color: #4541fe;
+      color: #E6AD23;
     }
     &.corporate {
-      color: #5ecc62;
+      color: #E6AD23;
     }
     &.crypto-token {
-      color: #bfff0a;
+      color: #E6AD23;
     }
     &.nft {
-      color: #5f5fff;
+      color: #E6AD23;
     }
     &.sass {
-      color: #0555ff;
+      color: #E6AD23;
     }
   }
 
@@ -66,7 +66,7 @@ const ScrollTopStyleWrapper = styled.div`
   }
 
   > svg.progress-circle path {
-    stroke: ${({ theme }) => theme.colors.primary}cc;
+    stroke: #E6AD23;
     stroke-width: 4;
     box-sizing: border-box;
     transition: all 200ms linear;
@@ -89,32 +89,32 @@ const ScrollTopStyleWrapper = styled.div`
   }
   &.crypto {
     > svg.progress-circle path {
-      stroke: #01ffb0;
+      stroke: #E6AD23;
     }
   }
   &.crypto2 {
     > svg.progress-circle path {
-      stroke: #4541fe;
+      stroke: #E6AD23;
     }
   }
   &.corporate {
     > svg.progress-circle path {
-      stroke: #5ecc62;
+      stroke: #E6AD23;
     }
   }
   &.crypto-token {
     > svg.progress-circle path {
-      stroke: #bfff0a;
+      stroke: #E6AD23;
     }
   }
   &.nft {
     > svg.progress-circle path {
-      stroke: #5f5fff;
+      stroke: #E6AD23;
     }
   }
   &.sass {
     > svg.progress-circle path {
-      stroke: #0555ff;
+      stroke: #E6AD23;
     }
   }
 
