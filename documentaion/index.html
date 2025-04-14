@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Staco - Documentation</title>
+
+    <!-- Favicon included -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- Apple touch icon included -->
+    <link rel="apple-touch-icon" href="./assets/images/logo/favicon.png" />
+
+    <!-- All css links -->
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- sidebar section start -->
+    <aside class="sidebar-section">
+      <div class="sidebar-logo">
+        <a href="index.html">
+          <img src="./assets/images/logo/logo.png" alt="Logo" />
+        </a>
+      </div>
+      <nav class="sidebar-nav">
+        <ul class="sidebar-menu">
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#pages">Pages</a></li>
+          <li><a href="#template-styles">template Styles</a></li>
+          <li><a href="#customization">Customization</a></li>
+          <li><a href="#deploy">Deploy</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#credit">Source and Credit</a></li>
+        </ul>
+      </nav>
+      <div class="sidebar-copyright">
+        <div class="sidebar-copyright-content">
+          <p>
+            &copy;2024 <a href="https://themeforest.net/user/uigigs">uigigs</a>
+            Copyright
+          </p>
+        </div>
+      </div>
+    </aside>
+    <!-- sidebar section end -->
+
+    <!-- main wrapper section start -->
+    <div class="main-wrapper">
+      <div class="main-container">
+        <section id="welcome" class="ptb-50">
+          <div class="section-title">
+            <h1>Staco - SaaS Startup Business Landing Page ReactJs Template</h1>
+          </div>
+
+          <div class="support-item mb-30">
+            <a href="https://themeforest.net/user/uigigs" target="_blank">
+              24/7 Support: Send Us a message from our profile
+            </a>
+          </div>
+
+          <div class="view-card">
+            <h3 class="fw-400">
+              Thank you for purchasing our template. This documentation file
+              covers all the information needed to install and use this template.
+              So before you get started, please check out these documentation
+              files carefully. If you have any problem with understanding
+              anything in the documentation and about installing template, please
+              contact directly from our themeforest account. Our support team
+              always ready to help you quickly.
+            </h3>
+          </div>
+        </section>
+
+        <section id="installation" class="ptb-50">
+          <div class="section-title">
+            <h2>Template Installation</h2>
+          </div>
+          <p>You will get <strong>Staco.zip</strong> file form Themeforest.</p>
+          <ul class="steps-list mb-30">
+            <li>Unzip <strong>Staco.zip</strong> file.</li>
+            <li>
+              You will get two files
+              <ul class="ml-20">
+                <li>documentation</li>
+                <li>staco_react_main</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h3>Staco react version installation</h3>
+
+          <ul class="steps-list mb-30">
+            <li>
+              Open the folder <strong>staco_react_main</strong> with code editor
+            </li>
+            <li>Open terminal of the code editor</li>
+            <li>
+              run <code>npm install</code> on terminal
+              <p>
+                ( It takes some times for installing dependencies of npm
+                according to your internet speed. )
+              </p>
+            </li>
+            <li>run <code>npm run dev</code> on terminal</li>
+            <li>
+              Then , please go to address <code>localhost:3000</code> on your
+              browser and You will find default landing page.
+            </li>
+          </ul>
+
+          <h4>
+            If node.js is not installed in you local machine then please
+            consider to download it form node js official website here:
+            <a href="https://nodejs.org/en" target="_blank">Node.js</a>
+          </h4>
+        </section>
+
+        <section id="pages" class="ptb-50">
+          <div class="section-title">
+            <h2>Folder Structure</h2>
+          </div>
+
+          <h3>React js version folder structure</h3>
+          <img
+            src="./assets/images/screenshot/react-folder-structure.png"
+            alt="image"
+            class="ss-img"
+          />
+
+          <h3 class="bb ptb-10 mb-20">
+            React js version folder structure overview
+          </h3>
+
+          <div class="mb-30">
+            <h3>src/main.jsx</h3>
+            <p>
+              <code>src/main.jsx</code> main file contains the root of the app.
+            </p>
+          </div>
+
+          <div class="mb-30">
+            <h3>src/App.jsx</h3>
+            <p>
+              <code>src/App.jsx</code> App file contains the routing of the app.
+            </p>
+          </div>
+
+          <div class="mb-30">
+            <h3>src/Layout.jsx</h3>
+            <p>
+              <code>src/Layout.jsx</code> Layout file contains the layout of
+              page.
+            </p>
+          </div>
+
+          <div class="mb-30">
+            <h3>src/assets</h3>
+            <p>
+              <code>src/assets</code> In assets folder, you will find the data,
+              images and styles folder. In data folder, you will find all of
+              data uses in this template. You will also find the image folder,
+              where all of the images are kept on the basis of the specific
+              page. In styles folder, you will find global styles and template
+              styles writen with styled-components. In videos folder, you will
+              find all the videos.
+            </p>
+            <img
+              src="./assets/images/screenshot/assets-folder.png"
+              alt="image"
+              class="ss-img"
+            />
+          </div>
+          <div class="mb-30">
+            <h3>src/components</h3>
+            <p>
+              <code>/components</code> folder is most importantly use, you will
+              find components
+            </p>
+            <img
+              src="./assets/images/screenshot/components-folder.png"
+              alt="image"
+              class="ss-img"
+            />
+          </div>
+          <div class="mb-30">
+            <h3>src/section</h3>
+            <p>
+              <code>src/section</code> Here all the section include that’s we
+              are used in our template like banner
+            </p>
+            <img
+              src="./assets/images/screenshot/sections-folder.png"
+              alt="image"
+              class="ss-img"
+            />
+          </div>
+          <div class="mb-30">
+            <h3>src/pages</h3>
+            <p>
+              <code>src/pages</code>
+              In pages folder you will find the all pages
+            </p>
+
+            <img
+              src="./assets/images/screenshot/pages-folder.png"
+              alt="image"
+              class="ss-img"
+            />
+          </div>
+        </section>
+
+        <section id="template-styles" class="ptb-50">
+          <div class="section-title">
+            <h2>template Styles</h2>
+          </div>
+
+          <h3 class="bb ptb-10 mb-20">Fonts</h3>
+          <div class="view-card mb-30">
+            <pre>
+body: "'Inter', sans-serif", 
+dmSans: "'DM Sans', sans-serif", 
+montserratAlternates: "'Montserrat Alternates', sans-serif", 
+jost: "'Jost', sans-serif", 
+firaCode: "'Fira Code', sans-serif", 
+caveat: "'Caveat', sans-serif", 
+quantico: "'Quantico', sans-serif"</pre
+            >
+          </div>
+
+          <h3 class="bb ptb-10 mb-20">Colors</h3>
+          <div class="view-card mb-30">
+            <pre>
+whiteColor: " #ffffff",
+blackColor: "#000000",
+primary: "#0095ff",
+title: "#111111",
+textColor: "#444444",
+bgHero: "#242549",
+bgFooter: "#191c1f",
+borderColor: "#d9d9d91a",
+borderColor2: "#f5eef4",
+badgeColor: "#f7578c",
+badgeColor2: "#fec458",
+iconColor: "#999999",
+iconColor2: "#0ec36b",
+bgDropdown: "#ebeff9",
+bodyBG2: "#ECEFF1",
+heroimg1Bg: "#00CEC9",
+home5HeroBg: "#F0F5FF",
+hero6Bg: "#1F2334",
+cardBg: "#F9F1FF",
+liteblue: "#B3E1EC",
+offwhite: "#E2D08E",
+litepink: "#F7C8EC",
+liteviolet: "#A6A6B9",
+blueGray: "#EEEFFB",
+btnColor: "#FFDA54",
+btnTextColor: "#050038",
+v6BG: "#ECF1F1",
+primary6: "#B2EDA1",
+primary6Deep: "#44C486",
+v6templateColor: "#004D42",
+aeroBlue: "#D1FDE9",
+v8Title: "#0DAC81",
+v8Title2: "#AAEF69",
+v8SeconderyColor: "#1A7870",
+chatbotPrimary: "#041646",
+chatbotGreen: "#061C23",
+chatbotGray: "#F7F5F2",
+templateDark: "#0D1014"</pre
+            >
+          </div>
+
+          <h4>You can update fonts, colors using "TemplateStyles.js" file.</h4>
+          <img
+            src="./assets/images/screenshot/templatestyles-edit.png"
+            alt="image"
+            class="ss-img"
+          />
+        </section>
+
+        <section id="customization" class="ptb-50">
+          <div class="section-title">
+            <h2>Customization</h2>
+          </div>
+
+          <p>
+            You can update any components, sections according to your
+            requirements. For customizing, you have to update particular file as
+            you need.
+          </p>
+
+          <h4>Header</h4>
+          <img
+            src="./assets/images/screenshot/header-customization.png"
+            alt="image"
+            class="ss-img"
+          />
+
+          <h4>Footer</h4>
+          <img
+            src="./assets/images/screenshot/footer-customization.png"
+            alt="image"
+            class="ss-img"
+          />
+        </section>
+
+        <section id="deploy" class="ptb-50">
+          <div class="section-title">
+            <h2>Deploy</h2>
+          </div>
+
+          <h2 class="mb-20">Staco react version Deploy</h2>
+
+          <h3 class="bb ptb-10 mb-20">Staco React js static build</h3>
+          <ul class="steps-list mb-30">
+            <li>Navigate to Staco_react_main</li>
+            <li>
+              You can type path url inside "vite-config.js" file. If you are
+              deploying Staco react app to server you can type domain/custom
+              path url inside base in "vite-config.js" file.
+              <img
+                class="ss-img"
+                src="./assets/images/screenshot/update-base-path.png"
+                alt="ss-img"
+              />
+            </li>
+            <li>run command <code>npm run build</code></li>
+            <li>
+              after the build is done you will get a folder called
+              <code>dist</code>.
+            </li>
+            <li>
+              now you can host that folder anywhere you want (If you are
+              deploying Staco react app to server, you have to type
+              domain/custom path url inside base in "vite-config.js" file before
+              build).
+            </li>
+            <li>
+              For more information you can visit
+              <a
+                href="https://v2.vitejs.dev/guide/static-deploy.html"
+                target="_blank"
+              >
+                Deploying a Static Site
+              </a>
+            </li>
+          </ul>
+
+          <h3 class="bb ptb-10 mt-20 mb-20">
+            <a href="https://www.netlify.com/" target="_blank">netlify</a>
+          </h3>
+          <ul class="steps-list mb-30">
+            <li>Navigate to Staco_react_main</li>
+            <li>run command:</li>
+            <li>
+              <code>npm run build</code>
+              <p>
+                after the build process is done. you will find a new folder
+                called <code>/dist</code>
+              </p>
+            </li>
+            <li><code>npm install netlify-cli --save-dev</code></li>
+            <li>
+              <code>netlify login</code>
+              <p>after the login process is done</p>
+            </li>
+            <li>run command: <code>netlify deploy</code></li>
+            <li>choose + Create & configure a new site</li>
+            <li>give you site name</li>
+            <li>
+              path to deploy: <code>./dist</code>
+              <p>after the build process once done, run command:</p>
+            </li>
+            <li><code>netlify deploy --prod </code></li>
+            <li>path to deploy: <code>./dist</code></li>
+            <li>
+              for more information:
+              <a
+                href="https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/"
+                target="_blank"
+              >
+                How to deploy React Apps in netlify
+              </a>
+            </li>
+          </ul>
+          <p>
+            You will find react.js app deployment complete guide here:
+            <a
+              href="https://create-react-app.dev/docs/deployment/"
+              target="_blank"
+            >
+              React.js app Deployment</a
+            >
+          </p>
+
+          <h3 class="bb ptb-10 mt-20 mb-20">
+            <a href="https://vercel.com/" target="_blank">vercel</a>
+          </h3>
+          <ul class="steps-list mb-30">
+            <li>
+              Navigate to Staco_react_main
+              <p>
+                for deploying to vercel using terminal you need to install
+                vercel-cli on your machine
+                <a href="https://vercel.com/docs/cli" target="_blank">
+                  Read more...
+                </a>
+              </p>
+            </li>
+            <li><code>npm install vercel --save-dev</code></li>
+            <li>run command:</li>
+            <li><code>vercel login</code></li>
+            <p>After the login process is done. run command:</p>
+            <li><code>vercel</code></li>
+            <p>
+              after the deploy process is done. then deploy the production
+              version
+            </p>
+            <li><code>vercel --prod</code></li>
+          </ul>
+
+          <p>
+            For more information
+            <a
+              href="https://vercel.com/guides/deploying-react-with-vercel"
+              target="_blank"
+            >
+              How to Deploy a React.js Site with Vercel
+            </a>
+          </p>
+        </section>
+
+        <section id="features">
+          <div class="section-title">
+            <h2>Features</h2>
+          </div>
+
+          <ul class="steps-list mb-30">
+            <li>Modern Design</li>
+            <li>Clean & Simple Design</li>
+            <li>Based on styled components</li>
+            <li>Component base styling for making page load superfast</li>
+            <li>Sass with styled Components</li>
+            <li>Reusable components for highly customization</li>
+            <li>Scalable project architecture</li>
+            <li>Beautiful color and Typography</li>
+            <li>Semantic Markup</li>
+            <li>Compatible with Bootstrap 5.3.3</li>
+            <li>Free Google Fonts</li>
+            <li>Free Icons</li>
+            <li>100% Customizable Codes</li>
+            <li>Well Documented</li>
+            <li>
+              Cross Browser Compatible with IE11+, Firefox, Safari, Opera,
+              Chrome
+            </li>
+            <li>+ Many More</li>
+          </ul>
+        </section>
+
+        <section id="credit" class="ptb-50">
+          <div class="section-title">
+            <h2>Source and Credit</h2>
+          </div>
+
+          <ul class="steps-list mb-30">
+            <li><code>react</code></li>
+            <li><code>react-dom</code></li>
+            <li><code>react-router-dom</code></li>
+            <li><code>react-helmet-async</code></li>
+            <li><code>react-icons</code></li>
+            <li><code>styled-components</code></li>
+            <li><code>react-tabs</code></li>
+            <li><code>@iconify/react</code></li>
+            <li><code>animate.css</code></li>
+            <li><code>animate.css-react</code></li>
+            <li><code>animejs</code></li>
+            <li><code>d3-ease</code></li>
+            <li><code>react-circular-progress</code></li>
+            <li><code>react-circular-progressbar</code></li>
+            <li><code>react-countdown</code></li>
+            <li><code>react-countup</code></li>
+            <li><code>react-countup-animate</code></li>
+            <li><code>react-intersection-observer</code></li>
+            <li><code>react-masonry-css</code></li>
+            <li><code>react-move</code></li>
+            <li><code>react-parallax</code></li>
+            <li><code>react-responsive-masonry</code></li>
+            <li><code>react-slick</code></li>
+            <li><code>react-sticky-box</code></li>
+            <li><code>scroll-out</code></li>
+            <li><code>slick</code></li>
+            <li><code>slick-carousel</code></li>
+            <li><code>splitting</code></li>
+            <li><code>use-typing-headlines</code></li>
+            <li><code>venobox</code></li>
+          </ul>
+
+          <h2 class="bb ptb-20 mb-20">Images</h2>
+
+          <ul class="steps-list">
+            <li>
+              <a href="https://photodune.net/" target="_blank">Photodune</a>
+            </li>
+            <li>
+              <a href="http://allfreephotos.net" target="_blank"
+                >Allfreephotos</a
+              >
+            </li>
+            <li><a href="https://pixabay.com/" target="_blank">Pixabay</a></li>
+            <li>
+              <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+            </li>
+            <li><a href="http://unsplash.com/" target="_blank">Unsplash</a></li>
+            <li>
+              <a href="https://www.fotolia.com" target="_blank">Fotolia</a>
+            </li>
+          </ul>
+          <p>
+            Note: All images are just used for Preview Purpose Only. They are
+            not part of the template and NOT included in the final purchase files.
+          </p>
+        </section>
+
+        <footer class="footer-section pb-20">
+          <p>Copyright uigigs &copy;2024</p>
+        </footer>
+      </div>
+    </div>
+    <!-- main wrapper section end -->
+
+    <!-- All javascript links -->
+    <!-- jQuery v3.6.3 js -->
+    <script src="./assets/js/jquery-3.7.0.min.js"></script>
+    <!-- Single Page Nav Plugin version 1.2.1 -->
+    <script src="./assets/js/jquery.singlePageNav.min.js"></script>
+    <!-- custom js -->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
