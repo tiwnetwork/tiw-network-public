@@ -37,7 +37,7 @@ const Metaverse = () => {
           <div className="col-md-12">
             <ScrollAnimate delay={200}>
               <div className="defi-metaverse-card">
-              <img src="/src/assets/images/tiwmedia/homepage-bi-weekly.png" alt="img" className="bi-weekly-gathering-bg "/>
+              <img src="../../../assets/images/tiwmedia/homepage-bi-weekly.png" alt="img" className="bi-weekly-gathering-bg "/>
                 <div className="row">
                   <div className="col-md-7">
                       
