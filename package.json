@@ -1,5 +1,4 @@
 {
-  "homepage": "https://web-kcm.github.io/tiw-network-website",
   "name": "tiw-network",
   "private": true,
   "version": "1.0.0",
@@ -14,9 +13,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
