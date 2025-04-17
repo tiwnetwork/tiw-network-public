@@ -38,10 +38,15 @@ const CrossPlatformStyle = styled.section`
   }
 
   @media screen and (max-width: 767px) {
-    padding: 80px 0px;
+    padding: 45px 0px;
+    background-size: 700px;
+    background-position: bottom center;
     .cross-platform-card {
       max-width: 410px;
       padding: 60px 0px;
+      h2{
+        max-width: 303px;
+      }
     }
   }
 `;

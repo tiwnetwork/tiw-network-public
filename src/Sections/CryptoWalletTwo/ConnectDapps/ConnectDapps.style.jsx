@@ -94,7 +94,7 @@ const ConnectDappsStyle = styled.section`
   @media screen and (max-width: 767px) {
     padding-top: 80px;
     .connect-dapps-img .mocup-img {
-      margin-top: -300px;
+      margin-top: -137px;
     }
   }
   @media screen and (max-width: 480px) {
