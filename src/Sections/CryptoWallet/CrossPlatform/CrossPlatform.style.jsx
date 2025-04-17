@@ -7,12 +7,12 @@ const CrossPlatformStyle = styled.section`
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding: 174px 0px;
+  padding: 160px 0px;
   .cross-platform-card {
-    max-width: 525px;
+    max-width: 925px;
     width: 100%;
     margin: auto;
-    background: #1c232d;
+    background: transparent;
     border-radius: 20px;
     padding: 96px 30px;
     position: relative;
@@ -20,6 +20,8 @@ const CrossPlatformStyle = styled.section`
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    flex-direction: column;
+    gap: 15px;
     .section-title {
       position: relative;
       z-index: 2;
@@ -28,6 +30,10 @@ const CrossPlatformStyle = styled.section`
     .cross-platform-mesh-grad {
       position: absolute;
       z-index: 0;
+    }
+    .paragraph{
+      color: #fff;
+      text-align: center;
     }
   }
 

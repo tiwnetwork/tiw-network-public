@@ -14,10 +14,10 @@ const ConnectDapps = () => {
         <div className="connect-dapps-content">
         <ScrollAnimate delay={200}>
         <SectionTitle
-          title="Simple &amp; Powerful Crypto Wallet for dApps"
-          subtitle="Connect Dapps"
+          title="Join Our Engaging WhatsApp Subgroups Today"
+          subtitle="CONNECT AND INSPIRE"
           alignment="center"
-          titleMaxW="570px"
+          titleMaxW="675px"
           titleMargin="auto"
           parentClass="crypto2"
         />
@@ -25,20 +25,14 @@ const ConnectDapps = () => {
         <ScrollAnimate delay={250}>
         <div className="connect-dapps-text">
           <p>
-            We use as filler text for layouts, non-readability is of great
-            importance but because those who do not know how to pursue pleasure.
-            Nor again is there anyone who loves or pursues or desires to obtain
-            pain of itself, because it is pain
+            Become part of our vibrant community! Engage with over 25 subgroups on WhatsApp, covering all aspects of business, investing, and property.
           </p>
-          <a href="#">
-            Connect Your dApp <img src={arrowRightBlueImg} alt="icon" />
-          </a>
         </div>
         </ScrollAnimate>
         </div>
         <div className="connect-dapps-img">
           <ScrollAnimate delay={300}>
-          <img src={coinIconsImg} alt="img" className="coin-img" />
+          {/* <img src={coinIconsImg} alt="img" className="coin-img" /> */}
           <img src={mockupImg} alt="img" className="mocup-img" />
           </ScrollAnimate>
         </div>

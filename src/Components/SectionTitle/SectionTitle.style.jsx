@@ -19,10 +19,10 @@ const SectionTitleStyleWrapper = styled.div`
     }
     &.title2 {
       p {
-        color: ${({ theme }) => theme.colors.v8Title2};
+        color: #fff;
       }
       h2 {
-        color: ${({ theme }) => theme.colors.whiteColor};
+        color: #fff;
       }
     }
   }
@@ -75,7 +75,7 @@ const SectionTitleStyleWrapper = styled.div`
 
   &.crypto {
     .sub-title {
-      color: #01ffb0;
+      color: #E6AD23;
     }
     .title {
       color: ${({ theme }) => theme.colors.whiteColor};
@@ -84,27 +84,27 @@ const SectionTitleStyleWrapper = styled.div`
 
   &.crypto2 {
     .sub-title {
-      color: #4541fe;
+      color: #E6AD23;
     }
     .title {
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
     }
   }
 
   &.crypto2 {
     &.title-green {
       .sub-title {
-        color: #9fe870;
+        color: #E6AD23;
       }
       .title {
-        color: ${({ theme }) => theme.colors.whiteColor};
+        color: #fff;
       }
     }
   }
 
   &.corporate {
     .sub-title {
-      color: #5ecc62;
+      color: #E6AD23;
     }
     .title {
       color: ${({ theme }) => theme.colors.title};
@@ -114,7 +114,7 @@ const SectionTitleStyleWrapper = styled.div`
 
   &.sass {
     .sub-title {
-      color: #0555ff;
+      color: #E6AD23;
     }
     .title {
       color: ${({ theme }) => theme.colors.title};
@@ -123,7 +123,7 @@ const SectionTitleStyleWrapper = styled.div`
 
   &.defi {
     .sub-title {
-      color: #37ea8e;
+      color: #E6AD23;
     }
     .title {
       color: ${({ theme }) => theme.colors.whiteColor};
