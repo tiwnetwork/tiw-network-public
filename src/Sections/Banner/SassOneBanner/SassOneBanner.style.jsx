@@ -45,6 +45,7 @@ const SassOneBannerStyle = styled.section`
       display: flex;
       gap: 40px;
       align-items: center;
+
       h1{
         line-height: 120%;
       }
@@ -250,6 +251,10 @@ const SassOneBannerStyle = styled.section`
     .index5-hero-content .v5banner-text p {
       font-size: 16px;
       max-width: 460px;
+    }
+    .index5-hero-content .v5banner-text {
+      flex-direction: column;
+      gap: 0px;
     }
     .index5-scroll-carousel-section {
       ul {
