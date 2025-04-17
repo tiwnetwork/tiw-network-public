@@ -10,6 +10,7 @@ import EcoSystem from "../Sections/Defi/EcoSystem/EcoSystem";
 import Metaverse from "../Sections/Defi/Metaverse/Metaverse";
 import ConnectDapps from "../Sections/CryptoWalletTwo/ConnectDapps/ConnectDapps";
 import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform";
+import SassOneBanner from "../Sections/Banner/SassOneBanner/SassOneBanner";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         <EcoSystem />
         <DefiPartners />
         <ConnectDapps />
+        <SassOneBanner />
         <UserFeedback />
         <CrossPlatform />
         <CryptoWalletOneFooter />

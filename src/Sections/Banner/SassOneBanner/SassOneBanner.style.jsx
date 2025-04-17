@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const SassOneBannerStyle = styled.section`
   min-height: 642px;
-  background: ${({ theme }) => theme.colors.home5HeroBg};
+  background: #000;
   padding-bottom: 80px;
   position: relative;
   z-index: 0;
@@ -16,7 +16,8 @@ const SassOneBannerStyle = styled.section`
     z-index: 1;
   }
   .index5-hero-content {
-    padding-top: 210px;
+    padding-top: 230px;
+    padding-bottom: 89px;
     position: relative;
     z-index: 11;
     .v5welocme-section {
@@ -41,11 +42,19 @@ const SassOneBannerStyle = styled.section`
     }
 
     .v5banner-text {
+      display: flex;
+      gap: 40px;
+      align-items: center;
+      h1{
+        line-height: 120%;
+      }
       .banner-title {
         margin-bottom: 28px;
         gap: 18px;
-        font-weight: 700;
-        font-size: 60px;
+        font-weight: 800;
+        font-size: 48px;
+        text-align: left;
+        color: #fff;
         .brack-text {
           display: block;
         }
@@ -76,11 +85,11 @@ const SassOneBannerStyle = styled.section`
         font-size: 18px;
         font-weight: 500;
         line-height: 36px;
-        color: ${({ theme }) => theme.colors.title};
+        color: #fff;
         max-width: 569px;
         width: 100%;
         margin: auto;
-        text-align: center;
+        text-align: left;
         margin-top: 12px;
         margin-bottom: 38px;
       }
@@ -123,7 +132,7 @@ const SassOneBannerStyle = styled.section`
     max-width: 1170px;
     width: 100%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 10%;
     perspective: 1000px;
     display: flex;
@@ -131,7 +140,7 @@ const SassOneBannerStyle = styled.section`
     justify-content: center;
 
     img {
-      width: 80%;
+      width: 100%;
       transform: rotateX(40deg);
       transition: 0.5s;
     }

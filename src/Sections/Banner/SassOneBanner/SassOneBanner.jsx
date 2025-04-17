@@ -19,7 +19,7 @@ import index5BannerImg from "../../../assets/images/sass1/index5-banner-img.png"
 import handsIcon from "../../../assets/images/icons/hands.png";
 
 const SassOneBanner = () => {
-  const [sassOneHeadline] = useTypingHeadlines(["Email", "Meeting", "Invoice"], {
+  const [sassOneHeadline] = useTypingHeadlines(["All-in-One"], {
     speed: 200, // adjust this to make typing faster; lower values mean faster typing
     delay: 200, // adjust delay between words
   });
@@ -34,7 +34,7 @@ const SassOneBanner = () => {
         let heroVImg;
         x = indexVImg.offsetTop;
         heroVImg = indexVImg.querySelector(".index5-hero-img img");
-        x = x + 400;
+        x = x + 100;
 
         let animationValue = 40;
         animationValue = (animationValue - (y - x)) / 5;
@@ -85,138 +85,21 @@ const SassOneBanner = () => {
       <div className="container">
         <div className="index5-hero-content">
           <ScrollAnimate delay={200}>
-          <div className="v5welocme-section">
-            <img src={handsIcon} alt="icons" /> Welcome to Staco
-          </div>
           <div className="v5banner-text">
-            <h1 className="cd-headline clip is-full-width banner-title text-center">
-              <span className="brack-text">Galaxy of startup</span>
-              simple&nbsp;
-              <span className="cd-words-wrapper animation-text">
-                <b>{sassOneHeadline}</b>
-              </span>
-              &nbsp;solution
+            <h1 className="cd-headline clip is-full-width banner-title">
+            Your All-in-One Member Dashboard
             </h1>
             <p>
-              I must explain to you how all this mistaken. Tdea of denouncing
-              pleasure and praising pain was born
+              Discover the TIW Network member dashboard – your gateway to exclusive events, vital announcements, and valuable resources. Seamlessly register for events, access partner data, explore trade deals, and download essential materials. Stay connected and informed with everything you need, all in one place.
             </p>
           </div>
-          <form>
-            <input type="email" placeholder="Email Address" />
-            <button className="bg-blue-btn">
-              <span className="btn-inner">
-                <span className="btn-normal-text">Get Started</span>
-                <span className="btn-hover-text">Get Started</span>
-              </span>
-            </button>
-          </form>
           </ScrollAnimate>
         </div>
         <div className="index5-hero-img">
           <img src={index5BannerImg} alt="img" />
         </div>
       </div>
-      <div className="index5-scroll-carousel-section">
-        <ScrollAnimate delay={200}>
-        <ul className="slide-left">
-          <li>
-            <span>
-              <img src={teamManagementImg} alt="img" />
-            </span>
-            <strong>Team Management</strong>
-          </li>
-          <li>
-            <span>
-              <img src={invoiceImg} alt="img" />
-            </span>
-            <strong>Invoice System</strong>
-          </li>
-          <li>
-            <span>
-              <img src={meetingImg} alt="img" />
-            </span>
-            <strong>Digital Marketing</strong>
-          </li>
-          <li>
-            <span>
-              <img src={chatbotImg} alt="img" />
-            </span>
-            <strong>Chatbot</strong>
-          </li>
-          <li>
-            <span>
-              <img src={seoImg} alt="img" />
-            </span>
-            <strong>SEO</strong>
-          </li>
-          <li>
-            <span>
-              <img src={telehealthImg} alt="img" />
-            </span>
-            <strong>HR Management</strong>
-          </li>
-          <li>
-            <span>
-              <img src={invoiceImg} alt="img" />
-            </span>
-            <strong>Invoice System</strong>
-          </li>
-        </ul>
-        </ScrollAnimate>
-        <ScrollAnimate delay={220}>
-        <ul className="slide-right">
-          <li>
-            <span>
-              <img src={teamManagementImg} alt="img" />
-            </span>
-            <strong>Newsletter</strong>
-          </li>
-          <li>
-            <span>
-              <img src={chatInventoryImg} alt="img" />
-            </span>
-            <strong>Chat Inventory</strong>
-          </li>
-          <li>
-            <span>
-              <img src={inventoryImg} alt="img" />
-            </span>
-            <strong>Inventory</strong>
-          </li>
-          <li>
-            <span>
-              <img src={emailAutomotionImg} alt="img" />
-            </span>
-            <strong>Email Automotion</strong>
-          </li>
-          <li>
-            <span>
-              <img src={helpDeskImg} alt="img" />
-            </span>
-            <strong>Help Desk</strong>
-          </li>
-          <li>
-            <span>
-              <img src={campaignImg} alt="img" />
-            </span>
-            <strong>Campaign</strong>
-          </li>
-          <li>
-            <span>
-              <img src={saasImg} alt="img" />
-            </span>
-            <strong>SaaS</strong>
-          </li>
-          <li>
-            <span>
-              <img src={chatInventoryImg} alt="img" />
-            </span>
-            <strong>Chat Inventory</strong>
-          </li>
-        </ul>
-        </ScrollAnimate>
-      </div>
+
     </SassOneBannerStyle>
   );
 };
