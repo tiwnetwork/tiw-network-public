@@ -8,6 +8,8 @@ import UserFeedback from "../Sections/CryptoWallet/UserFeedback/UserFeedback";
 import DefiPartners from "../Sections/Defi/DefiPartners/DefiPartners";
 import EcoSystem from "../Sections/Defi/EcoSystem/EcoSystem";
 import Metaverse from "../Sections/Defi/Metaverse/Metaverse";
+import ConnectDapps from "../Sections/CryptoWalletTwo/ConnectDapps/ConnectDapps";
+import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform";
 
 const Home = () => {
   return (
@@ -19,7 +21,9 @@ const Home = () => {
         <Metaverse />
         <EcoSystem />
         <DefiPartners />
+        <ConnectDapps />
         <UserFeedback />
+        <CrossPlatform />
         <CryptoWalletOneFooter />
       </div>
     </Layout>

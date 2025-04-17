@@ -8,7 +8,7 @@ const ConnectDappsStyle = styled.section`
   align-items: center;
   top: 0px;
   flex-direction: column;
-  background: ${({ theme }) => theme.colors.whiteColor};
+  background: #000;
   .container {
     position: relative;
     z-index: 2;
@@ -17,6 +17,7 @@ const ConnectDappsStyle = styled.section`
     position: absolute;
     top: 0px;
     z-index: 0;
+    opacity: .2;
   }
   .connect-dapps-text {
     max-width: 779px;
@@ -28,6 +29,7 @@ const ConnectDappsStyle = styled.section`
       margin-bottom: 30px;
       font-size: 18px;
       line-height: 36px;
+      color: rgba(255,255,255,0.8)
     }
     a {
       transition: 0.3s;
@@ -67,7 +69,7 @@ const ConnectDappsStyle = styled.section`
       top: -65px;
     }
     .mocup-img {
-      margin-top: -420px;
+      margin-top: 0px;
       position: relative;
       z-index: 0;
       left: 80px;
