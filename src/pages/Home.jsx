@@ -11,7 +11,7 @@ import Metaverse from "../Sections/Defi/Metaverse/Metaverse";
 
 const Home = () => {
   return (
-    <Layout pageTitle="STIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
+    <Layout pageTitle="TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
       <div className="crypto-wallet-body">
         <Header variant="crypto" />
         <CryptoOneBanner />
