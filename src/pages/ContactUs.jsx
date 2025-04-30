@@ -1,21 +1,23 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import Breadcumbs from "../Components/Breadcumbs/Breadcumbs";
 import SayHello from "../Sections/ContactUs/SayHello/SayHello";
 import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
-import FooterTwo from "../Sections/Footer/FooterTwo";
 import ContactLocation from "../Sections/ContactUs/ContactLocation/ContactLocation";
+import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 
 const ContactUs = () => {
   return (
-    <Layout pageTitle="Staco - Contact Us">
-      <Header variant="main-header" />
-      <Breadcumbs title="Contact Us" />
+
+    <Layout pageTitle="Why Join TIW Network" scrollVariant={"crypto"}>
+    <div className="crypto-wallet-body">
+      <Header variant="crypto" />
+      <StartBuildingComponent firstText="Get in" highlightText="Touch" />
       <SayHello />
       <ContactLocation />
       <StartBuildingComponent />
-      <FooterTwo />
-    </Layout>
+      <CryptoWalletOneFooter />
+    </div>
+  </Layout>
   );
 };
 

@@ -47,71 +47,10 @@ const FinanceBanner = () => {
 
   return (
     <FinanceBannerStyle className="hero-section6">
-      {vectorImages.map((vector, index) => (
-        <span key={index} className={`banner-vector banner-vector${index + 1}`}>
-          <img src={vector} alt={`img${index + 1}`} />
-        </span>
-      ))}
-      <span />
+
       <div className="container">
-        <span className="banner-vector-line1">
-          <img src={vectorLine1} alt="img" />
-        </span>
-        <span className="banner-vector-line2">
-          <img src={vectorLine2} alt="img" />
-        </span>
         <div className="row">
-          <div className="col-md-6">
-            <ScrollAnimate delay={200}>
-              <div className="v6-banner-text">
-                <div className="v6-banner-text">
-                  <div className="cd-intro m-0 uig-animate-style">
-                    <h1 className="cd-headline loading-bar banner-title">
-                      Financial Security Made
-                      <span
-                        className="cd-words-wrapper"
-                      >
-                        {headlines.map((headline, index) => (
-                          <b
-                            key={index}
-                            className={
-                              index === visibleIndex ? "is-visible" : "is-hidden"
-                            }
-                          >
-                            {headline}
-                          </b>
-                        ))}
-                      </span>
-                    </h1>
-                  </div>
-                  <p>
-                    Staco is the dedicated platform for human management that
-                    helps to grow your startup business quickly
-                  </p>
-                  <div className="v6-banner-btns">
-                    <NavLink to={"/sign-up"} className="btn-olive-deep">
-                      <span className="btn-inner">
-                        <span className="btn-normal-text">
-                          Get Start for Free
-                        </span>
-                        <span className="btn-hover-text">Get Start for Free</span>
-                      </span>
-                    </NavLink>
-                    <NavLink to={"/contact-us"} className="lets-talk-bttn">
-                      Let’s talk
-                      <span className="icon">
-                        <span
-                          className="iconify"
-                          data-icon="akar-icons:chevron-right"
-                        />
-                      </span>
-                    </NavLink>
-                  </div>
-                </div>
-              </div>
-            </ScrollAnimate>
-          </div>
-          <div className="col-md-6 text-right">
+          <div className="text-right">
             <ScrollAnimate delay={300}>
               <div className="v6-banner-img-section">
                 <div className="v6-banner-img">

@@ -6,6 +6,8 @@ import Img1 from "../../../assets/images/img/feature-team3.png";
 import Img2 from "../../../assets/images/img/feature-team2.png";
 import Img3 from "../../../assets/images/img/feature-team1.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
 
 const FeatureTeam = () => {
   const sliderForRef = useRef(null);
@@ -42,13 +44,62 @@ const FeatureTeam = () => {
       ...prevSettings,
       asNavFor: sliderForRef.current,
     }));
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
   }, []);
-
+  
   return (
     <FeatureTeamStyle className="feature-team-section newsletter">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-7">
+        <div className="col-lg-5">
+            <ScrollAnimate delay={200}>
+            <Slider
+              ref={sliderForRef}
+              {...settingsFor}
+              className="feature-team-slider-for"
+            >
+              <div className="slider-item">
+                <p className="sub-title" data-splitting>Our Mission</p>
+                <h2>Empowering Investors Through Collaboration & Knowledge Sharing</h2>
+                <p>
+                  At TIW Network, we are dedicated to creating a value-driven community where members can share expertise and connect with trusted partners. Our mission is to foster collaboration and drive mutual success in the property investment sector.
+                </p>
+                {/* <ul>
+                  <li>
+                    <span className="iconify" data-icon="bi:check-lg" />
+                    99% Survey Report
+                  </li>
+                  <li>
+                    <span className="iconify" data-icon="bi:check-lg" />
+                    Trusted by teams
+                  </li>
+                  <li>
+                    <span className="iconify" data-icon="bi:check-lg" />
+                    Self-Service
+                  </li>
+                </ul> */}
+              </div>
+              <div className="slider-item">
+                <p className="sub-title" data-splitting>Our Mission</p>
+                <h2>Building lasting relationships for collective growth</h2>
+                <p>
+                  Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
+                </p>
+              </div>
+              <div className="slider-item">
+                <p className="sub-title" data-splitting>Our Mission</p>
+                <h2>Creating opportunities for collaboration and innovation</h2>
+                <p>
+                  Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
+                </p>
+              </div>
+            </Slider>
+            </ScrollAnimate>
+          </div>
+          <div className="col-lg-7 mt-5 mt-lg-0">
             <ScrollAnimate delay={200}>
             <Slider
               ref={sliderNavRef}
@@ -76,85 +127,7 @@ const FeatureTeam = () => {
             </Slider>
             </ScrollAnimate>
           </div>
-          <div className="col-lg-5">
-            <ScrollAnimate delay={200}>
-            <Slider
-              ref={sliderForRef}
-              {...settingsFor}
-              className="feature-team-slider-for"
-            >
-              <div className="slider-item">
-                <h2>Manage team increase productivity</h2>
-                <p>
-                  We use as filler text for layouts, non-readability is of great
-                  importance but because those who do not know how to pursue
-                  pleasure rationally encounter consequences that are extremely
-                  painful nor again is there anyone.
-                </p>
-                <ul>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    99% Survey Report
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Trusted by teams
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Self-Service
-                  </li>
-                </ul>
-              </div>
-              <div className="slider-item">
-                <h2>Manage team increase productivity</h2>
-                <p>
-                  We use as filler text for layouts, non-readability is of great
-                  importance but because those who do not know how to pursue
-                  pleasure rationally encounter consequences that are extremely
-                  painful nor again is there anyone.
-                </p>
-                <ul>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    99% Survey Report
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Trusted by teams
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Self-Service
-                  </li>
-                </ul>
-              </div>
-              <div className="slider-item">
-                <h2>Manage team increase productivity</h2>
-                <p>
-                  We use as filler text for layouts, non-readability is of great
-                  importance but because those who do not know how to pursue
-                  pleasure rationally encounter consequences that are extremely
-                  painful nor again is there anyone.
-                </p>
-                <ul>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    99% Survey Report
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Trusted by teams
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Self-Service
-                  </li>
-                </ul>
-              </div>
-            </Slider>
-            </ScrollAnimate>
-          </div>
+          
         </div>
       </div>
     </FeatureTeamStyle>

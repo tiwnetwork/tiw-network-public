@@ -17,7 +17,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
           var counterText = item.innerText;
           item.innerText = "0";
           const updateCounter = () => {
-            let dataTarget = +item.getAttribute("datatarget");
+            let dataTarget = +item.getAttribute("data-target");
             if (dataTarget > 999) {
               dataTarget = dataTarget / 1000;
             }
@@ -64,11 +64,12 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={200}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" datatarget="200">
+                      <span className="counter" data-target="200">
                         200
                       </span>
+                      +
                     </h2>
-                    <p>Countries Worldwide</p>
+                    <p>Members</p>
                   </div>
                 </ScrollAnimate>
               </div>
@@ -76,12 +77,12 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={230}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" datatarget="156">
-                        156
+                      <span className="counter" data-target="23">
+                        23
                       </span>
-                      K
+                      +
                     </h2>
-                    <p>Registered User</p>
+                    <p>Partners</p>
                   </div>
                 </ScrollAnimate>
               </div>
@@ -89,12 +90,12 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={260}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" datatarget="23">
-                        23
+                      <span className="counter" data-target="100">
+                        100
                       </span>
-                      K
+                      +
                     </h2>
-                    <p>Small & Big Companies</p>
+                    <p>Accumulative Deals</p>
                   </div>
                 </ScrollAnimate>
               </div>

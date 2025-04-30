@@ -157,11 +157,11 @@ const Data = [
   },
   {
     title: "About Us",
-    url: "/",
+    url: "/about",
   },
   {
     title: "Why Join Us",
-    url: "/",
+    url: "/why-join-us",
   },
   {
     title: "Partners",

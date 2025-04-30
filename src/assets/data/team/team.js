@@ -3,9 +3,9 @@ import AvatarImg2 from "../../images/avater/team2.png";
 import AvatarImg3 from "../../images/avater/team3.png";
 import AvatarImg4 from "../../images/avater/team4.png";
 
-import FacebookIcon from "../../images/icons/facebook-2.svg";
-import TwitterIcon from "../../images/icons/twitter-2.svg";
-import InstagramIcon from "../../images/icons/instagram-2.svg";
+import FacebookIcon from "../../images/icons/f.svg";
+import TwitterIcon from "../../images/icons/x-white.svg";
+import InstagramIcon from "../../images/icons/insta.svg";
 
 const data = [
   {
@@ -51,7 +51,7 @@ const data = [
   {
     delay: 300,
     name: "Debra Cavender",
-    designation: "Web Developer",
+    designation: "Job Position Here",
     avatar: AvatarImg3,
     socialLinks: [
       {
@@ -71,7 +71,47 @@ const data = [
   {
     delay: 350,
     name: "Vicky O. Harrell",
-    designation: "UI Designer",
+    designation: "Job Position Here",
+    avatar: AvatarImg4,
+    socialLinks: [
+      {
+        icon: FacebookIcon,
+        url: "#",
+      },
+      {
+        icon: TwitterIcon,
+        url: "#",
+      },
+      {
+        icon: InstagramIcon,
+        url: "#",
+      },
+    ],
+  },
+  {
+    delay: 350,
+    name: "Vicky O. Harrell",
+    designation: "Job Position Here",
+    avatar: AvatarImg4,
+    socialLinks: [
+      {
+        icon: FacebookIcon,
+        url: "#",
+      },
+      {
+        icon: TwitterIcon,
+        url: "#",
+      },
+      {
+        icon: InstagramIcon,
+        url: "#",
+      },
+    ],
+  },
+  {
+    delay: 350,
+    name: "Vicky O. Harrell",
+    designation: "Job Position Here",
     avatar: AvatarImg4,
     socialLinks: [
       {

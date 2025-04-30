@@ -3,14 +3,19 @@ import styled from "styled-components";
 import ArrowImg from "../../../assets/images/icons/arrow-right-white.svg";
 
 const FeatureTeamStyle = styled.section`
-  padding: 120px 0;
-  background-color: ${({ theme }) => theme.colors.whiteColor};
-
+  padding: 160px 0;
+  background-color: #000;
+  p.sub-title{
+    color: #E6AD23;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
   .feature-team-slider-nav {
     .slick-list {
       padding: 0 !important;
     }
-
+    
     .slick-track {
       width: 100% !important;
       transform: translate3d(0px, 0px, 0px) !important;
@@ -82,7 +87,7 @@ const FeatureTeamStyle = styled.section`
         left: 20px;
         width: calc(100% - 40px);
         height: 8px;
-        background: ${({ theme }) => theme.colors.whiteColor}33;
+        background: ${({ theme }) => theme.colors.whiteColor}80;
         border-radius: 4px;
         opacity: 0;
         transition: 0.3s;
@@ -93,7 +98,7 @@ const FeatureTeamStyle = styled.section`
           left: 0;
           width: 0%;
           height: 100%;
-          background: ${({ theme }) => theme.colors.whiteColor}80;
+          background: linear-gradient(90.04deg, #F8C73D 0.03%, #EFBA30 32.48%, #B46C28 110.01%);
         }
       }
 
@@ -126,9 +131,17 @@ const FeatureTeamStyle = styled.section`
         font-weight: 700;
         font-size: 40px;
         line-height: 60px;
-        color: ${({ theme }) => theme.colors.title};
+        color: #fff;
       }
-
+      p{
+        color: rgba(255, 255, 255, 0.8);
+      }
+      p.sub-title{
+        color: #E6AD23;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
       ul {
         padding: 0;
         margin: 0;
@@ -148,11 +161,11 @@ const FeatureTeamStyle = styled.section`
           font-weight: 600;
           font-size: 15px;
           line-height: 26px;
-          color: ${({ theme }) => theme.colors.title};
+          color: rgba(255, 255, 255, 0.8);
 
           svg {
             font-size: 20px;
-            color: ${({ theme }) => theme.colors.iconColor2};
+            color: #E6AD23;
           }
         }
       }

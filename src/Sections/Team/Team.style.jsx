@@ -2,31 +2,67 @@ import styled from "styled-components";
 
 const TeamStyleWrapper = styled.section`
   padding: 0px 0 110px 0;
+  .container{
+    max-width: 1140px!important;
+  }
+  .title{
+    color: #fff;
 
+  }
+  .sub-title{
+    color: #E6AD23;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .description{
+    color: rgba(255, 255, 255, 0.8);
+    }
   .team-card {
-    width: fit-content;
-    margin: 0 auto 30px;
-    padding: 25px 25px 20px 25px;
-    background: ${({ theme }) => theme.colors.whiteColor};
-    border: 1px solid ${({ theme }) => theme.colors.blackColor}26;
-    border-radius: 135px 135px 30px 30px;
+    padding: 25px 25px 36px 25px;
+    margin-bottom: 35px;
+    background: transparent;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-image: linear-gradient(
+        to top,
+        transparent 0%,
+        transparent 25%,
+        transparent 50%,
+        transparent 75%,
+        transparent 100%
+      ) 1;
+    &:hover {
+      border: 1px solid transparent;
+      border-image: linear-gradient(
+        to top,
+        transparent 0%,
+        #B46C28 25%,
+        #E6AD23 50%,
+        #B46C28 75%,
+        transparent 100%
+      ) 1;
+    }
+
     &-img {
       margin-bottom: 25px;
       img {
         max-width: 100%;
-        width: 220px;
-        height: 220px;
-        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
       }
     }
+    
     &-info {
       margin-bottom: 20px;
       text-align: center;
       h5 {
         font-weight: 700;
+        color: #fff;
       }
       p {
-        color: ${({ theme }) => theme.colors.textColor};
+        color: rgba(255, 255, 255, 0.8);
       }
     }
   }

@@ -4,13 +4,43 @@ const ParallaxStyleWrapper = styled.section`
   /*-- index2-statistics-section start --*/
   .index2-statistics-section {
     background: transparent;
-    border-top: 1px solid ${({ theme }) => theme.colors.blackColor}26;
-    border-bottom: 1px solid ${({ theme }) => theme.colors.blackColor}26;
     height: auto;
     margin-bottom: 135px;
-    margin-top: 135px;
+    margin-top: 0px;
     position: relative;
     z-index: 0;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: linear-gradient(
+        to right,
+        transparent 0%,
+      #B46C28 35%,
+      #E6AD23 50%,
+      #B46C28 65%,
+        transparent 100%
+        );
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      background: linear-gradient(
+        to right,
+        transparent 0%,
+      #B46C28 35%,
+      #E6AD23 50%,
+      #B46C28 65%,
+        transparent 100%
+        );
+    }   
     & .index2-statistics-content {
       background-size: cover;
       background-position: center center;
@@ -26,18 +56,18 @@ const ParallaxStyleWrapper = styled.section`
   }
   .statistics-text {
     & h2 {
-      color: ${({ theme }) => theme.colors.primary};
+      color: #E6AD23;
     }
     & p {
       font-size: 18px;
       font-weight: 500;
       line-height: 40px;
-      color: ${({ theme }) => theme.colors.title};
+      color: rgba(255, 255, 255, 0.8);
     }
     &.v6 {
       h2,
       p {
-        color: ${({ theme }) => theme.colors.v6templateColor};
+        color: rgba(255, 255, 255, 0.8);
       }
     }
   }

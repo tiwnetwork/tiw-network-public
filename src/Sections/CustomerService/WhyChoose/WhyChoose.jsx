@@ -1,36 +1,44 @@
 import WhyChoseStyleWrapper from "./WhyChoose.style";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import chooseUsImg from "../../../assets/images/customer-service/choose-us-img.svg";
+import chooseUsImg from "../../../assets/images/customer-service/choose-us-img.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
+import { useEffect } from "react";
+
 const WhyChoose = () => {
+  useEffect(() => {
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
+  }, []);
+
   return (
     <WhyChoseStyleWrapper className="choose-us-section md-pb-50">
-      <div className="container">
+      <div className="container text-center">
         <ScrollAnimate delay={200}>
-          <SectionTitle 
-            title="Get amazing benefits" 
-            subtitle="Why Choose us"
-            alignment="center"
-          />
+          <div className="title-group">
+            <span className="sub-title text-center" data-splitting>Benefits</span>
+            <h2 className="title text-center" data-splitting>Unlock Exclusive Benefits as a Member</h2>
+          </div>
+          
         </ScrollAnimate>
         <div className="choose-us-content">
           <div className="choose-us-text choose-us-text-left">
             <div className="contents-text text-left">
               <ScrollAnimate delay={200}>
-                <h4>One Click Meetings</h4>
+                <h4>Exclusive Supplier Discounts</h4>
                 <p>
-                  There are many variations of passages of always available but
-                  the majority human perception is tuned.
+                  Joining TIW Network grants you early access to exclusive property deals before they hit the public market.
                 </p>
               </ScrollAnimate>
             </div>
             <div className="contents-text text-left">
               <ScrollAnimate delay={220}>
-                <h4>Business Meeting</h4>
+                <h4>Networking & Collaboration</h4>
                 <p>
-                  We use as filler text for layouts, non-readability is of great
-                  importance: human perception is tuned to recognize
+                  Become part of a thriving community of investors, developers, and industry experts.
                 </p>
               </ScrollAnimate>
             </div>
@@ -45,17 +53,17 @@ const WhyChoose = () => {
           <div className="choose-us-text choose-us-text-right">
             <div className="contents-text text-right">
               <ScrollAnimate delay={200}>
-                <h4>Unlimited Screen</h4>
+                <h4>Support & Resources</h4>
                 <p>
-                We use as filler text for layouts, non-readability is of great importancebut because those who do not know
+                  Enjoy expert support and access to valuable resources designed to boost your investment decisions.
                 </p>
               </ScrollAnimate>
             </div>
             <div className="contents-text text-right">
               <ScrollAnimate delay={220}>
-                <h4>File Sharing</h4>
+                <h4>Growth-Driven Opportunities</h4>
                 <p>
-                Hou to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there
+                  Leverage the TIW platform to showcase your deals, collaborate on projects, and expand your business.
                 </p>
               </ScrollAnimate>
             </div>

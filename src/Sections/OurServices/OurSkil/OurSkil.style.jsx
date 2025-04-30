@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const OurSkilStyle = styled.section`
   padding: 112px 0;
-  background-color: ${({ theme }) => theme.colors.blueGray};
+  background-color: transparent;
 
   .skills-content {
     &-text {
@@ -16,12 +16,15 @@ const OurSkilStyle = styled.section`
       color: ${({ theme }) => theme.colors.primary};
     }
     h2 {
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
     }
     p {
       margin-top: 22px;
-      color: ${({ theme }) => theme.colors.textColor};
+      color: rgba(255, 255, 255, 0.8);
       margin-bottom: 0;
+    }
+    span.sub-title{
+      color: #E6AD23;
     }
   }
   .progress-inner {

@@ -2,18 +2,17 @@ import styled from "styled-components";
 
 const FinanceBannerStyle = styled.section`
   .v6-body-bg {
-    // background: ${({ theme }) => theme.colors.v6BG};
     background: transparent;
     padding-bottom: 302px;
   }
-  background: ${({ theme }) => theme.colors.hero6Bg};
+  background: transparent;
   margin-bottom: 140px;
   position: relative;
   overflow: hidden;
   .container {
     position: relative;
-    padding-top: 247px;
-    padding-bottom: 212px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     .banner-vector-line1 {
       position: absolute;
       height: 40%;
@@ -115,18 +114,31 @@ const FinanceBannerStyle = styled.section`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    max-width: 470px;
+    max-width: 100%;
     width: 100%;
     margin-left: auto;
     height: 100%;
   }
 
   .v6-banner-img {
-    height: 340px;
+    height: 100%;
     max-height: auto;
     position: relative;
     overflow: hidden;
     border-radius: 30px;
+    #staco-h6-video-control {
+      opacity: 0;
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    &:hover {
+      #staco-h6-video-control {
+        opacity: 1;
+      }
+      &:after{
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
     &::after {
       content: "";
       position: absolute;
@@ -134,12 +146,9 @@ const FinanceBannerStyle = styled.section`
       top: 0px;
       height: 100%;
       width: 100%;
-      background: linear-gradient(
-        117.62deg,
-        rgba(0, 0, 0, 0) 51.24%,
-        #000000 100%
-      );
+      background: rgba(0, 0, 0, 0);
       z-index: 1;
+      transition: all 0.3s ease-in-out;
     }
   }
 
@@ -147,14 +156,16 @@ const FinanceBannerStyle = styled.section`
     width: 100%;
     height: 100%;
     object-fit: cover;
+
   }
 
   #staco-h6-video-control {
     position: absolute;
-    height: 50px;
-    width: 50px;
-    right: 30px;
-    bottom: 30px;
+    height: 70px;
+    width: 70px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -162,7 +173,7 @@ const FinanceBannerStyle = styled.section`
     background: ${({ theme }) => theme.colors.whiteColor};
     z-index: 2;
     font-size: 28px;
-    color: ${({ theme }) => theme.colors.primary6Deep};
+    color: #EFBA30;
     .play {
       display: none;
     }

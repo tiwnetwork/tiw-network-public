@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
+import AboutTIW from "./pages/about-tiw";
 import CustomerService from "./pages/customer-service";
 import TeamCollaboration from "./pages/team-collaboration";
 import SassLanding from "./pages/sass-landing";
@@ -29,6 +30,7 @@ import ContactUs from "./pages/ContactUs";
 import PricingPlan from "./pages/pricing-plan";
 import Error from "./pages/Error";
 import ScrollToTop from "./ScrollToTop";
+import WhyJoinTIW from "./pages/why-join-us";
 
 const App = () => {
   return (
@@ -36,6 +38,9 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutTIW />} />
+        <Route path="/why-join-us" element={<WhyJoinTIW />} />
+        
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/team-collaboration" element={<TeamCollaboration />} />
         <Route path="/sass-landing" element={<SassLanding />} />

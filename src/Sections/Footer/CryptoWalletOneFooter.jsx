@@ -131,7 +131,7 @@ const CryptoWalletOneFooter = () => {
                 <div className="crypto-footer-social">
                   <div className="crypto-footer-social-list">
                     {FooterSocialLinks?.map((item, i) => (
-                      <a key={i} href={item.url} target="_blank">
+                      <a key={i} href={item.url} target="_blank" rel="noreferrer">
                         <span className='social-icon'>
                           <img src={item.img} alt={item.title} />
                           <img src={item.img} alt={item.title} />

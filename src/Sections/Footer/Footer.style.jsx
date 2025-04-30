@@ -20,7 +20,7 @@ const FooterStyleWrapper = styled.footer`
   .radial-gradient{
     background: radial-gradient(ellipse at bottom right, #242424 0%, #131313 50%, #000000 100%);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     position: absolute;
     z-index: 0;
     bottom: 0;

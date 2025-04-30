@@ -4,12 +4,15 @@ import DotImg from "../../assets/images/business/fram-4.svg";
 
 const StartBuildingStyleWrapper = styled.section`
   padding: 96px 0;
-  background-color: ${({ theme }) => theme.colors.bgHero};
+  height: 542px;
+  background-color: #000;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: bottom;
   background-size: cover;
   position: relative;
   z-index: 0;
+  display: flex;
+  align-items: center;
 
   &::after,
   &::before {
@@ -20,31 +23,25 @@ const StartBuildingStyleWrapper = styled.section`
     height: 100%;
   }
 
-  &::before {
-    left: 0;
-    width: 36%;
-    background-color: ${({ theme }) => theme.colors.bgHero};
-  }
-
   &::after {
     top: 0;
     right: 0;
-    width: 63.5%;
+    width: 100%;
     background-image: url(${DotImg});
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: bottom;
     background-size: cover;
   }
 
   .section-title {
-    margin-bottom: 38px;
+    margin-top: 85px;
   }
 
   .building-content {
     &-text {
       margin-bottom: 34px;
     }
-    h2 {
+    h1 {
       color: #ffffff;
     }
   }
@@ -54,7 +51,7 @@ const StartBuildingStyleWrapper = styled.section`
   }
 
   @media screen and (max-width: 1200px) {
-    .building-content h2 {
+    .building-content h1 {
       font-size: 32px;
       line-height: 150%;
     }
@@ -63,11 +60,11 @@ const StartBuildingStyleWrapper = styled.section`
   @media screen and (max-width: 767px) {
     padding: 70px 0 80px;
     background-size: cover;
+    height: 340px;
 
     &::after {
-      display: none;
+      background-size: 171%;
     }
-
     .building-content{
       text-align: center;
     }
@@ -83,7 +80,7 @@ const StartBuildingStyleWrapper = styled.section`
   }
 
   @media screen and (max-width: 374px) {
-    .building-content h2 {
+    .building-content h1 {
       font-size: 30px;
       line-height: 42px;
     }

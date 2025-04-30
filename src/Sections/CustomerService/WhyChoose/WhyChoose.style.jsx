@@ -1,10 +1,27 @@
 import styled from "styled-components";
 
 const WhyChoseStyleWrapper = styled.section`
-  padding-bottom: 132px;
+  padding-bottom: 0px;
   position: relative;
   z-index: 2;
-  background: ${({ theme }) => theme.colors.whiteColor};
+  background: transparent;
+  h2{
+    margin-bottom: 38px;
+    color: #fff;
+  }
+  .title-group{
+    max-width: 600px;
+    margin: auto;
+  }
+  .sub-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #EFBA30;
+    text-transform: uppercase;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    margin-bottom: 12px;
+  }
   .choose-us-content {
     display: flex;
     align-items: center;
@@ -18,6 +35,11 @@ const WhyChoseStyleWrapper = styled.section`
       align-items: flex-start;
       flex-direction: column;
       gap: 90px;
+      color: rgba(255, 255, 255, 0.8);
+      h4{
+        color: #fff;
+      }
+      
     }
   }
 

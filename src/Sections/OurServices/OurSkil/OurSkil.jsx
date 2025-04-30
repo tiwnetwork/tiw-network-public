@@ -5,7 +5,7 @@ import "react-circular-progressbar/dist/styles.css";
 import { easeQuadInOut } from "d3-ease"; // Update path accordingly
 import { skillsData } from "../../../assets/data/OurServicesData/SkilData";
 
-import skillsImg from "../../../assets/images/services/skills-img.svg";
+import skillsImg from "../../../assets/images/services/skills-img.png";
 import AnimatedProgressProvider from "./../../../Components/AnimatedProgressProvider";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
@@ -19,50 +19,15 @@ const OurSkil = () => {
               <ScrollAnimate delay={200}>
                 <TitleStyleWrapper>
                   <div className="section-title">
-                    <span className="sub-title">Our Skills</span>
+                    <span className="sub-title">UNLOCK YOUR POTENTIAL</span>
                     <h2 className="title">
-                      We’re Innovators <br />
-                      &amp; Marketing Experts
+                      Scotland's Premier Property Investors
                     </h2>
                     <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout. but also the leap into electronic
-                      typesetting.
+                      Joining TIW Network opens the door to exclusive resources, expert insights, and a vibrant community of property investors. Experience unparalleled growth opportunities and support tailored to your journey.
                     </p>
                   </div>
                 </TitleStyleWrapper>
-              </ScrollAnimate>
-              <ScrollAnimate delay={250}>
-                <div className="skills-status">
-                  {skillsData?.map((skill, index) => (
-                    <div key={index} className="skills-item">
-                      <div className="progress-inner">
-                        <AnimatedProgressProvider
-                          valueStart={0}
-                          valueEnd={skill.percentage}
-                          duration={1.4}
-                          easingFunction={easeQuadInOut}
-                        >
-                          {(value) => (
-                            <CircularProgressbar
-                              value={value}
-                              text={`${Math.round(value)}%`}
-                              strokeWidth={5}
-                              styles={buildStyles({
-                                textColor: "#000",
-                                pathColor: skill.color,
-                                trailColor:
-                                  "${({ theme }) => theme.colors.whiteColor}",
-                              })}
-                            />
-                          )}
-                        </AnimatedProgressProvider>
-                      </div>
-                      <p>{skill.skill}</p>
-                    </div>
-                  ))}
-                </div>
               </ScrollAnimate>
             </div>
           </div>
