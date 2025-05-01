@@ -3,11 +3,11 @@
   border-radius: 50px;
   border: 1px solid transparent;
   padding: 12px 39px;
-  background-color: #0095ff;
+  background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
   font-weight: 700;
   font-size: 15px;
   line-height: 26px;
-  color: #ffffff !important;
+  color: #111 !important;
   transition: 0.3s;
   display: flex;
   align-items: center;
@@ -15,14 +15,13 @@
 }
 .template-btn:hover,
 .template-btn:focus {
-  border: 1px solid #0095ff;
-  background-color: transparent;
-  color: #0095ff !important;
+  color: #111 !important;
+  opacity: .8;
 }
 .template-btn.primary-bg {
   border: 1px solid transparent;
-  background-color: #0095ff;
-  color: #ffffff !important;
+  background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+  color: #111 !important;
   transition: 0.3s;
   position: relative;
   z-index: 0;
@@ -37,7 +36,7 @@
   z-index: 11;
   transition: opacity 0.6s, transform 0.8s;
   transition-timing-function: cubic-bezier(0.15, 0.85, 0.31, 1);
-  color: #fff;
+  color: #111;
 }
 .template-btn.primary-bg span:nth-child(2) {
   display: inline-block;
@@ -50,7 +49,8 @@
 }
 .template-btn.primary-bg:hover,
 .template-btn.primary-bg:focus {
-  background: #0095ff;
+  opacity: 0.8;
+  background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%)095ff;
 }
 .template-btn.primary-bg:hover .btn-inner,
 .template-btn.primary-bg:focus .btn-inner {
@@ -1656,11 +1656,11 @@
   transition: 0.3s;
 }
 .lets-talk-bttn:hover {
-  color: #44c486;
+  color: #E6AD23 ;
 }
 .lets-talk-bttn:hover .icon {
   transform: rotate(-45deg);
-  background: #44c486;
+  background: #E6AD23 ;
   color: #ffffff;
 }
 .lets-talk-bttn .icon {

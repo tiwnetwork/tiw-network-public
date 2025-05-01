@@ -22,7 +22,7 @@ const CryptoWalletOneFooter = () => {
         { text: "Who We Are", url: "#", badgeClass: "none" },
         { text: "Partners", url: "#", badgeClass: "none" },
         { text: "Events", url: "#", badgeClass: "none" },
-        { text: "Contact Us", url: "#", badgeClass: "none" },
+        { text: "Contact Us", url: "/contact-us", badgeClass: "none" },
       ],
     },
 

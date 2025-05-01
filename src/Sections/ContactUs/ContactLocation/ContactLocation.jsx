@@ -41,7 +41,7 @@ const ContactLocation = () => {
                 <div className="contact-map">
                   <iframe
                     title="Google Map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1920687732654!2d-73.99508162358559!3d40.73579903615768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25918cb2e440f%3A0x74373698b80cbf25!2sThe%20Victoria!5e0!3m2!1sen!2sbd!4v1704783943061!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2228.5861442614405!2d-3.427286122898344!3d56.043154269589735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887d1dfeaa3b3b5%3A0x6a33388b8e32e80f!2s195%20Queensferry%20Rd%2C%20Rosyth%2C%20Dunfermline%20KY11%202JH%2C%20UK!5e0!3m2!1sen!2sph!4v1746065907944!5m2!1sen!2sph"
                     width="600"
                     height="450"
                     style={{ border: 0 }}

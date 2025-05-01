@@ -40,6 +40,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutTIW />} />
         <Route path="/why-join-us" element={<WhyJoinTIW />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+
         
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/team-collaboration" element={<TeamCollaboration />} />
@@ -67,7 +69,7 @@ const App = () => {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details" element={<BlogDetails />} />
-        <Route path="/contact-us" element={<ContactUs />} />
+        
         <Route path="*" element={<Error />} />
       </Routes>
     </BrowserRouter>

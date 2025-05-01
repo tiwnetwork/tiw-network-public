@@ -5,18 +5,18 @@ import Icon3 from "../../images/icons/sms.svg";
 const data = [
   {
     icon: Icon1,
-    title: "Staco HQ",
-    address: "Stact Inc, 06 Highley St, Victoria, New York",
+    title: "TIW Network HQ",
+    address: "195 Queensferry Road, Rosyth, Dunfermline, KY11 2JH",
   },
   {
     icon: Icon2,
     title: "Call Us",
-    phoneNumbers: ["Mobile: (+61) - 1990 - 6886", "Hotline: 1800 - 1102"],
+    phoneNumbers: ["+44 123 456 7890"],
   },
   {
     icon: Icon3,
     title: "Mail Us",
-    emails: ["Info: ask@domain.com", "Support: hello@domain.com"],
+    emails: ["info@tiwnetwork.co.uk"],
   },
 ];
 

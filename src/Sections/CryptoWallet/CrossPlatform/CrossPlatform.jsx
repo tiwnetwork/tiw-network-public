@@ -19,14 +19,24 @@ const CrossPlatform = () => {
               parentClass="crypto md-mb-0"
             />
             <p className="paragraph">Unlock exclusive benefits and connect with Scotland's leading property investors and developers.</p>
+            <div className="btn-group">
+              <NavLink to={"/"} className="crypto-glow-btn">
+                <span className="btn-inner">
+                  <span className="btn-normal-text">Join Network</span>
+                  <span className="btn-hover-text">Join Network </span>
+                </span>
+              </NavLink>
 
-            <NavLink to={"/"} className="crypto-glow-btn">
-              <span className="btn-inner">
-                <span className="btn-normal-text">Join Network</span>
-                <span className="btn-hover-text">Join Network </span>
-              </span>
-            </NavLink>
-
+              <NavLink to={"/contact-us"} className="lets-talk-bttn">
+                Contact Us
+                <span className="icon">
+                  <span
+                    className="iconify"
+                    data-icon="akar-icons:chevron-right"
+                  />
+                </span>
+              </NavLink>
+            </div>
           </div>
         </ScrollAnimate>
       </div>

@@ -3,6 +3,22 @@ import styled from "styled-components";
 const SayHelloStyle = styled.section`
   padding: 130px 0 65px 0;
 
+  position: relative;
+
+  h2{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .title-group{
+    max-width: 400px;
+  }
+  .sub-title{
+    color: #EFBA30;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.8px;
+  }
   .contact-img {
     margin-right: 50px;
     position: relative;
@@ -65,18 +81,19 @@ const SayHelloStyle = styled.section`
       font-size: 15px;
       line-height: 30px;
       text-transform: uppercase;
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
     }
     input,
     textarea {
-      border: 1px solid ${({ theme }) => theme.colors.blackColor}26;
+      border: 1px solid #3A3A3A;
       border-radius: 10px;
       padding: 10px 15px;
       font-weight: 500;
       font-size: 15px;
       line-height: 28px;
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
       transition: 0.3s;
+      background: transparent;
     }
     textarea {
       resize: none;

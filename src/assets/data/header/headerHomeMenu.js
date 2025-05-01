@@ -84,6 +84,7 @@ const data = [
     title: "Network Calls",
     url: "/",
   },
+
 ];
 
 export default data;

@@ -25,9 +25,22 @@ const ContactLocationStyle = styled.section`
     width: 350px;
     height: 390px;
     padding: 30px;
-    background-color: ${({ theme }) => theme.colors.whiteColor};
+    background-color: #000;
     border-radius: 20px;
-
+    &:before{
+      content: "";
+      position: absolute;
+      inset: 0;
+      padding: 3px; 
+      background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+      -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: destination-out;
+      mask-composite: exclude;
+      pointer-events: none;
+      border-radius: 20px;
+    }
     .list {
       padding: 0;
       list-style: none;
@@ -63,9 +76,11 @@ const ContactLocationStyle = styled.section`
           font-size: 15px;
           line-height: 45px;
           margin-bottom: 0;
+          color: #fff;
         }
         p {
           margin-bottom: 0;
+          color: rgba(255, 255, 255, 0.8);
         }
       }
 

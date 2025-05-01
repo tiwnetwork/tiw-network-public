@@ -5,7 +5,9 @@ import StartBuildingComponent from "../Components/StartBuilding/StartBuildingCom
 import ContactLocation from "../Sections/ContactUs/ContactLocation/ContactLocation";
 import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 
+
 const ContactUs = () => {
+
   return (
 
     <Layout pageTitle="Why Join TIW Network" scrollVariant={"crypto"}>
@@ -14,7 +16,6 @@ const ContactUs = () => {
       <StartBuildingComponent firstText="Get in" highlightText="Touch" />
       <SayHello />
       <ContactLocation />
-      <StartBuildingComponent />
       <CryptoWalletOneFooter />
     </div>
   </Layout>

@@ -7,8 +7,19 @@ import ShapeImg2 from "../../../assets/images/contact/shape-2.svg";
 import SmsTrackingImg from "../../../assets/images/icons/sms-tracking-2.svg";
 import CallOutgoingImg from "../../../assets/images/icons/call-outgoing.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
+import { useEffect } from "react";
+
 
 const SayHello = () => {
+  useEffect(() => {
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
+  }, []);
+  
   return (
     <SayHelloStyle>
       <div className="container">
@@ -17,30 +28,19 @@ const SayHello = () => {
             <ScrollAnimate delay={200}>
               <div className="contact-img">
                 <img src={ContactImg} alt="contact-img" />
-                <div className="overlay-item shape-1">
-                  <img src={ShapeImg1} alt="shape-img" />
-                  <div className="icon">
-                    <img src={SmsTrackingImg} alt="icon" />
-                  </div>
-                </div>
-                <div className="overlay-item shape-2">
-                  <img src={ShapeImg2} alt="shape-img" />
-                  <div className="icon">
-                    <img src={CallOutgoingImg} alt="icon" />
-                  </div>
-                </div>
+
               </div>
             </ScrollAnimate>
           </div>
 
           <div className="col-lg-6">
             <div className="contact-content">
-              <ScrollAnimate>
-                <SectionTitle
-                  subtitle="Say Hello!"
-                  title="We'd pleased to hear"
-                />
-              </ScrollAnimate>
+            <ScrollAnimate delay={200}>
+              <div className="title-group">
+                <span className="sub-title" data-splitting>Say hello</span>
+                <h2 className="title" data-splitting>We'd love to hear from you!</h2>
+              </div>
+            </ScrollAnimate>
 
               <ScrollAnimate>
                 <div className="contact-content-body">
@@ -52,7 +52,7 @@ const SayHello = () => {
                           type="text"
                           name="user-name"
                           id="user-name"
-                          placeholder="e.g. Roe Smith"
+                          placeholder="Name"
                           required
                         />
                       </div>
@@ -62,7 +62,7 @@ const SayHello = () => {
                           type="email"
                           name="email-address"
                           id="email-address"
-                          placeholder="e.g. example@mail.com"
+                          placeholder="youremail@mail.com"
                           required
                         />
                       </div>
@@ -74,18 +74,11 @@ const SayHello = () => {
                           type="text"
                           name="phone-number"
                           id="phone-number"
-                          placeholder="e.g. +55 695 6965"
+                          pattern="^(\+44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}$"
+                          placeholder="eg. +44 1234 567 890"
                         />
                       </div>
-                      <div className="form-input mb-20">
-                        <label htmlFor="website">Website</label>
-                        <input
-                          type="text"
-                          name="website"
-                          id="website"
-                          placeholder="e.g. website.com"
-                        />
-                      </div>
+
                     </div>
                     <div className="form-input mb-30">
                       <label htmlFor="message">Message *</label>
@@ -98,7 +91,7 @@ const SayHello = () => {
                         required
                       ></textarea>
                     </div>
-                    <div className="item-button">
+                    <div className="item-button ">
                       <input
                         type="submit"
                         className="template-btn primary-bg"
