@@ -111,7 +111,9 @@ const SayHelloStyle = styled.section`
 
   @media screen and (max-width: 767px) {
     padding: 80px 0 30px 0;
-
+    .contact-img {
+      margin-right: 0px;
+    }
     .contact-content {
       &-title {
         margin-bottom: 20px;

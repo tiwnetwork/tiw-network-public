@@ -96,13 +96,14 @@ const ContactLocationStyle = styled.section`
 
   @media screen and (max-width: 575px) {
     .map-info-card {
-      position: absolute;
-      z-index: 1;
-      top: 30px;
-      left: 30px;
-      width: 80%;
-      height: calc(100% - 60px);
-      padding: 20px;
+      left: 0px;
+      top: -21px;
+      position: relative;
+      width: 100%;
+    }
+    .map-content {
+      overflow: unset;
+      padding-top: 23px;
     }
   }
 `;

@@ -56,6 +56,9 @@ const CrossPlatformStyle = styled.section`
     padding: 45px 0px;
     background-size: 700px;
     background-position: bottom center;
+    .lets-talk-bttn{
+      justify-content: center;
+    }
     .cross-platform-card {
       max-width: 410px;
       padding: 60px 0px;

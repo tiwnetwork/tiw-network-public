@@ -210,8 +210,8 @@ const FinanceBannerStyle = styled.section`
   }
   @media screen and (max-width: 991px) {
     .container {
-      padding-top: 160px;
-      padding-bottom: 105px;
+      padding-top: 0px;
+      padding-bottom: 0px;
 
       .banner-vector-line1 {
         height: 44%;
@@ -247,7 +247,7 @@ const FinanceBannerStyle = styled.section`
     }
     .v6-banner-img-section {
       max-width: 100%;
-      margin-top: 50px;
+      margin-top: 20px;
     }
   }
 
