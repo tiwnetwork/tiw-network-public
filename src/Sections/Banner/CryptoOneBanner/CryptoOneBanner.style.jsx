@@ -10,11 +10,11 @@ const CryptoOneBannerStyle = styled.section`
       line-height: 90px;
       text-align: center;
       color: ${({ theme }) => theme.colors.whiteColor};
-      max-width: 750px;
+      max-width: 1100px;
       margin: 0 auto;
       margin-bottom: 27px;
       span {
-        color: #01ffb0;
+        color: #fff;
       }
     }
     .banner-text {

@@ -15,6 +15,13 @@ const UserFeedbackStyle = styled.section`
   .container {
     position: relative;
   }
+  p.description{
+    z-index: 4;
+    color: rgba(255,255,255,0.8);
+    max-width: 929px;
+    margin: 20px auto 45px auto;
+  }
+  
   .dTXPaW.crypto {
     position: relative;
     z-index: 4;
@@ -28,7 +35,7 @@ const UserFeedbackStyle = styled.section`
       rgba(0, 0, 0, 0) 100%
     );
     position: absolute;
-    top: 20px;
+    top: 121px;
     left: 0px;
     z-index: 3;
   }
@@ -126,16 +133,19 @@ const UserFeedbackStyle = styled.section`
   .feedback-card-list {
     &.up {
       animation: translateUp 15s linear infinite;
-      -webkit-animation: translateUp 15s linear infinite;
+      animation-play-state: running;
+
       &.active {
-        animation: none;
+        animation-play-state: paused;
       }
     }
+
     &.down {
       animation: translateDown 15s linear infinite;
-      -webkit-animation: translateDown 15s linear infinite;
+      animation-play-state: running;
+
       &.active {
-        animation: none;
+        animation-play-state: paused;
       }
     }
   }

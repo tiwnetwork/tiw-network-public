@@ -60,14 +60,14 @@ const EcoSystem = () => {
       <div className="container">
        <ScrollAnimate delay={200}>
         <div className="defi" data-splitting>
-          <span className="sub-title">VALUABLE CONNECTIONS</span>
-          <h2 className="title">Connect Through Our Partner Network</h2>
+          <span className="sub-title">If you're building a business or portfolio — this is your community</span>
+          <h2 className="title">Join a Network of Likeminded Individuals</h2>
         </div>
        </ScrollAnimate>
 
         <ScrollAnimate delay={250}>
         <a className="defi-launchapp-btn btn-hov-effect dark">
-          Learn More
+          Join the Network
           <img src={arrowRightBlackImg} alt="icon" />
           <span className="round-shape" />
         </a>
@@ -76,26 +76,21 @@ const EcoSystem = () => {
           <ScrollAnimate delay={300}>
           <ul>
             <li>
-              Exclusive Deal<br />
-              Listings
+              Exclusive <br/> Events
             </li>
             <li>
-            Off-Market <br />
+            Off-Property <br />
             Deals
             </li>
             <li>
-            Access to <br />
-            Private Events
+            Group Chats <br/>and Forums
             </li>
             <li>
-            Access to Partner 
-              <br />
-              Resources
+            Exclusive Discounts<br/>and Offers
+              
             </li>
             <li>
-            Marketing & 
-              <br />
-              Promotion
+            Tools and<br />  Templates
             </li>
           </ul>
           </ScrollAnimate>

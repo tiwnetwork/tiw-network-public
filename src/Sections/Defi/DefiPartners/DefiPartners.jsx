@@ -9,8 +9,8 @@ const DefiPartners = () => {
       <div className="container">
         <ScrollAnimate delay={200}>
         <SectionTitle
-          title="Investors and Partners"
-          subtitle="Backed By Awesomes"
+          title="Partner Directory"
+          subtitle="Become a member to get instant access to"
           alignment="center"
           parentClass="defi"
         />

@@ -10,7 +10,7 @@ import { useTypingHeadlines } from "use-typing-headlines";
 
 const CryptoOneBanner = () => {
   const [animationValue, setAnimationValue] = useState(1);
-  const [rotatingHeadline] = useTypingHeadlines(["Investors", "Backers", "Providers"], {
+  const [rotatingHeadline] = useTypingHeadlines(["Property Investors", "Property Developers", "Property Sources", "Business Owners", "Mortgage Brokers", "Property Solicitors", "Property Conveyancers", "Trades"], {
     speed: 200, // adjust this to make typing faster; lower values mean faster typing
     delay: 200, // adjust delay between words
   });
@@ -63,13 +63,12 @@ const CryptoOneBanner = () => {
               </span>
             </div> */}
             <h1>
-              Scotland's Leading Property <span className="cd-words-wrapper animation-text">
-                <b>{rotatingHeadline}</b>
-              </span>
+              Scotland's Leading <br/> <span className="cd-words-wrapper animation-text">
+                <b>{rotatingHeadline}</b> 
+              </span> Network
             </h1>
             <p className="banner-text">
-            Become part of a thriving community of over 200 property investors and developers.
-            Unlock exclusive benefits, expert insights, and unparalleled networking opportunities.
+              Build meaningful relationships, access exclusive deals, and scale your success with Scotland’s leading network, we facilitate valuable connections, foster collaboration, and provide the resources needed for members to grow their businesses and property portfolios.
             </p>
             <NavLink to={"/"} className="crypto-glow-btn">
               <span className="btn-inner">

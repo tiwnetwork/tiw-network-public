@@ -1,9 +1,33 @@
 import styled from "styled-components";
 
 import BuleteImg from "../../../assets/images/defi/list-bulete.svg";
+import goldGradient from "../../../assets/images/tiwmedia/gradient-gold.png";
 
 const MetaverseStyle = styled.section`
   margin-top: 200px;
+  
+  
+  
+  .image-row {
+    height: 180px;
+    overflow: hidden;
+  }
+
+  .image-row img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+  }
+  .col-sm-7, .col-sm-5, .col-6{
+    padding: 0 8px!important;
+  }
+  .container{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
   .tiwlogo{
     width: 46px;
     height: 59px;
@@ -26,6 +50,17 @@ const MetaverseStyle = styled.section`
     overflow: hidden;
     background: rgba(92, 92, 92, 0.05);
     height: 541px;
+    &:before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0; 
+    }
     .blur-shape {
       position: absolute;
       top: -25px;
@@ -64,8 +99,10 @@ const MetaverseStyle = styled.section`
       text-transform: uppercase;
       font-size: 18px;
       letter-spacing: 2.8px;
+      margin-bottom: 12px;
     }
     .title {
+      margin-top: 18px;
       &.resize{
         font-size: 30px;
         max-width: 326px;
@@ -93,7 +130,17 @@ const MetaverseStyle = styled.section`
     width: 100%;
     margin-bottom: 50px;
     position: relative;
-    
+    &:before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0; 
+    }
     .metavarse-card-bg2 {
       top: -20px;
       left: 0px;
@@ -150,6 +197,19 @@ const MetaverseStyle = styled.section`
     width: 100%;
     margin-bottom: 50px;
     position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background: url(${goldGradient}) no-repeat;
+      background-position: left bottom;
+      background-size: contain; 
+      pointer-events: none;
+      z-index: 0;
+    }
     .metavarse-card-bg3 {
       top: -20px;
       left: -77px;

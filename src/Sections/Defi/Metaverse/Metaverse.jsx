@@ -8,11 +8,14 @@ import blurLayerImg from "../../../assets/images/crypto-token/blur-layer.png";
 import arrowRightImg from "../../../assets/images/defi/arrow-right.svg";
 import objectImg from "../../../assets/images/defi/object.png";
 import metavarseCardBgImg from "../../../assets/images/tiwmedia/metavarse-card-bg.png";
-import metavarseCardBg3Img from "../../../assets/images/tiwmedia/metavarse-card-bg3.png";
 import arrowRightYellowImg from "../../../assets/images/crypto-token/arrow-right-yellow.svg";
 import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-bi-weekly.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import tiwlogo from "../../../assets/images/logo/TIW-Logo.png";
+
+import cardimg1 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img1.png";
+import cardimg2 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img2.jpg";
+import cardimg3 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img3.webp";
 
 const Metaverse = () => {
   useEffect(() => {
@@ -29,7 +32,7 @@ const Metaverse = () => {
       <div className="container">
       <ScrollAnimate delay={200}>
         <div className="defi title center" data-splitting>
-          <span className="sub-title">EXCLUSIVE PERKS FOR OUR MEMBERS</span>
+          <span className="sub-title">TIW goes beyond surface-level networking</span>
           <h2 className="title">Unlock Your Member Benefits</h2>
         </div>
        </ScrollAnimate>
@@ -39,14 +42,14 @@ const Metaverse = () => {
               <div className="defi-metaverse-card">
               <img src={metavarseImg2Img} alt="img" className="bi-weekly-gathering-bg "/>
                 <div className="row">
-                  <div className="col-md-7">
+                  <div className="col-md-5">
                       
                     <ScrollAnimate delay={200}>
                       <div className="card-left">
                         <div className="defi" data-splitting>
                           <img src={tiwlogo} alt="icon" className="tiwlogo" />
                           <h2 className="title resize">
-                            Join Our Bi-Weekly Gatherings
+                            Powerful Events
                           </h2>
                         </div>
 
@@ -54,7 +57,7 @@ const Metaverse = () => {
 
                           <div className="card-left-text">
                             <p>
-                              Network and grow at our major events.
+                              From our Christmas Ball to business conferences and relaxing spa days, we host exclusive events. designed to connect the right people in the right room.
                             </p>
                           </div>
                         </div>
@@ -79,10 +82,10 @@ const Metaverse = () => {
                       <div className="card2-text">
                         <img src={tiwlogo} alt="icon" className="tiwlogo" />
                         <h3 className="mb-4" data-splitting>
-                          Member Events for Everyone
+                          💰 Exclusive Discounts
                         </h3>
                         <p>
-                          Engage in fun activities like spa days, road trips, and team-building events.
+                          Save £1,000s on kitchens, bathrooms, flooring, estate agency, legals, trades, and more! from our Partners Directory.
                         </p>
                       </div>
                     </div>
@@ -94,18 +97,26 @@ const Metaverse = () => {
           <div className="col-lg-6">
             <ScrollAnimate delay={300}>
               <div className="defi-metaverse-card3">
-                <img
-                  src={metavarseCardBg3Img}
-                  alt="img"
-                  className="metavarse-card-bg3"
-                />
                 <div className="overlay">
                   
                   <img src={tiwlogo} alt="icon" className="tiwlogo" />
-                  <h3 data-splitting>Join Empowering Women-Only Events</h3>
+                  <h3 data-splitting>25+ Active Subgroups</h3>
                   <p>
-                    Gain insights from industry experts in our sessions.
+                    Dedicated forums for off-market deals, JV opportunities, renovations, and niche topics like alternative investments. 
                   </p>
+                  
+                  <div className="container mt-5">
+                  <div className="row image-row g-0">
+                    <div className="col-sm-5">
+                      <img src={cardimg1} alt="Image 1" />
+                    </div>
+
+                    <div className="col-sm-7">
+                      <img src={cardimg2} alt="Image 2" />
+                    </div>
+                  </div>
+                  </div>
+                  
                 </div>
               </div>
             </ScrollAnimate>

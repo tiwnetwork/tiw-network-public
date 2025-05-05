@@ -12,12 +12,15 @@ import ScrollAnimate from "../../../Components/ScrollAnimate";
 
 const UserFeedback = () => {
   const handleFeedbackStopBtnClick = () => {
-    const feedbackStopBtns = document.querySelectorAll(".feedback-stop-btn");
+    const feedbackStopBtn = document.querySelector(".feedback-stop-btn");
     const feedbackCardLists = document.querySelectorAll(".feedback-card-list");
-
-    feedbackStopBtns.forEach((btn, index) => {
-      btn.classList.toggle("active");
-      feedbackCardLists[index].classList.toggle("active");
+  
+    // Toggle the button's active state
+    feedbackStopBtn.classList.toggle("active");
+  
+    // Toggle all testimonial lists
+    feedbackCardLists.forEach((list) => {
+      list.classList.toggle("active");
     });
   };
 
@@ -26,13 +29,14 @@ const UserFeedback = () => {
       <div className="container">
         <ScrollAnimate delay={200}>
           <SectionTitle
-            title="Testimonials"
-            subtitle="What Our Members Say"
+            title="A Members Perspective"
+            subtitle="The power of connections"
             alignment="center"
             titleMaxW="650px"
             titleMargin="auto"
             parentClass="crypto md-mb-0"
           />
+          <p className="description text-center position-relative">TIW network, allows us to experience first-hand the  power of connections and collaboration. The network’s  events allow you to build genuine relationships, opening  doors to new opportunities and partnerships. By  bringing together like-minded professionals, TIW  creates an environment where businesses can grow,  innovate, and support one another. It’s more than just  networking; it’s about building a strong, thriving  community that drives both personal and  professional success</p>
           <div className="layer-1">
             <button
               className="feedback-stop-btn"

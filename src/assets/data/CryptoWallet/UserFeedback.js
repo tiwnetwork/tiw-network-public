@@ -10,10 +10,10 @@ import img9 from '../../../assets/images/crypto/img9.png';
 
 export const feedbackDataColumn1 = [
     {
-        name: 'Corel Den',
-        company: 'CO. Arterry',
+        name: 'ANDREW MCGEE',
+        company: 'COB, Lanarkshire Business Group; Owner, AME Property; Founder, Multiple Fitness Brands',
         image: img1,
-        message: 'We use as filler text for layouts, non-readability is of great importance...',
+        message: 'TIW Network is more than just  networking—it’s about building  meaningful relationships that create  new opportunities and lead to lasting  success.',
     },
     {
         name: 'Crooks',
