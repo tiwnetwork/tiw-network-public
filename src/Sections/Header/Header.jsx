@@ -388,7 +388,7 @@ const Header = ({ variant, ...props }) => {
 
                       {variant === "crypto" && (
                         <li>
-                          <NavLink to="/" className="crypto-glow-btn">
+                          <NavLink to="/pricing" className="crypto-glow-btn">
                             <span className="btn-inner">
                               <span className="btn-normal-text">Sign Up</span>
                               <span className="btn-hover-text">Sign Up</span> {/*Header nav main button*/}

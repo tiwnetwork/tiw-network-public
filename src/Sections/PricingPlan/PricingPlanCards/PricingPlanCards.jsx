@@ -4,29 +4,47 @@ import { pricingPlansData } from "../../../assets/data/PricingPlanData/PricingPl
 import rightArrow from "../../../assets/images/icons/pricing-arrow-right.svg";
 import pricingPlanImg from "../../../assets/images/img/pricing-plan-img.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import { useEffect } from "react";
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
 
 const PricingPlanCards = () => {
+  useEffect(() => {
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
+  }, []);
   return (
     <PricingPlanCardsStyle className="pricing-plan-section">
       <div className="container">
+        <div className="radial-gradient"></div>
+        <ScrollAnimate delay={200}>
+          <div className="section-title text-center mb-5" >
+            <h2 className="title" data-splitting>
+                Pricing Plan
+              
+            </h2>
+          </div>
+        </ScrollAnimate>
         {/* pricing plans */}
         <ScrollAnimate delay={200}>
           <div className="row">
             {pricingPlansData.map((plan, index) => (
               <div
                 key={index}
-                className={`col-lg-4 col-md-6 mb-5 ${plan.type.toLowerCase()}-card`}
+                className={`col-lg-4 col-md-6 mb-4 ${plan.type.toLowerCase()}-card`}
               >
                 <div className={`pricing-plan-card ${plan.type.toLowerCase()}-card`}>
                   <div className={`pricing-plan-card-header ${plan.type.toLowerCase()}`}>
                     <h6>
                       {plan.type}
-                      {plan.type === "Growth" && <span>Popular 💎</span>}
+                      {plan.type === "DUO" && <span>Popular 💎</span>}
                     </h6>
                     <p>{plan.description}</p>
                     <h3>
                       {plan.price}
-                      {plan.price !== "It's free" && <span>/month</span>}
+                      {plan.price !== "Single" && <span>/month</span>}
                     </h3>
                     <p>{plan.trial}</p>
                   </div>
@@ -64,12 +82,11 @@ const PricingPlanCards = () => {
                   <div className="col-lg-4">
                     <div className="pricing-plan-card-content">
                       <div className="pricing-plan-card-header enterprise ✨">
-                        <h6>Enterprise ✨</h6>
+                        <h6>MENTORSHIP ✨</h6>
                         <p>Custom Plan for your big Business</p>
                         <h3>
-                          Starting at $999 <span>/month</span>
+                          Starting at £499 <span>/month</span>
                         </h3>
-                        <p>Try 7 days free, Cancel anytime</p>
                       </div>
                     </div>
                   </div>
@@ -93,8 +110,8 @@ const PricingPlanCards = () => {
                   </div>
                   <div className="col-lg-4">
                     <div className="pricing-plan-card-content right">
-                      <button className="best-pricing-btn">
-                        Lets Talk
+                      <button href="/contact-us" className="best-pricing-btn">
+                        Let's Talk
                         <span className="icon">
                           <img src={rightArrow} alt="icon" />
                         </span>

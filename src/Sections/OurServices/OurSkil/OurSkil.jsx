@@ -41,7 +41,7 @@ const OurSkil = ({ subTitle, Title, description, elementImage}) => {
                       {description}
                     </p>
                     <div className="btn-group">
-                      <NavLink to={"/"} className="crypto-glow-btn">
+                      <NavLink to={"/pricing"} className="crypto-glow-btn">
                         <span className="btn-inner">
                           <span className="btn-normal-text">Join the Network</span>
                           <span className="btn-hover-text">Join the Network </span>

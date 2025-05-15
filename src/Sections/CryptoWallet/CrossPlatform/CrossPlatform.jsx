@@ -20,7 +20,7 @@ const CrossPlatform = () => {
             />
             <p className="paragraph">Unlock exclusive benefits and connect with Scotland's leading property investors and developers.</p>
             <div className="btn-group">
-              <NavLink to={"/"} className="crypto-glow-btn">
+              <NavLink to={"/pricing"} className="crypto-glow-btn">
                 <span className="btn-inner">
                   <span className="btn-normal-text">Join Network</span>
                   <span className="btn-hover-text">Join Network </span>

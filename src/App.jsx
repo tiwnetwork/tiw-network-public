@@ -34,6 +34,7 @@ import WhyJoinTIW from "./pages/why-join-us";
 import Events from "./pages/events";
 import NetworkCalls from "./pages/network-calls";
 import Partners from "./pages/partners";
+import Pricing from "./pages/pricing";
 
 const App = () => {
   return (
@@ -47,7 +48,8 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/network-calls" element={<NetworkCalls />} />
         <Route path="/partners" element={<Partners/>} />
-
+        <Route path="/pricing" element={<Pricing/>} />
+        
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/team-collaboration" element={<TeamCollaboration />} />
         <Route path="/sass-landing" element={<SassLanding />} />

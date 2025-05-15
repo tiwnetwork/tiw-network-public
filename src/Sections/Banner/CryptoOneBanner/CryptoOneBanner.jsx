@@ -70,7 +70,7 @@ const CryptoOneBanner = () => {
             <p className="banner-text">
               Build meaningful relationships, access exclusive deals, and scale your success with Scotland’s leading network, we facilitate valuable connections, foster collaboration, and provide the resources needed for members to grow their businesses and property portfolios.
             </p>
-            <NavLink to={"/"} className="crypto-glow-btn">
+            <NavLink to={"/pricing"} className="crypto-glow-btn">
               <span className="btn-inner">
                 <span className="btn-normal-text">Join Network</span>
                 <span className="btn-hover-text">Join Network </span>

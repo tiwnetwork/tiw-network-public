@@ -3,6 +3,7 @@ import EcoSystemStyle from "./EcoSystem.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
+import { Link } from "react-router-dom";
 
 import ecoLinePC from "../../../assets/images/defi/eco-lines.svg";
 import ecoLineMobile from "../../../assets/images/defi/eco_line.png";
@@ -66,11 +67,14 @@ const EcoSystem = () => {
        </ScrollAnimate>
 
         <ScrollAnimate delay={250}>
-        <a className="defi-launchapp-btn btn-hov-effect dark">
-          Join the Network
-          <img src={arrowRightBlackImg} alt="icon" />
-          <span className="round-shape" />
-        </a>
+        <Link to="/pricing">
+          <a className="defi-launchapp-btn btn-hov-effect dark">
+            Join the Network
+            <img src={arrowRightBlackImg} alt="icon" />
+            <span className="round-shape" />
+          </a>
+        </Link>
+        
         </ScrollAnimate>
         <div className="ecosystem-text">
           <ScrollAnimate delay={300}>

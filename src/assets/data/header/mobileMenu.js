@@ -177,7 +177,7 @@ const Data = [
   },
   {
     title: "Sign Up",
-    url: "/",
+    url: "/pricing",
   },
 ];
 
