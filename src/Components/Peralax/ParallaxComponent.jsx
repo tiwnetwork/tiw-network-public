@@ -65,7 +65,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
                       <span className="counter" data-target="200">
-                        200
+                        250
                       </span>
                       +
                     </h2>
@@ -78,7 +78,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
                       <span className="counter" data-target="23">
-                        23
+                        25
                       </span>
                       +
                     </h2>
@@ -91,11 +91,11 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
                       <span className="counter" data-target="100">
-                        100
+                        1000
                       </span>
                       +
                     </h2>
-                    <p>Accumulative Deals</p>
+                    <p>Deals Sold</p>
                   </div>
                 </ScrollAnimate>
               </div>

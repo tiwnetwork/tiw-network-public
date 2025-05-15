@@ -7,6 +7,8 @@ import Splitting from "splitting";
 import ScrollOut from "scroll-out";
 import { useEffect } from "react";
 
+
+
 const Team = () => {
   useEffect(() => {
     Splitting();
@@ -22,7 +24,7 @@ const Team = () => {
           <div className="col-md-7 text-center mb-30">
           <ScrollAnimate delay={200}>
             <span className="sub-title" data-splitting>GET TO KNOW</span>
-            <h2 className="title" data-splitting>Our Team</h2>
+            <h2 className="title" data-splitting>OUR SENIOR STAFF TEAM</h2>
             <p className="description">
               The diverse experiences and skills within our network enable us to tackle challenges with innovative and collaborative solutions. Each member brings unique talents and perspectives, ensuring a holistic approach to every endeavor.
             </p>

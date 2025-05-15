@@ -1,7 +1,4 @@
-import AvatarImg1 from "../../images/avater/team1.png";
-import AvatarImg2 from "../../images/avater/team2.png";
-import AvatarImg3 from "../../images/avater/team3.png";
-import AvatarImg4 from "../../images/avater/team4.png";
+import teamPhotoPlaceholder from '../../../assets/images/tiwmedia/events/eventPlaceholder.png';
 
 import FacebookIcon from "../../images/icons/f.svg";
 import TwitterIcon from "../../images/icons/x-white.svg";
@@ -10,9 +7,9 @@ import InstagramIcon from "../../images/icons/insta.svg";
 const data = [
   {
     delay: 200,
-    name: "Susan Coleman",
-    designation: "Founder",
-    avatar: AvatarImg1,
+    name: "Sam Dyer",
+    designation: "Co-owner of TIW Network & Associated business",
+    avatar: teamPhotoPlaceholder,
     socialLinks: [
       {
         icon: FacebookIcon,
@@ -30,9 +27,9 @@ const data = [
   },
   {
     delay: 250,
-    name: "Shirley Maki",
-    designation: "Co Founder",
-    avatar: AvatarImg2,
+    name: "Steven Clark",
+    designation: "Co-owner of TIW Network & Associated business",
+    avatar: teamPhotoPlaceholder,
     socialLinks: [
       {
         icon: FacebookIcon,
@@ -50,9 +47,9 @@ const data = [
   },
   {
     delay: 300,
-    name: "Debra Cavender",
-    designation: "Job Position Here",
-    avatar: AvatarImg3,
+    name: "Megan Hutton",
+    designation: "Group Operations Director, TIW Network & Associated Businesses",
+    avatar: teamPhotoPlaceholder,
     socialLinks: [
       {
         icon: FacebookIcon,
@@ -70,9 +67,9 @@ const data = [
   },
   {
     delay: 350,
-    name: "Vicky O. Harrell",
-    designation: "Job Position Here",
-    avatar: AvatarImg4,
+    name: "Victoria McLeod",
+    designation: "Events Manager & Social Media Assistant",
+    avatar: teamPhotoPlaceholder,
     socialLinks: [
       {
         icon: FacebookIcon,
@@ -90,9 +87,9 @@ const data = [
   },
   {
     delay: 350,
-    name: "Vicky O. Harrell",
-    designation: "Job Position Here",
-    avatar: AvatarImg4,
+    name: "Lee Harrison",
+    designation: "Brand & Marketing Manager",
+    avatar: teamPhotoPlaceholder,
     socialLinks: [
       {
         icon: FacebookIcon,
@@ -108,26 +105,7 @@ const data = [
       },
     ],
   },
-  {
-    delay: 350,
-    name: "Vicky O. Harrell",
-    designation: "Job Position Here",
-    avatar: AvatarImg4,
-    socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
-    ],
-  },
+
 ];
 
 export default data;
