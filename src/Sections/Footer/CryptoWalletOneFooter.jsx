@@ -2,6 +2,7 @@ import FooterStyleWrapper from "./Footer.style";
 import FooterSocialLinks from "../../assets/data/footer/footerSocialLinksV2";
 
 import FooterLogo from "../../assets/images/logo/crypto-logo.svg";
+import TagembedWidget from "../../Components/TagembedWidget";
 
 const CryptoWalletOneFooter = () => {
   const footerMenus = [
@@ -18,10 +19,10 @@ const CryptoWalletOneFooter = () => {
     {
       title: "Company",
       links: [
-        { text: "About", url: "#", badgeClass: "none" },
-        { text: "Who We Are", url: "#", badgeClass: "none" },
-        { text: "Partners", url: "#", badgeClass: "none" },
-        { text: "Events", url: "#", badgeClass: "none" },
+        { text: "Why Join Us", url: "/why-join-us", badgeClass: "none" },
+        { text: "Who We Are", url: "/about", badgeClass: "none" },
+        { text: "Partners", url: "/partners", badgeClass: "none" },
+        { text: "Events", url: "/events", badgeClass: "none" },
         { text: "Contact Us", url: "/contact-us", badgeClass: "none" },
       ],
     },
@@ -30,6 +31,7 @@ const CryptoWalletOneFooter = () => {
 
   return (
     <FooterStyleWrapper className="chatbot-footer-section newsletter-footer crypto-wallet-footer z-index-3">
+      <TagembedWidget />
       <div className="radial-gradient">
 
       </div>

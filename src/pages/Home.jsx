@@ -11,6 +11,7 @@ import Metaverse from "../Sections/Defi/Metaverse/Metaverse";
 import ConnectDapps from "../Sections/CryptoWalletTwo/ConnectDapps/ConnectDapps";
 import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform";
 import SassOneBanner from "../Sections/Banner/SassOneBanner/SassOneBanner";
+import TeamFaq from "../Sections/TeamCollaboration/TeamFaq/TeamFaq";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <ConnectDapps />
         <SassOneBanner />
         <UserFeedback />
+        <TeamFaq />
         <CrossPlatform />
         <CryptoWalletOneFooter />
       </div>

@@ -15,7 +15,7 @@ const AboutTIW = () => {
     <Layout pageTitle="About TIW Network" scrollVariant={"crypto"}>
       <div className="crypto-wallet-body">
         <Header variant="crypto" />
-        <StartBuildingComponent firstText="Who are" highlightText="We ?"/>
+        <StartBuildingComponent firstText="Who are" highlightText="TIW Network?" description="TIW Network is Scotland’s leading property investors network, dedicated to empowering business  owners and property investors. We facilitate valuable connections, foster collaboration, and provide the  resources needed for members to grow their businesses and property portfolios.  Our members benefit from exclusive industry insights, high-quality events, and investment opportunities  within a dynamic, supportive community. Whether you’re expanding your network, scaling your business,  or exploring new ventures."/>
         <FeatureTeam />
         <ParallaxComponent />
         <Team />

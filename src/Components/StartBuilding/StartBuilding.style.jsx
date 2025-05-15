@@ -44,6 +44,12 @@ const StartBuildingStyleWrapper = styled.section`
     h1 {
       color: #ffffff;
     }
+    .description{
+      color:rgba(255, 255, 255, 0.8);
+      font-size: 16px;
+      line-height: 30px;
+      margin-top: 20px;
+    }
   }
 
   .building-img {
@@ -61,7 +67,9 @@ const StartBuildingStyleWrapper = styled.section`
     padding: 70px 0 80px;
     background-size: cover;
     height: 340px;
-
+    .container{
+      padding: 0 46px;
+    }
     &::after {
       background-size: 171%;
     }

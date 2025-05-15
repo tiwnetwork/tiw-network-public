@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
 
-const StartBuildingComponent = ({ firstText, highlightText }) => {
+const StartBuildingComponent = ({ firstText, highlightText, description }) => {
   useEffect(() => {
     Splitting();
     ScrollOut({
@@ -20,11 +20,12 @@ const StartBuildingComponent = ({ firstText, highlightText }) => {
           <div className="col-lg-12 col-md-12">
             <div className="building-content">
               <ScrollAnimate delay={200}>
-                <div className="section-title text-center" data-splitting>
-                  <h1 className="title">
+                <div className="section-title text-center" >
+                  <h1 className="title" data-splitting>
                     {firstText}{" "}
                     <span style={{ color: "#E6AD23" }}>{highlightText}</span>
                   </h1>
+                  <p className="description">{description}</p>
                 </div>
               </ScrollAnimate>
             </div>

@@ -74,15 +74,15 @@ const data = [
   },
   {
     title: "Partners",
-    url: "/",
+    url: "/partners",
   },
   {
     title: "Events",
-    url: "/",
+    url: "/events",
   },
   {
     title: "Network Calls",
-    url: "/",
+    url: "/network-calls",
   },
 
 ];

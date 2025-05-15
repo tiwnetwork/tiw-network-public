@@ -8,6 +8,7 @@ import OurSkil from "../Sections/OurServices/OurSkil/OurSkil";
 import FinanceBanner from "../Sections/Banner/FinanceBanner/FinanceBanner";
 import WhyChoose from "../Sections/CustomerService/WhyChoose/WhyChoose";
 import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform";
+import Image from "../assets/images/services/skills-img.png";
 
 const WhyJoinTIW = () => {
   return (
@@ -15,7 +16,7 @@ const WhyJoinTIW = () => {
       <div className="crypto-wallet-body">
         <Header variant="crypto" />
         <StartBuildingComponent firstText="Join" highlightText="TIW Network" />
-        <OurSkil />
+        <OurSkil subTitle="UNLOCK YOUR POTENTIAL" Title="Scotland's Premier Property Investors" elementImage ={Image} description="Joining TIW Network opens the door to exclusive resources, expert insights, and a vibrant community of property investors. Experience unparalleled growth opportunities and support tailored to your journey."/>
         <FinanceBanner />
         <WhyChoose />
         <CrossPlatform />

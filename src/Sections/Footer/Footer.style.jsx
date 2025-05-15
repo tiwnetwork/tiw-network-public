@@ -18,7 +18,7 @@ const FooterStyleWrapper = styled.footer`
     position: relative;
   }
   .radial-gradient{
-    background: radial-gradient(ellipse at bottom right, #242424 0%, #131313 50%, #000000 100%);
+    background: radial-gradient(circle at bottom right, #242424 0%, #131313e0 23%, #000000 64%);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -2076,7 +2076,7 @@ const FooterStyleWrapper = styled.footer`
   }
 
   &.crypto-wallet-footer {
-    padding-top: 135px;
+    padding-top: 110px;
     background: transparent !important;
   }
 

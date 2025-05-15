@@ -3,14 +3,20 @@ import styled from "styled-components";
 import PlusImg from "../../../assets/images/icons/accordion-plus.png";
 import MinusImg from "../../../assets/images/icons/accordion-minus.png";
 import QuestionImg from "../../../assets/images/business/bg-question.svg";
+import faqbgImage from "../../../assets/images/tiwmedia/faqbgImage.png";
 
 const TeamFaqStyleWrapper = styled.section`
-  padding: 92px 0 140px 0;
+  padding: 110px 0 110px 0;
+  background-image: url(${faqbgImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   &.v2 {
-    padding: 132px 0 70px 0;
+    padding: 110px 0 110px 0;
   }
   &.pricing-plan-faq-seciton {
-    background: ${({ theme }) => theme.colors.whiteColor};
+    background: transparent;
     padding: 132px 0 140px 0;
   }
 
@@ -31,11 +37,24 @@ const TeamFaqStyleWrapper = styled.section`
       margin-bottom: 16px;
       text-transform: uppercase;
       font-size: 18px;
-      color: ${({ theme }) => theme.colors.primary};
+      color: #fff;
       letter-spacing: 0.2em;
     }
   }
+  .title{
+    color: #fff;
 
+  }
+  span.sub-title{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #E6AD23;
+    letter-spacing: 0.2em;
+    margin-bottom: 12px;
+    display: block;
+  }
   /*-- leave-message style --*/
   .leave-message {
     &1 {
@@ -47,7 +66,7 @@ const TeamFaqStyleWrapper = styled.section`
     h2 {
       font-size: 18px;
       line-height: 30px;
-      color: ${({ theme }) => theme.colors.blackColor};
+      color: #ffffff;
     }
     h3 {
       color: ${({ theme }) => theme.colors.textColor};
@@ -70,8 +89,11 @@ const TeamFaqStyleWrapper = styled.section`
   /*-- template-accordion style --*/
   .template-accordion {
     .accordion-item {
-      border: 1px solid ${({ theme }) => theme.colors.blackColor}26;
+      background:rgba(0, 0, 0, 0.31);
+      backdrop-filter: blur(15px);
+      border: 1px solid rgba(255, 255, 255, 0.18);
       border-radius: 15px;
+      color:rgba(255, 255, 255, 0.8);
       &:not(:first-child) {
         margin-top: 20px;
       }
@@ -96,11 +118,12 @@ const TeamFaqStyleWrapper = styled.section`
 
     .accordion-button {
       border-radius: 15px !important;
+      background-color: rgba(255,255,255,0.05);
       font-family: ${({ theme }) => theme.fonts.PlusJakartaSans};
       font-size: 18px;
       font-weight: 700;
       line-height: 24px;
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
       padding: 18px 20px 20px 50px;
       position: relative;
 

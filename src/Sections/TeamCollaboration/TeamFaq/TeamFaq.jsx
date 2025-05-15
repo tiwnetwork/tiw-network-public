@@ -7,6 +7,9 @@ import {
 } from "../../../assets/data/TeamColaborationData/TeamFaqData";
 import FaqIcon from "../../../assets/images/icons/faq-icon.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import { useEffect } from "react";
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
 
 const TeamFaq = () => {
   const [activeIndex1, setActiveIndex1] = useState(null);
@@ -19,6 +22,13 @@ const TeamFaq = () => {
       setActiveIndex2(activeIndex2 === index ? null : index);
     }
   };
+  
+  useEffect(() => {
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
+  }, []);
 
   return (
     <TeamFaqStyleWrapper className="faq-section v2">
@@ -26,21 +36,15 @@ const TeamFaq = () => {
         <div className="faq-seciton-header">
           <ScrollAnimate delay={200}>
             <TitleStyleWrapper>
-              <div className="section-title mb-0">
-                <span className="sub-title">Questions & answers</span>
-                <h2 className="title">
-                  Frequently <span className="marketing-badge">asked</span>
-                  <br />
-                  Questions
+              <div className="mb-0">
+                <span className="sub-title" data-splitting>Questions & answers</span>
+                <h2 className="title" data-splitting>
+                  Frequently Asked Questions
                 </h2>
               </div>
             </TitleStyleWrapper>
           </ScrollAnimate>
-          <div className="faq-header-right">
-            <ScrollAnimate delay={200}>
-              <img src={FaqIcon} alt="icon" />
-            </ScrollAnimate>
-          </div>
+
         </div>
         <ScrollAnimate delay={200}>
           <div className="row">

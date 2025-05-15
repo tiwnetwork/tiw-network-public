@@ -3,6 +3,26 @@ import styled from "styled-components";
 const OurSkilStyle = styled.section`
   padding: 112px 0;
   background-color: transparent;
+  position: relative;
+  .container{
+    max-width: 100%!important;
+    padding-right: 0!important;
+    padding-left: 120px!important;
+  }
+  .radial-gradient{
+    background: radial-gradient(circle at top left, #242424a6 0%, #13131394 10%, #000000 36%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    @media screen and (max-width: 800px) {
+      height: 100%;
+    }
+  }
+  .btn-group{
+    margin-top: 30px;
+  }
 
   .skills-content {
     &-text {
@@ -17,6 +37,7 @@ const OurSkilStyle = styled.section`
     }
     h2 {
       color: #fff;
+      font-size: 40px;
     }
     p {
       margin-top: 22px;
@@ -87,6 +108,11 @@ const OurSkilStyle = styled.section`
   @media screen and (min-width: 768px) and (max-width: 991px) {
   }
   @media screen and (max-width: 767px) {
+    .container{
+      max-width: 100%!important;
+      padding-right: calc(var(--bs-gutter-x) * .5)!important;
+      padding-left: calc(var(--bs-gutter-x) * .5)!important;
+    }
     .skills-content {
       &-text {
         margin-bottom: 25px;

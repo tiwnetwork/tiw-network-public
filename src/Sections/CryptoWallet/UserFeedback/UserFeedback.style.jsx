@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const UserFeedbackStyle = styled.section`
-  padding-bottom: 0px;
+  padding-bottom: 110px;
   padding-top: 0px;
   position: relative;
   

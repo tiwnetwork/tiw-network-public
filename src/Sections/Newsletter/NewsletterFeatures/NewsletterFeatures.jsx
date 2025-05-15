@@ -1,45 +1,77 @@
+import React, { useState } from "react";
 import NewsletterFeaturesStyle from "./NewsletterFeatures.style";
 import TitleStyleWrapper from "./../../../Components/Title/Title.style";
-import { featureData } from "../../../assets/data/NewsletterData/FeatureData";
-
-import RightArrow from "../../../assets/images/icons/arrow-right-blue.svg";
+import { partnersData } from "../../../assets/data/partners/partnersData";
+import RightArrow from "../../../assets/images/icons/arrow-right-black.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import Splitting from "splitting";
+import ScrollOut from "scroll-out";
+import { useEffect } from "react";
 
 const NewsletterFeatures = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  // Filter data based on the search term
+  const filteredPartners = partnersData.filter((partner) =>
+    partner.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+  useEffect(() => {
+    Splitting();
+    ScrollOut({
+      targets: "[data-splitting]",
+    });
+  }, []);
+
   return (
     <NewsletterFeaturesStyle className="newsleter-features-secton">
       <div className="container">
-        <TitleStyleWrapper>
-          <ScrollAnimate delay={200}>
-          <div className="section-title">
-            <span className="sub-title">features</span>
-            <h2 className="title">
-              One Platform for <br />
-              Sales, <span className="caveat">Marketing</span> &amp; automation
+        {/* Search input */}
+        <div className="row align-items-center mb-4">
+          <div className="col-9">
+            <h2 className="form-title" data-splitting>
+              Driving success with trusted allies
             </h2>
           </div>
-          </ScrollAnimate>
-        </TitleStyleWrapper>
+          
+          <div className="col-3">
+            <input
+              type="text"
+              placeholder="Search partners..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="form-control"
+            />
+          </div>
+        </div>
+
+
+        {/* Render filtered results */}
         <div className="row">
-          {featureData.map((feature, index) => (
-            <div key={index} className="col-lg-4 col-sm-6">
-              <ScrollAnimate delay={feature.delay}>
-              <div className="newsleter-features-card">
-                <div className="newsleter-features-card-img">
-                  <img src={feature.image} alt={`feature-img-${index}`} />
-                </div>
-                <div className="newsleter-features-card-text">
-                  <h5 className="wt-700">{feature.title}</h5>
-                  <p>{feature.description}</p>
-                  <a href="#">
-                    Learn more
-                    <img src={RightArrow} alt="icon" />
-                  </a>
-                </div>
+          {filteredPartners.length > 0 ? (
+            filteredPartners.map((partners, index) => (
+              <div key={index} className="col-lg-6 col-sm-6">
+                <ScrollAnimate delay={partners.delay}>
+                  <div className="newsleter-features-card">
+                    <div className="newsleter-features-card-img">
+                      <img src={partners.image} alt={`partners-img-${index}`} />
+                    </div>
+                    <div className="newsleter-features-card-text">
+                      <h5 className="wt-700">{partners.title}</h5>
+                      <p>{partners.description}</p>
+                      <a href="#">
+                        Learn more
+                        <img src={RightArrow} alt="icon" />
+                      </a>
+                    </div>
+                  </div>
+                </ScrollAnimate>
               </div>
-              </ScrollAnimate>
+            ))
+          ) : (
+            <div className="col-12">
+              <p className="no-results text-center">No results found.</p>
             </div>
-          ))}
+          )}
         </div>
       </div>
     </NewsletterFeaturesStyle>
