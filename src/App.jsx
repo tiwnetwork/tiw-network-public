@@ -44,7 +44,7 @@ const App = () => {
         <Route path="/about" element={<AboutTIW />} />
         <Route path="/why-join-us" element={<WhyJoinTIW />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/partners" element={<Partners />} />
+        <Route path="/partners" element={<Partners/>} />
         <Route path="/events" element={<Events />} />
         <Route path="/network-calls" element={<NetworkCalls />} />
 
