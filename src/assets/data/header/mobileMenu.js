@@ -165,7 +165,7 @@ const Data = [
   },
   {
     title: "Partners",
-    url: "/",
+    url: "/partners",
   },
   {
     title: "Events",

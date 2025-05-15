@@ -12,7 +12,6 @@ const networkCallFeed = () => {
             <div className="event-number">{event.date}</div>
             <div className="event-month-year">
               <div>{event.month}</div>
-              <div>{event.year}</div>
             </div>
           </div>
           <div className="event-content">

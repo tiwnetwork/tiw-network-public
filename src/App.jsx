@@ -33,6 +33,7 @@ import ScrollToTop from "./ScrollToTop";
 import WhyJoinTIW from "./pages/why-join-us";
 import Events from "./pages/events";
 import NetworkCalls from "./pages/network-calls";
+import Partners from "./pages/partners";
 
 const App = () => {
   return (
@@ -45,6 +46,7 @@ const App = () => {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/events" element={<Events />} />
         <Route path="/network-calls" element={<NetworkCalls />} />
+        <Route path="/partners" element={<Partners/>} />
 
         <Route path="/customer-service" element={<CustomerService />} />
         <Route path="/team-collaboration" element={<TeamCollaboration />} />
