@@ -31,7 +31,7 @@ const TeamFaq = () => {
   }, []);
 
   return (
-    <TeamFaqStyleWrapper className="faq-section v2">
+    <TeamFaqStyleWrapper id="faq-section" className="faq-section v2">
       <div className="container">
         <div className="faq-seciton-header">
           <ScrollAnimate delay={200}>

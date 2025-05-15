@@ -106,7 +106,7 @@ const CryptoOneBannerStyle = styled.section`
     position: relative;
     z-index: 0;
     background: radial-gradient(54.8% 82.2% at 50.8% 4.8%, #242424 0%, #131313 50%, #000000 100%);
-    height: 100%;
+    height: 70%;
     width: 100vw;
     position: absolute;
     top: 0px;

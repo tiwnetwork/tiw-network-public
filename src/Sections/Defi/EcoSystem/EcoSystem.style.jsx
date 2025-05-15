@@ -3,27 +3,20 @@ import styled from "styled-components";
 const EcoSystemStyle = styled.section`
   padding-top: 82px;
   position: relative;
-  &::before {
+  &:before{
     content: "";
     position: absolute;
     height: 2px;
     width: 100%;
     z-index: 23;
-    bottom: 225px;
+    bottom: 95px;
     left: 0px;
-    background: linear-gradient(
-      90deg,
-      #000 0%,
-        #B46C28 25%,
-      #E6AD23 50%,
-      #B46C28 75%,
-      #000 100%
-    );
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(180, 108, 40) 25%, rgb(230, 173, 35) 50%, rgb(180, 108, 40) 75%, rgb(0, 0, 0) 100%);
   }
-  &::after {
+  &:after {
     content: "";
     position: absolute;
-    height: 287px;
+    height: 157px;
     width: 100%;
     z-index: 22;
     bottom: -60px;
@@ -95,7 +88,7 @@ const EcoSystemStyle = styled.section`
       max-width: 450px;
       margin: auto;
       text-align: center;
-      margin-top: -60px;
+      margin-top: -180px;
       position: relative;
       z-index: 1;
       border-radius: 50%;

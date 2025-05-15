@@ -384,7 +384,7 @@ const HeaderStyleWrapper = styled.header`
     }
 
     &.sticky {
-      background-color: ${({ theme }) => theme.colors.whiteColor}10;
+      background-color: #00000078;
       box-shadow: none;
       border-bottom: 1px solid ${({ theme }) => theme.colors.whiteColor}05;
       backdrop-filter: blur(10px);

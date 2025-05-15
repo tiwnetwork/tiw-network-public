@@ -9,11 +9,11 @@ const CryptoWalletOneFooter = () => {
     {
       title: "Navigation",
       links: [
-        { text: "Home", url: "#", badgeClass: "none" },
+        { text: "Home", url: "/", badgeClass: "none" },
         { text: "Log In", url: "#", badgeClass: "none" },
         { text: "Support", url: "#", badgeClass: "none" },
         { text: "Join Us", url: "#", badgeClass: "none" },
-        { text: "FAQ", url: "#", badgeClass: "none" },
+        { text: "FAQ", url: "/#faq-section", badgeClass: "none" },
       ],
     },
     {
