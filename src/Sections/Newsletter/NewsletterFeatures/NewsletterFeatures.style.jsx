@@ -3,6 +3,16 @@ import styled from "styled-components";
 const NewsletterFeaturesStyle = styled.section`
   padding-bottom: 110px;
   padding-top: 110px;
+  position: relative;
+  .radial-gradient {
+    background: radial-gradient(circle at top center, #242424 0%, #131313e0 23%, #000000 64%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
   .newsleter-features-card {
     background: rgba(255,255,255, 0.05);
     border-radius: 20px;
@@ -115,8 +125,12 @@ const NewsletterFeaturesStyle = styled.section`
 
   @media screen and (max-width: 767px) {
     padding-bottom: 50px;
+    padding-top: 50px;
     .newsleter-features-card-text {
       padding: 20px;
+    }
+    h2.form-title {
+      font-size: 37px;
     }
     .newsleter-features-card{
       flex-direction: column;

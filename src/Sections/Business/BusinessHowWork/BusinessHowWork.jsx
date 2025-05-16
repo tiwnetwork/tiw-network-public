@@ -28,13 +28,13 @@ const BusinessHowWork = () => {
       <div className="container">
         {/* Header with title and search input */}
         <div className="row align-items-center mb-4">
-          <div className="col-9">
+          <div className="col-lg-9">
             <h2 className="form-title" data-splitting>
               Your gateway to meaningful connections
             </h2>
           </div>
 
-          <div className="col-3">
+          <div className="col-lg-3">
             <input
               type="text"
               placeholder="Search events..."

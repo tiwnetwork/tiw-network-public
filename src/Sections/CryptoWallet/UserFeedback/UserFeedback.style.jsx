@@ -188,6 +188,15 @@ const UserFeedbackStyle = styled.section`
 
   @media screen and (max-width: 767px) {
     padding-bottom: 20px;
+    .feedback-stop-btn {
+      margin-top: 257px;
+    }
+    .layer-1 {
+      top: 260px;
+    }
+    .layer-2{
+      bottom: -20px;
+    }
   }
 `;
 

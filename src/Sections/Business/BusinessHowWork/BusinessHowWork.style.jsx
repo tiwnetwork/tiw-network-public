@@ -207,10 +207,13 @@ const BusinessHowWorkStyle = styled.section`
   }
 
   @media screen and (max-width: 767px) {
-    padding: 70px 0px 0px 0px;
+    padding: 50px 0px 50px 0px;
     .how-works-card-modern {
       padding: 20px 25px;
       border-radius: 20px
+    }
+    h2.form-title {
+      font-size: 37px;
     }
     .how-works-title {
       h3 {

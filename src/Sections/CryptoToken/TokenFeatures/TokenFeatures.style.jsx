@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import CardBgImg1 from "../../../assets/images/crypto-token/card-bg1.png";
+import CardBgImg1 from "../../../assets/images/tiwmedia/scotland.jpg";
 import CardBgImg2 from "../../../assets/images/crypto-token/card-bg2.png";
 import CardBgImg3 from "../../../assets/images/crypto-token/card-bg3.png";
 import CheckImg from "../../../assets/images/crypto-token/check-black.svg";
@@ -8,6 +8,9 @@ import CheckImg from "../../../assets/images/crypto-token/check-black.svg";
 const TokenFeaturesStyle = styled.section`
   position: relative;
 
+  p.position{
+    color: #1a1a1a;
+  }
   .text-with-img {
     display: flex;
     align-items: center;
@@ -15,7 +18,7 @@ const TokenFeaturesStyle = styled.section`
     text-align: center;
     gap: 10px;
     flex-wrap: wrap;
-    font-family: ${({ theme }) => theme.fonts.quantico};
+    font-family: ${({ theme }) => theme.fonts.PlusJakartaSans};
     font-weight: 700;
     font-size: 50px;
     line-height: 120%;
@@ -114,9 +117,9 @@ const TokenFeaturesStyle = styled.section`
         .overlay {
           background: linear-gradient(
             180deg,
-            #bfff0a 0%,
-            rgba(191, 255, 10, 0.8) 35.2%,
-            rgba(191, 255, 10, 0) 100%
+rgb(248, 198, 61) 0%,
+rgb(239, 185, 48) 35.2%,
+rgba(180, 108, 40, 0.6) 100%
           );
           height: 100%;
           padding: 80px 70px;
@@ -126,7 +129,7 @@ const TokenFeaturesStyle = styled.section`
     }
 
     .stack__card:nth-child(2) {
-      background: #ff7bca;
+      background: rgba(180, 108, 40, 1);
       .card-bg {
         background: url(${CardBgImg2});
         background-size: cover;
@@ -155,10 +158,9 @@ const TokenFeaturesStyle = styled.section`
   .crypto-token-features-text {
     h2 {
       margin-bottom: 32px;
-      font-family: ${({ theme }) => theme.fonts.quantico};
-      font-size: 50px;
+      font-family: ${({ theme }) => theme.fonts.PlusJakartaSans};
+      font-size: 34px;
       line-height: 120%;
-      text-transform: uppercase;
     }
     p {
       margin-bottom: 0px;

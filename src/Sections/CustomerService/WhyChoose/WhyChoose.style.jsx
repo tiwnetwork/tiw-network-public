@@ -44,7 +44,7 @@ const WhyChoseStyleWrapper = styled.section`
   }
 
   @media screen and (max-width: 767px) {
-    padding-bottom: 70px;
+    padding-bottom: 0px;
     .choose-us-content {
       flex-direction: column;
       .choose-us-text {

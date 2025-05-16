@@ -6,20 +6,14 @@ import reducedTimeIcon from '../../../assets/images/chatbot/reduced-time.svg';
 export const reasons = [
     {
         delay: 200,
-        icon: automateResponseIcon,
-        title: 'Automate response',
-        description: 'Filler text for layouts, non-readability is of great importance but because those who do not know how to pursue.',
+        description: 'Sam, an experienced investor since 2014, has built a diverse portfolio across Scotland,  alongside helping other build the portfolios they aspire to have. Guided by his belief that  a property network is about building relationships with likeminded people. ',
     },
     {
         delay: 250,
-        icon: aiIcon,
-        title: 'Artificial intelligence',
-        description: 'Filler text for layouts, non-readability is of great importance but because those who do not know how to pursue.',
+        description: 'Steven, a successful developer and mentor, has grown a eight-figure portfolio and leads  This is Property, a property education workshop. His vision for the network is to drive  change by empowering investors to collaborate, innovate, and make a lasting impact. ',
     },
     {
         delay: 300,
-        icon: reducedTimeIcon,
-        title: 'Reduced time',
-        description: 'Filler text for layouts, non-readability is of great importance but because those who do not know how to pursue.',
+        description: 'Together, they created TIW Network to connect, educate, and support individuals,  fostering innovation, sustainability, and meaningful industry change, building lasting  wealth',
     },
 ];

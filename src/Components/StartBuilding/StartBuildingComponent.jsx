@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
 
-const StartBuildingComponent = ({ firstText, highlightText, description }) => {
+const StartBuildingComponent = ({ firstText, highlightText }) => {
   useEffect(() => {
     Splitting();
     ScrollOut({
@@ -25,7 +25,6 @@ const StartBuildingComponent = ({ firstText, highlightText, description }) => {
                     {firstText}{" "}
                     <span style={{ color: "#E6AD23" }}>{highlightText}</span>
                   </h1>
-                  <p className="description">{description}</p>
                 </div>
               </ScrollAnimate>
             </div>

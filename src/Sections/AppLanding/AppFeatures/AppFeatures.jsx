@@ -11,8 +11,8 @@ const AppFeatures = () => {
           <div className="col-md-6">
             <ScrollAnimate delay={200}>
               <SectionTitle
-                title="Most useful features You must need"
-                subtitle="Useful features"
+                title="Get to Know Us"
+                subtitle="TIW Network"
                 titleClass="text-white"
               />
             </ScrollAnimate>
@@ -20,40 +20,14 @@ const AppFeatures = () => {
           <div className="col-md-6">
             <ScrollAnimate delay={300}>
               <div className="app-useful-features-text">
-                <p className="text-white pb-3">
-                  We use as filler text for layouts, non-readability is of great
-                  importance but because those who do not know how to pursue
-                  pleasure rationally encounter consequences that are extremely
-                  painful. Nor again is there anyone
+                <p className="text-para pb-3">
+                  TIW Network is Scotland’s leading property investors network, dedicated to empowering business  owners and property investors. We facilitate valuable connections, foster collaboration, and provide the  resources needed for members to grow their businesses and property portfolios.
                 </p>
-                <p className="text-white">
-                  But those who do not know how to pursue pleasure rationally
-                  encounter consequences that are extremely painful.
+                <p className="text-para">
+                  Our members benefit from exclusive industry insights, high-quality events, and investment opportunities within a dynamic, supportive community. Whether you’re expanding your network, scaling your business, or exploring new ventures.
                 </p>
               </div>
             </ScrollAnimate>
-          </div>
-        </div>
-        <div className="app-useful-features-card-section">
-          <div className="row">
-            {AppFeatureData.map((feature) => (
-              <div key={feature.id} className="col-lg-3 col-sm-6">
-                <ScrollAnimate delay={feature.delay}>
-                  <div className="app-useful-features-card">
-                    <div className="card-content">
-                      <div className="icon">
-                        <img
-                          src={feature.iconSrc}
-                          alt={`feature-icon-${feature.id}`}
-                        />
-                      </div>
-                      <h5 className="text-white wt-700">{feature.title}</h5>
-                      <p className="text-white mb-0">{feature.description}</p>
-                    </div>
-                  </div>
-                </ScrollAnimate>
-              </div>
-            ))}
           </div>
         </div>
       </div>

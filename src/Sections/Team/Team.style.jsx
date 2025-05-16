@@ -9,11 +9,13 @@ const TeamStyleWrapper = styled.section`
     color: #fff;
 
   }
-  .sub-title{
-    color: #E6AD23;
+  span.sub-title{
+    color: #EFBA30;
     font-weight: 700;
-    font-size: 18px;
     text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.8px;
+    margin-bottom: 12px;
   }
   .description{
     color: rgba(255, 255, 255, 0.8);

@@ -67,11 +67,7 @@ const BusinessTools = () => {
                   <div className="business-tools-text pt-0">
                     <h4>Optimized Support</h4>
                     <p>
-                      We use as filler text for layouts, non-readability is of
-                      great importancebut because those who do not know how to
-                      pursue pleasure rationally encounter consequences that are
-                      extremely painful. Nor again is there anyone who loves or
-                      pursues or desires to obtain.
+                      TIW Network is Scotland’s leading property investors network, dedicated to empowering business  owners and property investors. We facilitate valuable connections, foster collaboration, and provide the  resources needed for members to grow their businesses and property portfolios.  Our members benefit from exclusive industry insights, high-quality events, and investment opportunities  within a dynamic, supportive community. Whether you’re expanding your network, scaling your business,  or exploring new ventures.
                     </p>
                     <ul>
                       <li className="wt-700">

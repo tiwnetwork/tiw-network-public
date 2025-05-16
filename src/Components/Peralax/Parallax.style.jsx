@@ -5,7 +5,6 @@ const ParallaxStyleWrapper = styled.section`
   .index2-statistics-section {
     background: transparent;
     height: auto;
-    margin-bottom: 135px;
     margin-top: 0px;
     position: relative;
     z-index: 0;
@@ -88,7 +87,7 @@ const ParallaxStyleWrapper = styled.section`
   @media screen and (max-width: 767px) {
     /*-- brands-section End --*/
     .index2-statistics-section {
-      margin-bottom: 70px;
+      margin-bottom: 30px;
     }
   }
   @media screen and (max-width: 575px) {

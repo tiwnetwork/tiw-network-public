@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import ChatbotChooseStyle from "./ChatbotChoose.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
-import chatbotImage from "../../../assets/images/chatbot/chatbot-why-choose-img.svg";
+import chatbotImage from "../../../assets/images/tiwmedia/tiwlogo370px.svg";
 import { reasons } from "../../../assets/data/ChatbotData/ChatbotChooseData";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
@@ -48,16 +48,14 @@ const ChatbotChoose = () => {
               <div className="chatbot-why-choose-us-left">
                 <ScrollAnimate delay={200}>
                   <SectionTitle
-                    title="Connect &amp; interact chatbot platform"
-                    subtitle="Why Choose us"
+                    title="THE VISIONARIES"
+                    subtitle="TIW NETWORK"
                     parentClass="mb-0"
                   />
                 </ScrollAnimate>
                 <ScrollAnimate delay={250}>
-                  <p>
-                    We use as filler text for layouts, non-readability is of great
-                    importance but because those who do not know how to pursue
-                    pleasure
+                  <p className="description">
+                    Founded by Sam Dyer and Steven Clark. TIW Network is Scotland’s largest and most  progressive property community.
                   </p>
                 </ScrollAnimate>
                 <div className="chatbot-why-choose-img">
@@ -70,9 +68,6 @@ const ChatbotChoose = () => {
                 {reasons.map((reason, index) => (
                   <div className="chatbot-why-choose-info" key={index}>
                     <ScrollAnimate delay={reason.delay}>
-                      <div className="chatbot-why-choose-icon">
-                        <img src={reason.icon} alt="icon" />
-                      </div>
                       <h5>{reason.title}</h5>
                       <p>{reason.description}</p>
                     </ScrollAnimate>

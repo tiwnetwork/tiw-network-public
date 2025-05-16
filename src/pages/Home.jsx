@@ -13,6 +13,7 @@ import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform"
 import SassOneBanner from "../Sections/Banner/SassOneBanner/SassOneBanner";
 import TeamFaq from "../Sections/TeamCollaboration/TeamFaq/TeamFaq";
 
+
 const Home = () => {
   return (
     <Layout pageTitle="TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>

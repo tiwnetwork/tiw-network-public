@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 const BusinessToolsStyleWrapper = styled.section`
-  margin-bottom: 110px;
+  margin-bottom: 0;
   position: relative;
   z-index: 1;
-  background: ${({ theme }) => theme.colors.whiteColor};
+  background: transparent;
 
   .business-tools-text {
     min-height: 100%;

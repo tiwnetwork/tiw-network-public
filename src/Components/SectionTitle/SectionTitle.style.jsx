@@ -32,7 +32,7 @@ const SectionTitleStyleWrapper = styled.div`
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
-    color: ${({ theme }) => theme.colors.primary};
+    color: #E6AD23;
     letter-spacing: 0.2em;
     margin-bottom: 12px;
     display: block;
@@ -49,6 +49,7 @@ const SectionTitleStyleWrapper = styled.div`
   .title {
     line-height: 60px;
     font-weight: 800;
+    color: #fff;
     .caveat {
       font-size: 50px;
       line-height: 50px;

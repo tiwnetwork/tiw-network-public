@@ -109,3 +109,25 @@ h2.form-title{
     color: #E6AD23;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .event-list{
+    padding: 50px 15px 50px 15px;
+  }
+  .event-item {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .event-content {
+    text-align: center;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+  }
+  h2.form-title {
+    font-size: 37px;
+  }
+}

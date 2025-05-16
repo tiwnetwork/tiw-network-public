@@ -54,6 +54,34 @@ const FeatureTeam = () => {
     <FeatureTeamStyle className="feature-team-section newsletter">
       <div className="container">
         <div className="row align-items-center">
+        <div className="col-lg-7 mt-5 mb-5 mt-lg-0">
+          <ScrollAnimate delay={200}>
+          <Slider
+            ref={sliderNavRef}
+            {...settingsNav}
+            className="feature-team-slider-nav"
+          >
+            <div className="slider-item">
+              <div className="slider-progress">
+                <div className="progress-done" />
+              </div>
+              <img src={Img1} alt="slider-img-1" />
+            </div>
+            <div className="slider-item">
+              <div className="slider-progress">
+                <div className="progress-done" />
+              </div>
+              <img src={Img2} alt="slider-img-2" />
+            </div>
+            <div className="slider-item">
+              <div className="slider-progress">
+                <div className="progress-done" />
+              </div>
+              <img src={Img3} alt="slider-img-3" />
+            </div>
+          </Slider>
+          </ScrollAnimate>
+        </div>
         <div className="col-lg-5">
             <ScrollAnimate delay={200}>
             <Slider
@@ -62,7 +90,7 @@ const FeatureTeam = () => {
               className="feature-team-slider-for"
             >
               <div className="slider-item">
-                <p className="sub-title" data-splitting>Our Mission</p>
+                <p className="sub-title">Our Mission</p>
                 <h2>Empowering Investors Through Collaboration & Knowledge Sharing</h2>
                 <p>
                   At TIW Network, we are dedicated to creating a value-driven community where members can share expertise and connect with trusted partners. Our mission is to foster collaboration and drive mutual success in the property investment sector.
@@ -83,14 +111,14 @@ const FeatureTeam = () => {
                 </ul> */}
               </div>
               <div className="slider-item">
-                <p className="sub-title" data-splitting>Our Mission</p>
+                <p className="sub-title">Our Mission</p>
                 <h2>Building lasting relationships for collective growth</h2>
                 <p>
                   Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
                 </p>
               </div>
               <div className="slider-item">
-                <p className="sub-title" data-splitting>Our Mission</p>
+                <p className="sub-title">Our Mission</p>
                 <h2>Creating opportunities for collaboration and innovation</h2>
                 <p>
                   Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
@@ -98,35 +126,8 @@ const FeatureTeam = () => {
               </div>
             </Slider>
             </ScrollAnimate>
-          </div>
-          <div className="col-lg-7 mt-5 mt-lg-0">
-            <ScrollAnimate delay={200}>
-            <Slider
-              ref={sliderNavRef}
-              {...settingsNav}
-              className="feature-team-slider-nav"
-            >
-              <div className="slider-item">
-                <div className="slider-progress">
-                  <div className="progress-done" />
-                </div>
-                <img src={Img1} alt="slider-img-1" />
-              </div>
-              <div className="slider-item">
-                <div className="slider-progress">
-                  <div className="progress-done" />
-                </div>
-                <img src={Img2} alt="slider-img-2" />
-              </div>
-              <div className="slider-item">
-                <div className="slider-progress">
-                  <div className="progress-done" />
-                </div>
-                <img src={Img3} alt="slider-img-3" />
-              </div>
-            </Slider>
-            </ScrollAnimate>
-          </div>
+        </div>
+
           
         </div>
       </div>

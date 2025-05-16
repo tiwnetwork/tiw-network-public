@@ -15,12 +15,12 @@ const NetworkCallFeed = () => {
       <div className="event-list">
         {/* Title and Search Row */}
         <div className="row align-items-center mb-4">
-          <div className="col-9">
+          <div className="col-lg-9">
             <h2 className="form-title" data-splitting>
               Connect and collaborate online
             </h2>
           </div>
-          <div className="col-3">
+          <div className="col-lg-3">
             <input
               type="text"
               placeholder="Search meetings..."

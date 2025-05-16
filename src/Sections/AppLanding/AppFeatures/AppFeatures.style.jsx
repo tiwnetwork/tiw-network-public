@@ -3,8 +3,8 @@ import styled from "styled-components";
 import HoverImg from "../../../assets/images/app/hover_effect.svg";
 
 const AppFeaturesStyleWrapper = styled.section`
-  background: ${({ theme }) => theme.colors.bgHero};
-  padding-top: 130px;
+  background: transparent;
+  padding-top: 110px;
   padding-bottom: 110px;
   .app-useful-features-card {
     background: transparent;
@@ -43,7 +43,9 @@ const AppFeaturesStyleWrapper = styled.section`
       }
     }
   }
-
+  .text-para{
+    color:rgba(255, 255, 255, 0.8);
+  }
   .app-useful-features-card-section {
     margin-top: 40px;
   }
@@ -59,7 +61,7 @@ const AppFeaturesStyleWrapper = styled.section`
     }
   }
   @media screen and (max-width: 767px) {
-    padding: 70px 0px 50px 0px;
+    padding: 50px 0px 50px 0px;
 
     .app-useful-features-text {
       margin-top: 25px;

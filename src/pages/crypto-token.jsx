@@ -21,9 +21,7 @@ const CryptoToken = () => {
         <CryptoTokenBanner />
         <TokenBannerVideo />
         <KeyPoints />
-        <TokenFeatures />
         <TokenTag />
-        <TokenPartners />
         <ScrollText />
         <Tokenomics />
         <LatestNews />

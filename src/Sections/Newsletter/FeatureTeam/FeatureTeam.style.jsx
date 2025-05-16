@@ -3,13 +3,15 @@ import styled from "styled-components";
 import ArrowImg from "../../../assets/images/icons/arrow-right-white.svg";
 
 const FeatureTeamStyle = styled.section`
-  padding: 160px 0;
+  padding: 110px 0;
   background-color: #000;
   p.sub-title{
-    color: #E6AD23;
+    color: #EFBA30;
     font-weight: 700;
-    font-size: 18px;
     text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2.8px;
+    margin-bottom: 12px;
   }
   .feature-team-slider-nav {
     .slick-list {
@@ -190,7 +192,7 @@ const FeatureTeamStyle = styled.section`
   }
 
   @media screen and (max-width: 767px) {
-    padding: 70px 0px;
+    padding: 0px 0px 50px;
 
     .feature-team-slider-for .slider-item ul {
       gap: 15px;

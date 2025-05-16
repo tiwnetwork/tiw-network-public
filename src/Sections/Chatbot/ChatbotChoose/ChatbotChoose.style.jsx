@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 const ChatbotChooseStyle = styled.section`
-  padding-top: 140px;
+  padding-top: 110px;
   padding-bottom: 220px;
-  background: ${({ theme }) => theme.colors.whiteColor};
+  background: transparent;
   .chatbot-why-choose-us-content {
-    background: ${({ theme }) => theme.colors.chatbotGray};
+    background: rgba(255,255,255,0.05);
     border-radius: 30px;
     padding: 112px 70px;
   }
@@ -16,6 +16,10 @@ const ChatbotChooseStyle = styled.section`
       max-width: 400px;
       width: 100%;
       margin-top: 35px;
+      
+    }
+    p.description{
+      color:rgba(255, 255, 255, 0.8);
     }
     .chatbot-why-choose-img {
       position: absolute;
@@ -41,8 +45,13 @@ const ChatbotChooseStyle = styled.section`
       margin-bottom: 14px;
       font-weight: 700;
     }
+    h2.title {
+      color: #fff;
+    }
+
     p {
       margin-bottom: 0px;
+      color:rgba(255, 255, 255, 0.8);
     }
   }
 
