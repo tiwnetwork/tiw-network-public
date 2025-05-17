@@ -1,72 +1,83 @@
 // Import your images
-import img1 from '../../../assets/images/crypto/img1.png';
-import img2 from '../../../assets/images/crypto/img2.png';
-import img3 from '../../../assets/images/crypto/img3.png';
-import img4 from '../../../assets/images/crypto/img4.png';
-import img6 from '../../../assets/images/crypto/img6.png';
-import img7 from '../../../assets/images/crypto/img7.png';
-import img8 from '../../../assets/images/crypto/img8.png';
-import img9 from '../../../assets/images/crypto/img9.png';
+import placeholder from '../../../assets/images/tiwmedia/testimonial-headshot/testimonialimagePlaceholder.png';
 
 export const feedbackDataColumn1 = [
     {
-        name: 'ANDREW MCGEE',
+        name: 'Andrew Mcgee',
         company: 'COB, Lanarkshire Business Group; Owner, AME Property; Founder, Multiple Fitness Brands',
-        image: img1,
+        image: placeholder,
         message: 'TIW Network is more than just  networking—it’s about building  meaningful relationships that create  new opportunities and lead to lasting  success.',
     },
     {
-        name: 'Crooks',
-        company: 'Udemi Eng.',
-        image: img4,
-        message: 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled',
+        name: 'Cat Maxwell',
+        company: 'Property Investor and Founder of Onyx Coaching',
+        image: placeholder,
+        message: 'The network has been incredible  for connecting with like-minded  women in property. It’s a  supportive space where we focus  on goal setting, share experiences,and push each other to succeed.',
     },
     {
-        name: 'Heaven Gleason',
-        company: 'Neon Exchange',
-        image: img7,
-        message: 'On the other hand, we denounce with righteous indignation and dislike men who are so beguiled',
+        name: 'Gemma Russel',
+        company: 'Founder of Raw Group Properties & Holiday let Scotbnb',
+        image: placeholder,
+        message: 'The biggest benefit for me is the access to so many  different types of people—mortgage brokers,  investors, and others using the same strategies.  Tapping into different industries has been hugely  valuable.',
+    },
+    {
+        name: 'Cameron Colquhoun',
+        company: 'Co-Owner of OMEBB Property',
+        image: placeholder,
+        message: 'The network thrives on  collaboration, not competition, offering support, valuable  connections, and a community  that lifts each other to new  heights.',
     },
 ];
 
 export const feedbackDataColumn2 = [
     {
-        name: 'Salvatore',
-        company: 'Web Designer',
-        image: img2,
-        message: 'When our power of choice is and when nothing prevents our being able to do what we like best...',
+        name: 'Colin T Campbell',
+        company: 'Host of top 1% podcast “CamBro  Conversations” & Account Director of David Phillips',
+        image: placeholder,
+        message: 'Great to present to the TIW  Network in January & now  work with several of the  members on a 1-2-1 coaching  basis.',
     },
     {
-        name: 'Goldner Den',
-        company: 'CTO, Google',
-        image: img2,
-        message: 'Great importance but because those who do not know how to consequences that are pleasure rationally encounter',
+        name: 'John Morris',
+        company: 'Owner of Prime Property Auctions',
+        image: placeholder,
+        message: "The network has been a game changer for Prime Property  Auctions, it's opened doors, created  valuable connections, and  generated serious business. If  you’re in property and want to level  up, get involved and Get  Hammered.",
     },
     {
-        name: 'Derek Turner',
-        company: 'Trader',
-        image: img8,
-        message: 'We use as filler text for layouts, non-readability is of great importance but because those who do not know how to consequences that are pleasure rationally encounter ❤️ ❤️ ',
+        name: 'Roddy Jobson',
+        company: 'Property Investors & Owner of Hugos Bar and Foxton bar and grill',
+        image: placeholder,
+        message: "Great meeting Sam and really grateful for the  connections he’s brought my way—it's opened  so many doors for me and my business!",
+    },
+    {
+        name: 'Tomas Robertson',
+        company: 'Property Investors & Owner of Coorie Retreats',
+        image: placeholder,
+        message: "TIW Network has connected me with like-minded  investors and exclusive deals",
     },
 ];
 
 export const feedbackDataColumn3 = [
     {
-        name: 'Lue Dibbert',
-        company: 'CEO, CtyptoX',
-        image: img3,
-        message: 'Great importance but because those who do not know how to consequences that are pleasure rationally...',
+        name: "Cameron Leslie",
+        company: "Managing Director of GO Financial Services",
+        image: placeholder,
+        message: "TIW Network has brought in loads of business through the strong connections I've made. The platform has consistently provided me with repeat opportunities and has been key to our business growth.",
     },
     {
-        name: 'Guillermo',
-        company: 'SEO Expert',
-        image: img6,
-        message: 'Non-readability is of great importance but because those who do not know how to consequences that are pleasure rationally encounter',
+        name: "Ross McIlvean",
+        company: "Architectural Technologist and owner of LTJ Architecture",
+        image: placeholder,
+        message: "As a professional in architecture, the network is all about collaborating with property experts who bring fresh perspectives, helping me create designs that drive value in every project.",
     },
     {
-        name: 'Malinda Gerlach',
-        company: 'Manager, Coduck',
-        image: img9,
-        message: 'Non-readability is of great importance but because those who do not know how to consequences that are pleasure rationally encounter',
+        name: "Scott MacColl",
+        company: "Property Investor & Owner of MacColl Properties",
+        image: placeholder,
+        message: "The Network connects you with like-minded people, helping you learn faster, avoid mistakes, and open doors to many opportunities within property investment.",
     },
+    {
+        name: "Kyle Black",
+        company: "BLK Property Group",
+        image: placeholder,
+        message: "Joining the network was the breakthrough I needed — since then, it’s been incredible.",
+    }
 ];

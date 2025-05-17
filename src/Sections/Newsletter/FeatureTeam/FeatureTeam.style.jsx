@@ -127,11 +127,11 @@ const FeatureTeamStyle = styled.section`
   .feature-team-slider-for {
     .slider-item {
       h2 {
-        margin-bottom: 40px;
+        margin-bottom: 22px;
         font-family: ${({ theme }) => theme.fonts.PlusJakartaSans};
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 48px;
         line-height: 60px;
         color: #fff;
       }

@@ -8,6 +8,19 @@ const ChatbotChooseStyle = styled.section`
     background: rgba(255,255,255,0.05);
     border-radius: 30px;
     padding: 112px 70px;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 700px;
+      height: 700px;
+      border-radius: 30px 0 0 0;
+      background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
   }
   .chatbot-why-choose-us-left {
     min-height: 100%;
@@ -74,12 +87,20 @@ const ChatbotChooseStyle = styled.section`
     padding-bottom: 80px;
     .chatbot-why-choose-us-content {
       padding: 50px;
+      &:before {
+        width: 200px;
+        height: 200px;
+        border-radius: 30px 0 0 0;
+      }
+    }
+    .chatbot-why-choose-us-left .chatbot-why-choose-img {
+      bottom: -150px !important;
     }
   }
   @media screen and (max-width: 575px) {
     .chatbot-why-choose-us-left {
       .chatbot-why-choose-img {
-        max-width: 250px;
+        max-width: 210px;
       }
     }
     .chatbot-why-choose-us-content {

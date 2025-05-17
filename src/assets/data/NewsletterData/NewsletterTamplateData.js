@@ -1,36 +1,55 @@
 // Import your images here
-import Image1 from '../../../assets/images/newslater/1.png';
-import Image2 from '../../../assets/images/newslater/2.png';
-import Image3 from '../../../assets/images/newslater/3.png';
-import Image4 from '../../../assets/images/newslater/4.png';
-import Image5 from '../../../assets/images/newslater/5.png';
+import Img1 from '../../../assets/images/tiwmedia/homepage-banner/1.png';
+import Img2 from '../../../assets/images/tiwmedia/homepage-banner/2.png';
+import Img3 from '../../../assets/images/tiwmedia/homepage-banner/3.png';
+import Img4 from '../../../assets/images/tiwmedia/homepage-banner/4.png';
+import Img5 from '../../../assets/images/tiwmedia/homepage-banner/5.png';
+import Img6 from '../../../assets/images/tiwmedia/homepage-banner/6.png';
+import Img7 from '../../../assets/images/tiwmedia/homepage-banner/7.png';
+import Img8 from '../../../assets/images/tiwmedia/homepage-banner/8.png';
+import Img9 from '../../../assets/images/tiwmedia/homepage-banner/9.png';
+import Img10 from '../../../assets/images/tiwmedia/homepage-banner/10.png';
+import Img11 from '../../../assets/images/tiwmedia/homepage-banner/11.png';
+import Img12 from '../../../assets/images/tiwmedia/homepage-banner/12.png';
+import Img13 from '../../../assets/images/tiwmedia/homepage-banner/13.png';
+import Img14 from '../../../assets/images/tiwmedia/homepage-banner/14.png';
+import Img15 from '../../../assets/images/tiwmedia/homepage-banner/15.png';
+import Img16 from '../../../assets/images/tiwmedia/homepage-banner/16.png';
+import Img17 from '../../../assets/images/tiwmedia/homepage-banner/17.png';
+import Img18 from '../../../assets/images/tiwmedia/homepage-banner/18.png';
+import Img19 from '../../../assets/images/tiwmedia/homepage-banner/19.png';
+import Img20 from '../../../assets/images/tiwmedia/homepage-banner/20.png';
+import Img21 from '../../../assets/images/tiwmedia/homepage-banner/21.png';
+import Img22 from '../../../assets/images/tiwmedia/homepage-banner/22.png';
+import Img23 from '../../../assets/images/tiwmedia/homepage-banner/23.png';
+import Img24 from '../../../assets/images/tiwmedia/homepage-banner/24.png';
+import Img25 from '../../../assets/images/tiwmedia/homepage-banner/25.png';
 
 // Define the image paths
 export const imagePaths = [
-    Image1,
-    Image2,
-    Image3,
-    Image4,
-    Image5,
-    Image1,
-    Image2,
-    Image3,
-    Image4,
-    Image5,
-    Image1,
-    Image2,
-    Image3,
-    Image4,
-    Image5,
-    Image1,
-    Image2,
-    Image3,
-    Image4,
-    Image5,
-    Image1,
-    Image2,
-    Image3,
-    Image4,
-    Image5,
-    // Add more image paths as needed
+    Img1,
+    Img2,
+    Img3,
+    Img4,
+    Img5,
+    Img6,
+    Img7,
+    Img8,
+    Img9,
+    Img10,
+    Img11,
+    Img12,
+    Img13,
+    Img14,
+    Img15,
+    Img16,
+    Img17,
+    Img18,
+    Img19,
+    Img20,
+    Img21,
+    Img22,
+    Img23,
+    Img24,
+    Img25,
 ];

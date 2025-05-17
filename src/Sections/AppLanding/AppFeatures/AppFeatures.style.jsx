@@ -6,6 +6,9 @@ const AppFeaturesStyleWrapper = styled.section`
   background: transparent;
   padding-top: 110px;
   padding-bottom: 110px;
+  h2 {
+    font-size: 48px;
+  }
   .app-useful-features-card {
     background: transparent;
     border: 2px solid ${({ theme }) => theme.colors.whiteColor}14;
@@ -64,7 +67,7 @@ const AppFeaturesStyleWrapper = styled.section`
     padding: 50px 0px 50px 0px;
 
     .app-useful-features-text {
-      margin-top: 25px;
+      margin-top: 0px;
     }
     .app-useful-features-card-section {
       margin-top: 30px;

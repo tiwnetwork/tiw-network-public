@@ -21,6 +21,9 @@ const TeamFaq = () => {
 
   return (
     <TeamFaqStyleWrapper id="faq-section" className="faq-section v2">
+      <div className="layer-1"></div>
+
+      <div className="layer-2"></div>
       <div className="container">
         <div className="faq-seciton-header">
           <ScrollAnimate delay={200}>

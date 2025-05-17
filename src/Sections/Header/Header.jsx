@@ -390,8 +390,8 @@ const Header = ({ variant, ...props }) => {
                         <li>
                           <NavLink to="/pricing" className="crypto-glow-btn">
                             <span className="btn-inner">
-                              <span className="btn-normal-text">Sign Up</span>
-                              <span className="btn-hover-text">Sign Up</span> {/*Header nav main button*/}
+                              <span className="btn-normal-text">Get Started</span>
+                              <span className="btn-hover-text">Get Started</span> {/*Header nav main button*/}
                             </span>
                           </NavLink>
                         </li>

@@ -76,7 +76,7 @@ const UserFeedbackStyle = styled.section`
     }
   }
   .feedback-content {
-    max-height: 700px;
+    max-height: 900px;
     overflow: hidden;
     position: relative;
     z-index: 2;
@@ -88,9 +88,12 @@ const UserFeedbackStyle = styled.section`
     margin-bottom: 30px;
     .people {
       display: flex;
-      align-items: center;
+      flex-direction: column;
+      align-items: flex-start;
       justify-content: flex-start;
       gap: 8px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
       .people-img {
         border-radius: 50%;
         overflow: hidden;
@@ -106,6 +109,7 @@ const UserFeedbackStyle = styled.section`
         }
       }
       .people-text {
+        
         p {
           display: flex;
           align-items: flex-start;
@@ -115,6 +119,7 @@ const UserFeedbackStyle = styled.section`
           font-weight: 700;
           margin-top: 0px !important;
           line-height: 20px;
+          gap: 7px;
           span {
             font-weight: 500;
             font-size: 13px;
@@ -132,7 +137,7 @@ const UserFeedbackStyle = styled.section`
 
   .feedback-card-list {
     &.up {
-      animation: translateUp 15s linear infinite;
+      animation: translateUp 30s linear infinite;
       animation-play-state: running;
 
       &.active {
@@ -141,7 +146,7 @@ const UserFeedbackStyle = styled.section`
     }
 
     &.down {
-      animation: translateDown 15s linear infinite;
+      animation: translateDown 30s linear infinite;
       animation-play-state: running;
 
       &.active {

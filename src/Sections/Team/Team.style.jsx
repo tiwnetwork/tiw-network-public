@@ -7,7 +7,7 @@ const TeamStyleWrapper = styled.section`
   }
   .title{
     color: #fff;
-
+    
   }
   span.sub-title{
     color: #EFBA30;

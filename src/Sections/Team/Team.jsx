@@ -12,7 +12,7 @@ const Team = () => {
           <div className="col-md-7 text-center mb-30">
           <ScrollAnimate delay={200}>
             <span className="sub-title">Get to Know</span>
-            <h2 className="title mt-3 mb-4">OUR SENIOR STAFF TEAM</h2>
+            <h2 className="title mt-3 mb-4">Our Senior Staff Team</h2>
             <p className="description">
               The diverse experiences and skills within our network enable us to tackle challenges with innovative and collaborative solutions. Each member brings unique talents and perspectives, ensuring a holistic approach to every endeavor.
             </p>

@@ -11,13 +11,41 @@ const TeamFaqStyleWrapper = styled.section`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  position: relative;
+
+  .container{
+    z-index: 3;
+    position: relative;
+  }
   &.v2 {
     padding: 110px 0 110px 0;
   }
   &.pricing-plan-faq-seciton {
     background: transparent;
     padding: 132px 0 140px 0;
+  }
+
+  .layer-1 {
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      #000 42.19%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    position: absolute;
+    top: -200px;
+    left: 0px;
+    z-index: 1;
+  }
+  .layer-2 {
+    height: 50%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 75.52%);
+    position: absolute;
+    bottom: -133px;
+    left: 0px;
+    z-index: 1;
   }
 
   .faq-seciton-header {
@@ -279,6 +307,12 @@ const TeamFaqStyleWrapper = styled.section`
     padding-bottom: 80px;
     &.pricing-plan-faq-seciton {
       padding: 70px 0px 80px;
+    }
+    .layer-1 {
+      display: none;
+    }
+    .layer-2 {
+      display: none;
     }
     .faq-section-title {
       margin-bottom: 40px;

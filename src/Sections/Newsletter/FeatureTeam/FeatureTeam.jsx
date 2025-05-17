@@ -91,23 +91,23 @@ const FeatureTeam = () => {
             >
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
-                <h2>Empowering Investors Through Collaboration & Knowledge Sharing</h2>
+                <h2>Network</h2>
                 <p>
-                  At TIW Network, we are dedicated to creating a value-driven community where members can share expertise and connect with trusted partners. Our mission is to foster collaboration and drive mutual success in the property investment sector.
+                  TIW is a network designed to help  you build lasting wealth. Whether  you're a member, partner, or  sponsor, our network provides the  tools, resources, and connections to  accelerate your success and help  you achieve true financial growth.
                 </p>
               </div>
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
-                <h2>Building lasting relationships for collective growth</h2>
+                <h2>Events</h2>
                 <p>
-                  Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
+                  We host a range of events throughout  the year, including conferences,  Christmas balls, awards ceremonies,  NC500, family days, golf days.  Whatever our members seek, we  make it happen—creating valuable  opportunities to connect, collaborate,  and grow their network.
                 </p>
               </div>
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
-                <h2>Creating opportunities for collaboration and innovation</h2>
+                <h2>Collaboration</h2>
                 <p>
-                  Our network fosters meaningful connections and long-term partnerships, enabling members to collaborate, share opportunities, and grow together.
+                  We believe that true wealth is built  through strong partnerships and shared opportunities. Our platform fosters  collaboration between members,  partners, and sponsors, creating an  ecosystem where ideas, resources, and  expertise come together.
                 </p>
               </div>
             </Slider>
