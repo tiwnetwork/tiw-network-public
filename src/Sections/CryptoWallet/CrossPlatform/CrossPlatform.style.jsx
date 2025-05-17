@@ -47,7 +47,7 @@ const CrossPlatformStyle = styled.section`
       z-index: 0;
     }
     .paragraph{
-      color: #fff;
+      color: rgba(255, 255, 255, 0.8);
       text-align: center;
     }
   }

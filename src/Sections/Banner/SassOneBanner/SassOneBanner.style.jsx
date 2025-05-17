@@ -40,7 +40,11 @@ const SassOneBannerStyle = styled.section`
         top: -2px;
       }
     }
-
+    .gold-gradient{
+      background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
     .v5banner-text {
       display: flex;
       gap: 40px;

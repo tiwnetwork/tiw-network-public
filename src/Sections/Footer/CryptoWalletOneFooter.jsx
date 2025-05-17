@@ -3,6 +3,7 @@ import FooterSocialLinks from "../../assets/data/footer/footerSocialLinksV2";
 
 import FooterLogo from "../../assets/images/logo/crypto-logo.svg";
 import TagembedWidget from "../../Components/TagembedWidget";
+import ScrollAnimate from "../../Components/ScrollAnimate";
 
 const CryptoWalletOneFooter = () => {
   const footerMenus = [
@@ -31,8 +32,11 @@ const CryptoWalletOneFooter = () => {
 
   return (
     <FooterStyleWrapper className="chatbot-footer-section newsletter-footer crypto-wallet-footer z-index-3">
-      <TagembedWidget />
-      <div className="radial-gradient">
+      <ScrollAnimate delay={200}>
+        <TagembedWidget />
+
+      </ScrollAnimate>
+            <div className="radial-gradient">
 
       </div>
       <div className="container">  

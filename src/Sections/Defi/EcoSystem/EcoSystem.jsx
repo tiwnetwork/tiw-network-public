@@ -1,8 +1,5 @@
-import { useEffect, useRef } from "react";
+
 import EcoSystemStyle from "./EcoSystem.style";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
 import { Link } from "react-router-dom";
 
 import ecoLinePC from "../../../assets/images/defi/eco-lines.svg";
@@ -14,18 +11,11 @@ import ScrollAnimate from "../../../Components/ScrollAnimate";
 const EcoSystem = () => {
 
 
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  });
-
   return (
     <EcoSystemStyle className="ecosystem-section">
       <div className="container">
        <ScrollAnimate delay={200}>
-        <div className="defi" data-splitting>
+        <div className="defi">
           <span className="sub-title">If you're building a business or portfolio — this is your community</span>
           <h2 className="title">Join a Network of Likeminded Individuals</h2>
         </div>

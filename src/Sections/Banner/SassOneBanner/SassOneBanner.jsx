@@ -87,7 +87,7 @@ const SassOneBanner = () => {
           <ScrollAnimate delay={200}>
           <div className="v5banner-text">
             <h1 className="cd-headline clip is-full-width banner-title">
-            Your All-in-One Member Dashboard
+            Your <span className="gold-gradient">All-in-One</span> Member Dashboard
             </h1>
             <p>
               Discover the TIW Network member dashboard – your gateway to exclusive events, vital announcements, and valuable resources. Seamlessly register for events, access partner data, explore trade deals, and download essential materials. Stay connected and informed with everything you need, all in one place.

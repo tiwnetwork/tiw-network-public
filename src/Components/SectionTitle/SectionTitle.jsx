@@ -24,7 +24,7 @@ const SectionTitle = ({
     <SectionTitleStyleWrapper
       style={{ textAlign: alignment, maxWidth: titleMaxW, margin: titleMargin }}
       className={parentClass}
-      {...(parentClass === "defi" && { "data-splitting": true })}
+      {...(parentClass === "defi")}
     >
       {subtitle && (
         <span className={`sub-title ${subtitleClass}`}>{subtitle}</span>

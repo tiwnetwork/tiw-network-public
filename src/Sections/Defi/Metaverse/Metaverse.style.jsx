@@ -94,12 +94,16 @@ const MetaverseStyle = styled.section`
       text-align: center;
     }
     .sub-title {
-      color: #EFBA30;
       font-weight: 700;
       text-transform: uppercase;
       font-size: 18px;
       letter-spacing: 2.8px;
       margin-bottom: 12px;
+      line-height: 30px;
+      background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
     }
     .title {
       margin-top: 18px;
@@ -248,14 +252,15 @@ const MetaverseStyle = styled.section`
   }
 
   @media screen and (max-width: 1199px) {
+  margin-top: 70px;
     .defi-metaverse-card2 {
       .overlay {
-        padding: 50px;
+        padding: 40px 30px;
       }
     }
     .defi-metaverse-card3 {
       .overlay {
-        padding: 40px 40px 20px 40px;
+        padding: 40px 40px 40px 40px;
       }
     }
   }
@@ -273,7 +278,11 @@ const MetaverseStyle = styled.section`
   }
   @media screen and (max-width: 767px) {
     .metaverse-card .overlay {
-      padding: 50px 30px;
+      padding: 40px 30px;
+      height: auto;
+    }
+    .defi-metaverse-card3 .overlay {
+      height: auto;
     }
     .defi-metaverse-card2 {
       .card2-img {
@@ -289,7 +298,7 @@ const MetaverseStyle = styled.section`
   @media screen and (max-width: 575px) {
     .defi-metaverse-card {
       .card-left-text {
-        margin-left: 20px;
+        margin-left: 0px;
       }
     }
   }

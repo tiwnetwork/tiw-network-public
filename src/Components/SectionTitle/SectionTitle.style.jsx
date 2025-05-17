@@ -32,10 +32,11 @@ const SectionTitleStyleWrapper = styled.div`
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
-    color: #E6AD23;
+    background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     letter-spacing: 0.2em;
     margin-bottom: 12px;
-    display: block;
   }
 
   .green-color {

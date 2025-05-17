@@ -45,7 +45,9 @@ const EcoSystemStyle = styled.section`
       font-weight: 700;
       line-height: 30px;
       letter-spacing: 0.2em;
-      color: #E6AD23 ;
+      background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
       display: block;
     }
     .title {

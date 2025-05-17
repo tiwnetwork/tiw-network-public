@@ -5,11 +5,7 @@ import {
   faqData,
   faqData2,
 } from "../../../assets/data/TeamColaborationData/TeamFaqData";
-import FaqIcon from "../../../assets/images/icons/faq-icon.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
-import { useEffect } from "react";
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
 
 const TeamFaq = () => {
   const [activeIndex1, setActiveIndex1] = useState(null);
@@ -22,13 +18,6 @@ const TeamFaq = () => {
       setActiveIndex2(activeIndex2 === index ? null : index);
     }
   };
-  
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  }, []);
 
   return (
     <TeamFaqStyleWrapper id="faq-section" className="faq-section v2">
@@ -37,8 +26,8 @@ const TeamFaq = () => {
           <ScrollAnimate delay={200}>
             <TitleStyleWrapper>
               <div className="mb-0">
-                <span className="sub-title" data-splitting>Questions & answers</span>
-                <h2 className="title" data-splitting>
+                <span className="sub-title">Questions & answers</span>
+                <h2 className="title">
                   Frequently Asked Questions
                 </h2>
               </div>

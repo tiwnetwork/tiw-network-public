@@ -1,12 +1,6 @@
-import { useEffect } from "react";
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
-import MetaverseStyle from "./Metaverse.style";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
-import blurLayerImg from "../../../assets/images/crypto-token/blur-layer.png";
-import arrowRightImg from "../../../assets/images/defi/arrow-right.svg";
-import objectImg from "../../../assets/images/defi/object.png";
+import MetaverseStyle from "./Metaverse.style";
+
 import metavarseCardBgImg from "../../../assets/images/tiwmedia/metavarse-card-bg.png";
 import arrowRightYellowImg from "../../../assets/images/crypto-token/arrow-right-yellow.svg";
 import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-bi-weekly.png";
@@ -18,20 +12,12 @@ import cardimg2 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img2.jp
 import cardimg3 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img3.webp";
 
 const Metaverse = () => {
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  }, []);
-
-  
 
   return (
     <MetaverseStyle className="defi-metaverse-section">
       <div className="container">
       <ScrollAnimate delay={200}>
-        <div className="defi title center" data-splitting>
+        <div className="defi title center">
           <span className="sub-title">TIW goes beyond surface-level networking</span>
           <h2 className="title">Unlock Your Member Benefits</h2>
         </div>
@@ -46,7 +32,7 @@ const Metaverse = () => {
                       
                     <ScrollAnimate delay={200}>
                       <div className="card-left">
-                        <div className="defi" data-splitting>
+                        <div className="defi">
                           <img src={tiwlogo} alt="icon" className="tiwlogo" />
                           <h2 className="title resize">
                             Powerful Events
@@ -81,7 +67,7 @@ const Metaverse = () => {
                     <div className="col-md-12">
                       <div className="card2-text">
                         <img src={tiwlogo} alt="icon" className="tiwlogo" />
-                        <h3 className="mb-4" data-splitting>
+                        <h3 className="mb-4">
                           💰 Exclusive Discounts
                         </h3>
                         <p>
@@ -100,7 +86,7 @@ const Metaverse = () => {
                 <div className="overlay">
                   
                   <img src={tiwlogo} alt="icon" className="tiwlogo" />
-                  <h3 data-splitting>25+ Active Subgroups</h3>
+                  <h3>25+ Active Subgroups</h3>
                   <p>
                     Dedicated forums for off-market deals, JV opportunities, renovations, and niche topics like alternative investments. 
                   </p>
