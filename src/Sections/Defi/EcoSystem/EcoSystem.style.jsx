@@ -12,7 +12,8 @@ const EcoSystemStyle = styled.section`
     bottom: 95px;
     left: 0px;
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(180, 108, 40) 25%, rgb(230, 173, 35) 50%, rgb(180, 108, 40) 75%, rgb(0, 0, 0) 100%);
-  }
+
+    }
   &:after {
     content: "";
     position: absolute;
@@ -23,7 +24,11 @@ const EcoSystemStyle = styled.section`
     left: 0px;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(40px);
+    @media screen and (max-width: 767px) {
+      bottom: -119px;
+    }
   }
+
   p {
     font-size: 18px;
     line-height: 200%;
@@ -94,26 +99,7 @@ const EcoSystemStyle = styled.section`
       position: relative;
       z-index: 1;
       border-radius: 50%;
-      .cloud1 {
-        position: absolute;
-        top: 51px;
-        left: 42px;
-      }
-      .cloud2 {
-        position: absolute;
-        top: 150px;
-        left: -27px;
-      }
-      .cloud3 {
-        position: absolute;
-        top: 72px;
-        right: -47px;
-      }
-      .cloud4 {
-        position: absolute;
-        top: 175px;
-        right: -20px;
-      }
+
     }
   }
   .eco-line-pc {
@@ -178,6 +164,12 @@ const EcoSystemStyle = styled.section`
     p {
       font-size: 16px;
       margin-bottom: 30px;
+    }
+    .globe-img{
+      img{
+        position: relative;
+        top: -20px;
+      }
     }
     .ecosystem-text {
       ul {
@@ -253,7 +245,7 @@ const EcoSystemStyle = styled.section`
       height: 200px;
     }
     &::before {
-      bottom: 140px;
+      bottom: 81px;
     }
   }
   @media screen and (max-width: 425px) {

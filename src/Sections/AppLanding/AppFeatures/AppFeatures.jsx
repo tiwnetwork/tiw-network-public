@@ -1,6 +1,5 @@
 import AppFeaturesStyleWrapper from "./AppFeatures.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import { AppFeatureData } from "../../../assets/data/app-data/AppFeatureData";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
 const AppFeatures = () => {

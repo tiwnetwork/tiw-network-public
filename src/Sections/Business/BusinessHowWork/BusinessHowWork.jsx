@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from "react";
+import { useState} from "react";
 import BusinessHowWorkStyle from "./BusinessHowWork.style";
-import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { eventsData } from "../../../assets/data/BusinessData/eventsData";
 import { FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import arrowRightBlueIcon from "../../../assets/images/icons/arrow-right-black.svg";
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
+import { Link } from "react-router-dom";
+
 
 const BusinessHowWork = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -15,18 +14,11 @@ const BusinessHowWork = () => {
   const filteredEvents = eventsData.filter((event) =>
     event.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  }, []);
-
   return (
     <BusinessHowWorkStyle className="how-works-section">
       <div className="container">
         {/* Header with title and search input */}
+        <ScrollAnimate delay="200">
         <div className="row align-items-center mb-4">
           <div className="col-lg-9">
             <h2 className="form-title" data-splitting>
@@ -44,6 +36,7 @@ const BusinessHowWork = () => {
             />
           </div>
         </div>
+        </ScrollAnimate>
 
         {/* Render filtered results */}
         <div className="row">
@@ -71,10 +64,12 @@ const BusinessHowWork = () => {
                     </div>
                     <h4 className="how-works-title">{item.title}</h4>
                     <p className="how-works-description">{item.description}</p>
-                    <a href="#">
-                      <span>Sign Up to Book Event</span>
-                      <img src={arrowRightBlueIcon} alt="icon" />
-                    </a>
+                    <Link to="/pricing">
+                      <a>
+                        <span>Sign Up to Book Event</span>
+                        <img src={arrowRightBlueIcon} alt="icon" />
+                      </a>
+                    </Link>
                   </div>
                 </ScrollAnimate>
               </div>

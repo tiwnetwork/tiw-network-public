@@ -9,6 +9,14 @@ const OurSkilStyle = styled.section`
     padding-right: 0!important;
     padding-left: 120px!important;
   }
+  .crypto-glow-btn{
+    margin: unset;
+  }
+  .lets-talk-bttn {
+    padding: 12px 39px;
+    width: 220px;
+    justify-content: center;
+  }
   .radial-gradient{
     background: radial-gradient(circle at top left, #242424a6 0%, #13131394 10%, #000000 36%);
     width: 100%;
@@ -22,6 +30,7 @@ const OurSkilStyle = styled.section`
   }
   .btn-group{
     margin-top: 30px;
+
   }
 
   .skills-content {
@@ -108,6 +117,14 @@ const OurSkilStyle = styled.section`
   @media screen and (min-width: 768px) and (max-width: 991px) {
   }
   @media screen and (max-width: 767px) {
+    .btn-group{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      width: 100%;
+    }
     .container{
       max-width: 100%!important;
       padding-right: calc(var(--bs-gutter-x) * .5)!important;

@@ -48,7 +48,7 @@ const ChatbotChoose = () => {
               <div className="chatbot-why-choose-us-left">
                 <ScrollAnimate delay={200}>
                   <SectionTitle
-                    title="THE VISIONARIES"
+                    title="The Visionaries"
                     subtitle="TIW NETWORK"
                     parentClass="mb-0"
                   />

@@ -3,13 +3,9 @@ import $ from "jquery";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
 import TokenFeaturesStyle from "./TokenFeatures.style";
-
-
 import menImg from "../../../assets/images/tiwmedia/steven.png";
 import men1Img from "../../../assets/images/tiwmedia/sam.png";
 import signaturePlaceholder from "../../../assets/images/tiwmedia/signaturePlaceholder.png";
-import settingIcon from "../../../assets/images/crypto-token/setting-icon.svg";
-import arrowRightBlackIcon from "../../../assets/images/crypto-token/arrow-right-black.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
 const TokenFeatures = () => {
@@ -51,7 +47,7 @@ const TokenFeatures = () => {
                     <div className="col-md-6">
                       <ScrollAnimate delay={200}>
                         <div className="title">
-                          <h4 className="dm-sans wt-700" data-splitting="">
+                          <h4 className="dm-sans wt-700">
                             STEVEN CLARK
                           </h4>
                           <p className="position">8 Figure Property Portfolio, Co-Host of Scottish Property Podcast, Property Investor & Property Coach</p>
@@ -92,7 +88,7 @@ const TokenFeatures = () => {
                     <div className="col-md-6">
                       <ScrollAnimate delay={200}>
                         <div className="title">
-                          <h4 className="dm-sans wt-700" data-splitting="">
+                          <h4 className="dm-sans wt-700">
                             SAM DYER
                           </h4>
                           <p className="position">8 Figure Property Portfolio, <br/> Property Investor & Property Sourcer</p>

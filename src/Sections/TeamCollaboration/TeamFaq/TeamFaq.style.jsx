@@ -90,9 +90,8 @@ const TeamFaqStyleWrapper = styled.section`
   /*-- template-accordion style --*/
   .template-accordion {
     .accordion-item {
-      background:rgba(0, 0, 0, 0.31);
-      backdrop-filter: blur(15px);
-      border: 1px solid rgba(255, 255, 255, 0.18);
+      background:rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.2);
       border-radius: 15px;
       color:rgba(255, 255, 255, 0.8);
       &:not(:first-child) {

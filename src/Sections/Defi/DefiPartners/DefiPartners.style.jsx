@@ -122,7 +122,7 @@ const DefiPartnersStyle = styled.section`
     }
   }
   @media screen and (max-width: 480px) {
-    margin-top: -88px;
+    margin-top: 0px;
     .defi-backed-list {
       ul {
         li {

@@ -14,7 +14,7 @@ const Events = () => {
         <Header variant="crypto" />
         <StartBuildingComponent firstText="Engage &" highlightText="Connect"/>
         <BusinessHowWork />
-        <OurSkil subTitle="JOIN TIW NETWORK" Title="Sign Up to Book Your Spot" elementImage ={CTAImage} description="To secure your place at these exclusive events, you’ll need to sign up as a TIW Network member."/>
+        <OurSkil showContactButton={true} subTitle="JOIN TIW NETWORK" Title="Sign Up to Book Your Spot" elementImage ={CTAImage} description="To secure your place at these exclusive events, you’ll need to sign up as a TIW Network member."/>
 
         <CryptoWalletOneFooter />
       </div>

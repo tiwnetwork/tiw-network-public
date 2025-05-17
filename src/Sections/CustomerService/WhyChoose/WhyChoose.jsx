@@ -2,25 +2,14 @@ import WhyChoseStyleWrapper from "./WhyChoose.style";
 import chooseUsImg from "../../../assets/images/customer-service/choose-us-img.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
-import { useEffect } from "react";
-
 const WhyChoose = () => {
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  }, []);
-
   return (
     <WhyChoseStyleWrapper className="choose-us-section md-pb-50">
       <div className="container text-center">
         <ScrollAnimate delay={200}>
           <div className="title-group">
-            <span className="sub-title text-center" data-splitting>Benefits</span>
-            <h2 className="title text-center" data-splitting>Unlock Exclusive Benefits as a Member</h2>
+            <span className="sub-title text-center">Benefits</span>
+            <h2 className="title text-center">Unlock Exclusive Benefits as a Member</h2>
           </div>
           
         </ScrollAnimate>

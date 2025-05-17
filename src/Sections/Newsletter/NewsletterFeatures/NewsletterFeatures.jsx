@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import NewsletterFeaturesStyle from "./NewsletterFeatures.style";
-import TitleStyleWrapper from "./../../../Components/Title/Title.style";
 import { partnersData } from "../../../assets/data/partners/partnersData";
 import RightArrow from "../../../assets/images/icons/arrow-right-black.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
-import Splitting from "splitting";
-import ScrollOut from "scroll-out";
-import { useEffect } from "react";
+import { Link } from "react-router-dom";
+
 
 const NewsletterFeatures = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -15,20 +13,14 @@ const NewsletterFeatures = () => {
   const filteredPartners = partnersData.filter((partner) =>
     partner.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
-  useEffect(() => {
-    Splitting();
-    ScrollOut({
-      targets: "[data-splitting]",
-    });
-  }, []);
-
   return (
     <NewsletterFeaturesStyle className="newsleter-features-secton">
       <div className="container">
         {/* Search input */}
+        <ScrollAnimate delay="200">
         <div className="row align-items-center mb-4">
           <div className="col-lg-9">
-            <h2 className="form-title" data-splitting>
+            <h2 className="form-title">
               Driving success with trusted allies
             </h2>
           </div>
@@ -44,6 +36,8 @@ const NewsletterFeatures = () => {
           </div>
         </div>
 
+        </ScrollAnimate>
+
 
         {/* Render filtered results */}
         <div className="row">
@@ -58,10 +52,12 @@ const NewsletterFeatures = () => {
                     <div className="newsleter-features-card-text">
                       <h5 className="wt-700">{partners.title}</h5>
                       <p>{partners.description}</p>
-                      <a href="#">
-                        Learn more
-                        <img src={RightArrow} alt="icon" />
-                      </a>
+                      <Link to="/pricing">
+                        <a>
+                          Learn more
+                          <img src={RightArrow} alt="icon" />
+                        </a>
+                      </Link>
                     </div>
                   </div>
                 </ScrollAnimate>

@@ -15,6 +15,31 @@ const SassOneBannerStyle = styled.section`
     bottom: 40%;
     z-index: 1;
   }
+  .laptop-image-container{
+    position:relative;
+  }
+  .laptop-shadow{
+    position: absolute;
+    top: -160px;
+    z-index: -1;
+  }
+    .laptop-shadow {
+      opacity: 0;
+      transition: opacity 1.5s ease 0.5s;
+    }
+
+    .laptop-shadow.visible {
+      opacity: 1;
+    }
+
+
+
+
+
+
+
+
+
   .index5-hero-content {
     padding-top: 230px;
     padding-bottom: 89px;
@@ -145,7 +170,8 @@ const SassOneBannerStyle = styled.section`
     justify-content: center;
 
     img {
-      width: 100%;
+      width: 90%;
+      margin: auto;
       transform: rotateX(40deg);
       transition: 0.5s;
     }
@@ -237,11 +263,16 @@ const SassOneBannerStyle = styled.section`
   }
 
   @media screen and (max-width: 767px) {
+    .laptop-shadow{
+      top: -46px;
+    }
     .index5-hero-content {
       padding-top: 150px;
+      padding-bottom: 18px;
     }
     .index5-hero-content .v5banner-text .banner-title {
       font-size: 38px;
+      text-align: center;
     }
     .index5-hero-img {
       min-height: 270px;
@@ -255,6 +286,7 @@ const SassOneBannerStyle = styled.section`
     .index5-hero-content .v5banner-text p {
       font-size: 16px;
       max-width: 460px;
+      text-align: center;
     }
     .index5-hero-content .v5banner-text {
       flex-direction: column;

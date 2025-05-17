@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { eventData } from "../../assets/data/networkCalls/networkCalls";
 import "./networkCallFeed.style.css";
+import ScrollAnimate from "../../Components/ScrollAnimate";
+import { Link } from "react-router-dom";
 
 const NetworkCallFeed = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -13,6 +15,7 @@ const NetworkCallFeed = () => {
   return (
     <div className="event-list-container">
       <div className="event-list">
+        <ScrollAnimate delay="200">
         {/* Title and Search Row */}
         <div className="row align-items-center mb-4">
           <div className="col-lg-9">
@@ -30,8 +33,9 @@ const NetworkCallFeed = () => {
             />
           </div>
         </div>
+        </ScrollAnimate>
 
-        {/* Conditionally render events or "No results" */}
+        <ScrollAnimate delay="200">
         {filteredEvents.length > 0 ? (
           filteredEvents.map((event, index) => (
             <div key={index} className="event-item">
@@ -47,7 +51,10 @@ const NetworkCallFeed = () => {
                 <p className="event-description">{event.description}</p>
               </div>
               <div className="event-action">
-                <a href="#">Book event &nbsp; &gt;</a>
+                <Link to="/pricing">
+                  <a>Book event &nbsp; &gt;</a>
+                </Link>
+                
               </div>
             </div>
           ))
@@ -56,6 +63,7 @@ const NetworkCallFeed = () => {
             <p className="no-results text-center">No results found.</p>
           </div>
         )}
+        </ScrollAnimate>
       </div>
     </div>
   );

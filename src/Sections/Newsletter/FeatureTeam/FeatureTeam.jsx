@@ -95,20 +95,6 @@ const FeatureTeam = () => {
                 <p>
                   At TIW Network, we are dedicated to creating a value-driven community where members can share expertise and connect with trusted partners. Our mission is to foster collaboration and drive mutual success in the property investment sector.
                 </p>
-                {/* <ul>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    99% Survey Report
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Trusted by teams
-                  </li>
-                  <li>
-                    <span className="iconify" data-icon="bi:check-lg" />
-                    Self-Service
-                  </li>
-                </ul> */}
               </div>
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
