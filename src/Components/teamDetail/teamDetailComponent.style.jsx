@@ -5,6 +5,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   
   display: flex;
+  color: rgba(255,255,255,.8);
   justify-content: center;
   &:before {
     content: '';
@@ -97,11 +98,11 @@ export const SocialIcons = styled.div`
 
 export const RightSide = styled.div`
   flex: 2;
-  padding: 30px;
+  padding: 30px 60px;
   position: relative;
   z-index: 2;
   @media (max-width: 768px) {
-    padding: 20px 0;
+    padding: 30px 0;
   }
 `;
 
@@ -121,7 +122,7 @@ export const Title = styled.h2`
 `;
 
 export const Paragraph = styled.p`
-  color: #ccc;
+  color: rgba(255,255,255,0.8);
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 20px;

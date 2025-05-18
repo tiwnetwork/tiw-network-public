@@ -25,7 +25,7 @@ const CryptoOneBannerStyle = styled.section`
       font-size: 18px;
       line-height: 35px;
       margin: 0 auto;
-      color: ${({ theme }) => theme.colors.whiteColor};
+      color: rgba(255,255,255,0.8);
       margin-bottom: 38px;
     }
   }

@@ -5,7 +5,7 @@ const ChatbotChooseStyle = styled.section`
   padding-bottom: 220px;
   background: transparent;
   .chatbot-why-choose-us-content {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255,255,255,0.03);
     border-radius: 30px;
     padding: 112px 70px;
     position: relative;

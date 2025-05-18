@@ -51,13 +51,6 @@ const CryptoOneBanner = () => {
       <div className="container">
         <ScrollAnimate delay={200}>
           <div className="crypto-hero-section-text">
-            {/* <div className="banner-animetion">
-              <div className="new">New</div>
-              <p>Polygon network NFTs added for mint</p>
-              <span>
-                <img src={ArrowRightIcon} alt="icon" />
-              </span>
-            </div> */}
             <h1>
               Scotland's Leading <br/> <span className="cd-words-wrapper animation-text">
                 <b>{rotatingHeadline}</b> 

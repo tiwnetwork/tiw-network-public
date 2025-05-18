@@ -115,7 +115,7 @@ const SassOneBannerStyle = styled.section`
         font-size: 18px;
         font-weight: 500;
         line-height: 36px;
-        color: #fff;
+        color: rgba(255,255,255,0.8);
         max-width: 569px;
         width: 100%;
         margin: auto;
