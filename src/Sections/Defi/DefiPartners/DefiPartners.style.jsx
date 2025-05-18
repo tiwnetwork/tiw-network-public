@@ -3,7 +3,7 @@ import styled from "styled-components";
 const DefiPartnersStyle = styled.section`
   position: relative;
   z-index: 111;
-  padding-top: 30px;
+  padding-top: 60px;
   padding-bottom: 132px;
   .defi .sub-title {
     color: #E6AD23 ; 

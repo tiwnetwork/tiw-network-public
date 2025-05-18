@@ -35,6 +35,7 @@ import Events from "./pages/events";
 import NetworkCalls from "./pages/network-calls";
 import Partners from "./pages/partners";
 import Pricing from "./pages/pricing";
+import TeamDetail from "./pages/team-details";
 
 const App = () => {
   return (
@@ -43,39 +44,16 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutTIW />} />
+        <Route path="/about/:id" element={<TeamDetail />} />
         <Route path="/why-join-us" element={<WhyJoinTIW />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/events" element={<Events />} />
         <Route path="/network-calls" element={<NetworkCalls />} />
         <Route path="/partners" element={<Partners/>} />
         <Route path="/pricing" element={<Pricing/>} />
-        
-        <Route path="/customer-service" element={<CustomerService />} />
-        <Route path="/team-collaboration" element={<TeamCollaboration />} />
-        <Route path="/sass-landing" element={<SassLanding />} />
-        <Route path="/sass-landing-two" element={<SassLandingTwo />} />
-        <Route path="/app-landing" element={<AppLanding />} />
-        <Route path="/corporate" element={<Corporate />} />
-        <Route path="/crypto-wallet-one" element={<CryptoWalletOne />} />
-        <Route path="/crypto-wallet-two" element={<CryptoWalletTwo />} />
-        <Route path="/crypto-token" element={<CryptoToken />} />
-        <Route path="/defi-landing" element={<DefiLanding />} />
-        <Route path="/newsletter" element={<Newsletter />} />
-        <Route path="/chatbot" element={<Chatbot />} />
-        <Route path="/business" element={<Business />} />
-        <Route path="/finance" element={<Finance />} />
-        <Route path="/accounting" element={<Accounting />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/our-services" element={<OurServices />} />
-        <Route path="/pricing-plan" element={<PricingPlan />} />
-        <Route path="/sign-in" element={<SignIn />} />
-        <Route path="/sign-up" element={<SignUp />} />
-        <Route path="/forgot-password" element={<ForgotPassword />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog-details" element={<BlogDetails />} />
+
         
         <Route path="*" element={<Error />} />
       </Routes>

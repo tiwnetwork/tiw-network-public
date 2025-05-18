@@ -9,7 +9,7 @@ const EcoSystemStyle = styled.section`
     height: 2px;
     width: 100%;
     z-index: 23;
-    bottom: 95px;
+    bottom: 56px;
     left: 0px;
     background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(180, 108, 40) 25%, rgb(230, 173, 35) 50%, rgb(180, 108, 40) 75%, rgb(0, 0, 0) 100%);
 
@@ -20,7 +20,7 @@ const EcoSystemStyle = styled.section`
     height: 157px;
     width: 100%;
     z-index: 22;
-    bottom: -60px;
+    bottom: -100px;
     left: 0px;
     background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(40px);
@@ -95,7 +95,7 @@ const EcoSystemStyle = styled.section`
       max-width: 450px;
       margin: auto;
       text-align: center;
-      margin-top: -180px;
+      margin-top: -232px;
       position: relative;
       z-index: 1;
       border-radius: 50%;

@@ -2,7 +2,7 @@
 import EcoSystemStyle from "./EcoSystem.style";
 import { Link } from "react-router-dom";
 
-import ecoLinePC from "../../../assets/images/defi/eco-lines.svg";
+import ecoLinePC from "../../../assets/images/defi/eco-lines1.svg";
 import ecoLineMobile from "../../../assets/images/defi/eco_line.png";
 import globeImg from "../../../assets/images/tiwmedia/scotlandmap.svg";
 import arrowRightBlackImg from "../../../assets/images/crypto-token/arrow-right-black.svg";

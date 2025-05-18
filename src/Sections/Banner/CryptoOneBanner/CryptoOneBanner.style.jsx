@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 const CryptoOneBannerStyle = styled.section`
   padding-top: 181px;
+  .container{
+    max-width: 1400px!important;
+  }
   .crypto-hero-section-text {
     text-align: center;
     h1 {
@@ -10,7 +13,7 @@ const CryptoOneBannerStyle = styled.section`
       line-height: 90px;
       text-align: center;
       color: ${({ theme }) => theme.colors.whiteColor};
-      max-width: 1100px;
+      max-width: 1350px;
       margin: 0 auto;
       margin-bottom: 27px;
       span {

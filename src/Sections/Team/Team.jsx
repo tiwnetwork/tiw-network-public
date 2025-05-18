@@ -1,6 +1,7 @@
 import TeamStyleWrapper from "./Team.style";
 import Data from "../../assets/data/team/team";
 import ScrollAnimate from "../../Components/ScrollAnimate";
+import { Link } from "react-router-dom"; 
 
 
 const Team = () => {
@@ -23,24 +24,24 @@ const Team = () => {
           {Data?.map((member, index) => (
             <div key={index} className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
               <ScrollAnimate delay={member.delay}>
-              <div className="team-card">
-                <div className="team-card-img">
-                  <img src={member.avatar} alt={`team-img-${index}`} />
-                </div>
-                <div className="team-card-info">
-                  <h5>{member.name}</h5>
-                  <p>{member.designation}</p>
-                </div>
-                <ul className="team-social-link">
-                  {member.socialLinks?.map((item, i) => (
-                    <li key={i}>
-                      <a href={item.url}>
+              <Link to={`/about/${member.id}`}>
+                <div className="team-card">
+                  <div className="team-card-img">
+                    <img src={member.avatar} alt={`team-img-${index}`} />
+                  </div>
+                  <div className="team-card-info">
+                    <h5>{member.name}</h5>
+                    <p>{member.designation}</p>
+                  </div>
+                  <ul className="team-social-link">
+                    {member.socialLinks?.map((item, i) => (
+                      <li key={i}>
                         <img src={item.icon} alt="social-icon" />
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </Link>
               </ScrollAnimate>
             </div>
           ))}

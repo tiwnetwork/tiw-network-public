@@ -2,14 +2,12 @@
 import MetaverseStyle from "./Metaverse.style";
 
 import metavarseCardBgImg from "../../../assets/images/tiwmedia/metavarse-card-bg.png";
-import arrowRightYellowImg from "../../../assets/images/crypto-token/arrow-right-yellow.svg";
 import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-bi-weekly.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import tiwlogo from "../../../assets/images/logo/TIW-Logo.png";
 
 import cardimg1 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img1.png";
 import cardimg2 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img2.jpg";
-import cardimg3 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img3.webp";
 
 const Metaverse = () => {
 

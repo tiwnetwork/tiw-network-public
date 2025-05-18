@@ -5,105 +5,81 @@ import TwitterIcon from "../../images/icons/x-white.svg";
 import InstagramIcon from "../../images/icons/insta.svg";
 
 const data = [
+
   {
-    delay: 200,
+    id: "sam",
     name: "Sam Dyer",
     designation: "Co-owner of TIW Network & Associated business",
     avatar: teamPhotoPlaceholder,
+    email: "placeholder@email.com",
     socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
+      { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
+      { icon: TwitterIcon, url: "https://x.com" },
+      { icon: InstagramIcon, url: "https://instagram.com" },
     ],
+    loves: "Placeholder passions",
+    hates: "Placeholder dislikes",
+    description: `This is a placeholder description for Sam Dyer. Replace with real bio.`,
   },
   {
-    delay: 250,
+    id: "steven",
     name: "Steven Clark",
     designation: "Co-owner of TIW Network & Associated business",
     avatar: teamPhotoPlaceholder,
+    email: "placeholder@email.com",
     socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
+      { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
+      { icon: TwitterIcon, url: "https://x.com" },
+      { icon: InstagramIcon, url: "https://instagram.com" },
     ],
+    loves: "Placeholder passions",
+    hates: "Placeholder dislikes",
+    description: `This is a placeholder description for Steven Clark. Replace with real bio.`,
   },
   {
-    delay: 300,
+    id: "megan",
     name: "Megan Hutton",
     designation: "Group Operations Director, TIW Network & Associated Businesses",
     avatar: teamPhotoPlaceholder,
+    email: "placeholder@email.com",
     socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
+      { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
+      { icon: TwitterIcon, url: "https://x.com" },
+      { icon: InstagramIcon, url: "https://instagram.com" },
     ],
+    loves: "Placeholder passions",
+    hates: "Placeholder dislikes",
+    description: `This is a placeholder description for Megan Hutton. Replace with real bio.`,
   },
   {
-    delay: 350,
+    id: "victoria",
     name: "Victoria McLeod",
     designation: "Events Manager & Social Media Assistant",
     avatar: teamPhotoPlaceholder,
+    email: "placeholder@email.com",
     socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
+      { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
+      { icon: TwitterIcon, url: "https://x.com" },
+      { icon: InstagramIcon, url: "https://instagram.com" },
     ],
+    loves: "Placeholder passions",
+    hates: "Placeholder dislikes",
+    description: `This is a placeholder description for Victoria McLeod. Replace with real bio.`,
   },
   {
-    delay: 350,
+    id: "lee",
     name: "Lee Harrison",
     designation: "Brand & Marketing Manager",
     avatar: teamPhotoPlaceholder,
+    email: "placeholder@email.com",
     socialLinks: [
-      {
-        icon: FacebookIcon,
-        url: "#",
-      },
-      {
-        icon: TwitterIcon,
-        url: "#",
-      },
-      {
-        icon: InstagramIcon,
-        url: "#",
-      },
+      { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
+      { icon: TwitterIcon, url: "https://x.com" },
+      { icon: InstagramIcon, url: "https://instagram.com" },
     ],
+    loves: "Placeholder passions",
+    hates: "Placeholder dislikes",
+    description: `This is a placeholder description for Lee Harrison. Replace with real bio.`,
   },
 
 ];

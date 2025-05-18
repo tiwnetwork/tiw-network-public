@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 import CryptoOneBannerStyle from "./CryptoOneBanner.style";
-
-import BannerGraphicsImg from "../../../assets/images/crypto/banner-graphics.svg";
-import MeshGradImg from "../../../assets/images/crypto/mesh-grad.png";
-import ArrowRightIcon from "../../../assets/images/crypto/arrow-right.svg";
 import { NavLink } from "react-router-dom";
 import ScrollAnimate from './../../../Components/ScrollAnimate';
 import { useTypingHeadlines } from "use-typing-headlines";

@@ -4,7 +4,7 @@ import BuleteImg from "../../../assets/images/defi/list-bulete.svg";
 import goldGradient from "../../../assets/images/tiwmedia/gradient-gold.png";
 
 const MetaverseStyle = styled.section`
-  margin-top: 200px;
+  margin-top: 110px;
   
   
   
