@@ -6,7 +6,7 @@ import { useTypingHeadlines } from "use-typing-headlines";
 
 const CryptoOneBanner = () => {
   const [animationValue, setAnimationValue] = useState(1);
-  const [rotatingHeadline] = useTypingHeadlines(["Property Investors", "Property Developers", "Property Sources", "Business Owners", "Mortgage Brokers", "Property Solicitors", "Property Conveyancers", "Trades"], {
+  const [rotatingHeadline] = useTypingHeadlines(["Property Investors", "Property Developers", "Property Sourcers", "Business Owners", "Mortgage Brokers", "Property Solicitors", "Property Conveyancers", "Trades"], {
     speed: 200, // adjust this to make typing faster; lower values mean faster typing
     delay: 200, // adjust delay between words
   });

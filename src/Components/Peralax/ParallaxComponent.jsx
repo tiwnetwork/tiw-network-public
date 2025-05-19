@@ -18,14 +18,13 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
           item.innerText = "0";
           const updateCounter = () => {
             let dataTarget = +item.getAttribute("data-target");
-            if (dataTarget > 999) {
-              dataTarget = dataTarget / 1000;
-            }
-            counterText = +item.innerText;
-            let increment = dataTarget / 1000;
+            let counterText = +item.innerText;
+            let increment = Math.max(1, dataTarget / 100);
             if (counterText < dataTarget) {
               item.innerText = `${Math.ceil(counterText + increment)}`;
-              setTimeout(updateCounter, 1);
+              setTimeout(updateCounter, 10); // smooth animation
+            } else {
+              item.innerText = dataTarget; // set final value
             }
           };
           updateCounter();
@@ -64,7 +63,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={200}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" data-target="200">
+                      <span className="counter" data-target="250">
                         250
                       </span>
                       +
@@ -77,7 +76,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={230}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" data-target="23">
+                      <span className="counter" data-target="25">
                         25
                       </span>
                       +
@@ -90,7 +89,7 @@ const ParallaxComponent = ({ parallaxTextClass }) => {
                 <ScrollAnimate delay={260}>
                   <div className={`statistics-text ${parallaxTextClass}`}>
                     <h2>
-                      <span className="counter" data-target="100">
+                      <span className="counter" data-target="1000">
                         1000
                       </span>
                       +
