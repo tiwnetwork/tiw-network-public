@@ -3,8 +3,8 @@ import $ from "jquery";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
 import TokenFeaturesStyle from "./TokenFeatures.style";
-import menImg from "../../../assets/images/tiwmedia/steven.png";
-import men1Img from "../../../assets/images/tiwmedia/sam.png";
+import menImg from "../../../assets/images/tiwmedia/about-us/steven.png";
+import men1Img from "../../../assets/images/tiwmedia/about-us/sam.png";
 import signaturePlaceholder from "../../../assets/images/tiwmedia/signaturePlaceholder.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 

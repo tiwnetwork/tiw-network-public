@@ -1,4 +1,6 @@
 import teamPhotoPlaceholder from '../../../assets/images/tiwmedia/events/eventPlaceholder.png';
+import samHeadshot from "../../../assets/images/tiwmedia/about-us/about-us-sam-headshot.png";
+import stevenHeadshot from "../../../assets/images/tiwmedia/about-us/about-us-steven-headshot.png";
 
 import FacebookIcon from "../../images/icons/f.svg";
 import TwitterIcon from "../../images/icons/x-white.svg";
@@ -10,7 +12,7 @@ const data = [
     id: "sam",
     name: "Sam Dyer",
     designation: "Co-owner of TIW Network & Associated business",
-    avatar: teamPhotoPlaceholder,
+    avatar: samHeadshot,
     email: "placeholder@email.com",
     socialLinks: [
       { icon: FacebookIcon, url: "mailto:placeholder@email.com" },
@@ -25,7 +27,7 @@ const data = [
     id: "steven",
     name: "Steven Clark",
     designation: "Co-owner of TIW Network & Associated business",
-    avatar: teamPhotoPlaceholder,
+    avatar: stevenHeadshot,
     email: "placeholder@email.com",
     socialLinks: [
       { icon: FacebookIcon, url: "mailto:placeholder@email.com" },

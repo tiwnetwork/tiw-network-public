@@ -131,6 +131,7 @@ body {
 .crypto-wallet-body {
   background: #000;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .crypto-token-body {

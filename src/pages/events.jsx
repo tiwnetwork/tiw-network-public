@@ -6,6 +6,7 @@ import StartBuildingComponent from "../Components/StartBuilding/StartBuildingCom
 import BusinessHowWork from "../Sections/Business/BusinessHowWork/BusinessHowWork";
 import OurSkil from "../Sections/OurServices/OurSkil/OurSkil";
 import CTAImage from "../assets/images/tiwmedia/events/eventsCta.png";
+import BusinessChoose from "../Sections/Business/BusinessChoose/BusinessChoose";
 
 const Events = () => {
   return (
@@ -14,6 +15,7 @@ const Events = () => {
         <Header variant="crypto" />
         <StartBuildingComponent firstText="Engage &" highlightText="Connect"/>
         <BusinessHowWork />
+        <BusinessChoose />
         <OurSkil showContactButton={true} subTitle="JOIN TIW NETWORK" Title="Sign Up to Book Your Spot" elementImage ={CTAImage} description="To secure your place at these exclusive events, you’ll need to sign up as a TIW Network member."/>
 
         <CryptoWalletOneFooter />

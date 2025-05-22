@@ -21,7 +21,7 @@ const BusinessHowWork = () => {
         <ScrollAnimate delay="200">
         <div className="row align-items-center mb-4">
           <div className="col-lg-9">
-            <h2 className="form-title" data-splitting>
+            <h2 className="form-title">
               Your gateway to meaningful connections
             </h2>
           </div>

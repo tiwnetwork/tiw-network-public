@@ -10,6 +10,7 @@ const TokenFeaturesStyle = styled.section`
 
   p.position{
     color: #1a1a1a;
+    max-width: 450px;
   }
   .text-with-img {
     display: flex;

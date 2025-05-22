@@ -9,6 +9,7 @@ const BusinessHowWorkStyle = styled.section`
     border-radius: 30px;
     font-family: sans-serif;
     border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: .3s ease;
     a {
       display: flex;
       align-items: center;

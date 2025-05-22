@@ -3,9 +3,10 @@ import styled from "styled-components";
 const MobileMenuStyleWrapper = styled.div`
   position: fixed;
   z-index: 99999;
-
   .offcanvasStaco-body {
     -ms-overflow-style: none;
+    background: #000;
+
     /* Internet Explorer 10+ */
     scrollbar-width: none;
 
@@ -14,8 +15,11 @@ const MobileMenuStyleWrapper = styled.div`
       /* Safari and Chrome */
     }
   }
-
+  .offcanvas-header {
+    background: #000000;
+  }
   .btn-close {
+    filter: invert(1);
     &:focus {
       outline: none;
       box-shadow: none;
@@ -34,10 +38,10 @@ const MobileMenuStyleWrapper = styled.div`
 
     li a,
     li button {
-      border-bottom: 1px solid ${({ theme }) => theme.colors.blackColor}26;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
       display: block;
       text-transform: capitalize;
-      color: ${({ theme }) => theme.colors.title};
+      color: #fff;
       line-height: 20px;
       padding: 16px 0;
       width: 100%;
@@ -49,7 +53,7 @@ const MobileMenuStyleWrapper = styled.div`
     li li button {
       border-bottom: 1px solid transparent;
       font-size: 14px;
-      color: ${({ theme }) => theme.colors.textColor};
+      color: #fff;
       line-height: 20px;
       padding: 7px 20px;
     }

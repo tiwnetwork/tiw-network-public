@@ -50,16 +50,27 @@ const MetaverseStyle = styled.section`
     overflow: hidden;
     background: rgba(92, 92, 92, 0.05);
     height: 541px;
+    .row{
+      z-index: 2;
+      position: relative;
+    }
     &:before{
       content: '';
       position: absolute;
       left: 0;
       top: 0;
-      width: 400px;
-      height: 400px;
+      width: 600px;
+      height: 600px;
       background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
       pointer-events: none;
-      z-index: 0; 
+      z-index: 1; 
+      transition: 0.3s ease;
+      opacity: 0;
+    }
+    &:hover{
+      &:before{
+        opacity: 1;
+      }
     }
     .blur-shape {
       position: absolute;
@@ -144,12 +155,19 @@ const MetaverseStyle = styled.section`
       background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
       pointer-events: none;
       z-index: 0; 
+      transition: 0.3s ease;
+      opacity: 0;
+    }
+    &:hover{
+      &:before{
+        opacity: 1;
+      }
     }
     .metavarse-card-bg2 {
-      top: -20px;
+      top: 40px;
       left: 0px;
       width: 100%;
-      height: 150%;
+      height: 100%;
       position: absolute;
       z-index: 0;
       object-fit: cover;
@@ -201,7 +219,7 @@ const MetaverseStyle = styled.section`
     width: 100%;
     margin-bottom: 50px;
     position: relative;
-    &:before{
+    &:after{
       content: '';
       position: absolute;
       left: 0;
@@ -213,6 +231,24 @@ const MetaverseStyle = styled.section`
       background-size: contain; 
       pointer-events: none;
       z-index: 0;
+    }
+    &:before{
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0; 
+      transition: 0.3s ease;
+      opacity: 0;
+    }
+    &:hover{
+      &:before{
+        opacity: 1;
+      }
     }
     .metavarse-card-bg3 {
       top: -20px;

@@ -1,13 +1,15 @@
 
 import MetaverseStyle from "./Metaverse.style";
 
-import metavarseCardBgImg from "../../../assets/images/tiwmedia/metavarse-card-bg.png";
-import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-bi-weekly.png";
+
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import tiwlogo from "../../../assets/images/logo/TIW-Logo.png";
 
-import cardimg1 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img1.png";
-import cardimg2 from "../../../assets/images/tiwmedia/metavarse-card-bg3-img2.jpg";
+import cardimg1 from "../../../assets/images/tiwmedia/homepage-benefits/3.png";
+import cardimg2 from "../../../assets/images/tiwmedia/homepage-benefits/4.webp";
+import metavarseCardBgImg from "../../../assets/images/tiwmedia/homepage-benefits/2.png";
+import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-benefits/1.png";
+
 
 const Metaverse = () => {
 

@@ -2,9 +2,9 @@ import { useRef, useEffect, useState } from "react";
 import Slider from "react-slick";
 import FeatureTeamStyle from "./FeatureTeam.style";
 
-import Img1 from "../../../assets/images/img/feature-team3.png";
-import Img2 from "../../../assets/images/img/feature-team2.png";
-import Img3 from "../../../assets/images/img/feature-team1.png";
+import Img1 from "../../../assets/images/tiwmedia/about-us/about-us-networking.png";
+import Img2 from "../../../assets/images/tiwmedia/about-us/about-us-events.png";
+import Img3 from "../../../assets/images/tiwmedia/about-us/about-us-collab.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";

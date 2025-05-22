@@ -3,10 +3,10 @@ import Slider from "react-slick";
 import BusinessChooseStyle from "./BusinessChoose.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
-import whyChoose1 from "../../../assets/images/business/why-choose1.png";
-import whyChoose2 from "../../../assets/images/business/why-choose2.png";
-import whyChoose3 from "../../../assets/images/business/why-choose3.png";
-import whyChoose4 from "../../../assets/images/business/why-choose4.png";
+import whyChoose1 from "../../../assets/images/tiwmedia/events/event1.png";
+import whyChoose2 from "../../../assets/images/tiwmedia/events/event2.png";
+import whyChoose3 from "../../../assets/images/tiwmedia/events/event3.png";
+import whyChoose4 from "../../../assets/images/tiwmedia/events/event4.png";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
 const BusinessChoose = () => {
@@ -18,21 +18,22 @@ const BusinessChoose = () => {
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 9000,
     infinite: true,
     asNavFor: sliderNavRef.current,
     ref: sliderForRef,
     pauseOnHover: false,
     pauseOnFocus: false,
   });
-
+  
+  const [isExpanded, setIsExpanded] = useState(false);
   const [settingsNav, setSettingsNav] = useState({
     slidesToShow: 4,
     slidesToScroll: 1,
     asNavFor: sliderForRef.current,
     dots: false,
     autoplay: true,
-    autoplaySpeed: 6000,
+    autoplaySpeed: 9000,
     centerMode: false,
     focusOnSelect: true,
     ref: sliderNavRef,
@@ -58,8 +59,8 @@ const BusinessChoose = () => {
           <div className="col-md-12">
             <ScrollAnimate delay={200}>
             <SectionTitle
-              title="Get amazing benefits"
-              subtitle="Why Choose us"
+              title="Major Events"
+              subtitle="TIW NETWORK"
               alignment="center"
               parentClass="z-index-3"
             />
@@ -79,20 +80,20 @@ const BusinessChoose = () => {
                 className="tab-buttons why-chose-slider-nav"
               >
                 <button className="tab-btn">
-                  <span>01.</span> <span className="text">Clean</span>
-                  <span className="text2">Design</span>
+                  <span>01.</span> <span className="text">The</span>
+                  <span className="text2"> Conference</span>
                 </button>
                 <button className="tab-btn">
-                  <span>02.</span> <span className="text">New</span>
-                  <span className="text2">technology</span>
+                  <span>02.</span> <span className="text">The Property </span>
+                  <span className="text2">Social Summit</span>
                 </button>
                 <button className="tab-btn">
-                  <span>03.</span> <span className="text">High</span>
-                  <span className="text2">Performance</span>
+                  <span>03.</span> <span className="text">Christmas Ball &</span>
+                  <span className="text2"> Investor Awards</span>
                 </button>
                 <button className="tab-btn">
-                  <span>04.</span> <span className="text">Best</span>
-                  <span className="text2">usability</span>
+                  <span>04.</span> <span className="text">Network </span>
+                  <span className="text2">After Hours</span>
                 </button>
               </Slider>
               <progress max={100} value={0} />
@@ -106,35 +107,11 @@ const BusinessChoose = () => {
                   <img src={whyChoose1} alt="img" />
                 </div>
                 <div className="tab-body-text">
-                  <h2>No compromise with</h2>
-                  <h2>quality design</h2>
+                  <h2>The Conference</h2>
                   <p>
-                    We use as filler text for layouts, non-readability is of
-                    great importance but because those who do not know how to
-                    pursue pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain.
+                    The Conference is an event designed for knowledge-sharing and industry-leading insights. With expert guest speakers and strategic partners, this event offers the tools, connections, and strategies necessary to build generational wealth. A gathering of the brightest minds in Scottish property, The Conference fosters collaboration and empowers attendees with the knowledge to thrive. It’s an unparalleled opportunity to learn, connect, and elevate your investment journey.
                   </p>
-                  <ul className="list">
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>Share multiple screen at a time</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>High Quality screen</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>No buffering</p>
-                      </div>
-                    </li>
-                  </ul>
+
                 </div>
               </div>
             </div>
@@ -144,35 +121,11 @@ const BusinessChoose = () => {
                   <img src={whyChoose2} alt="img" />
                 </div>
                 <div className="tab-body-text">
-                  <h2>No compromise with</h2>
-                  <h2>quality design</h2>
+                  <h2>The Property Social Summit</h2>
                   <p>
-                    We use as filler text for layouts, non-readability is of
-                    great importance but because those who do not know how to
-                    pursue pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain.
+                    The Property Social Summit, is an event which combines a dynamic hybrid afternoon conference with a vibrant evening of social networking, offering the perfect blend of knowledge and entertainment. Throughout the day, you’ll gain valuable insights from industry leaders, and as the night unfolds, you’ll have the opportunity to forge meaningful connections with potential partners and investors. It’s an experience where learning meets opportunity, all while enjoying an unforgettable evening of drinks, conversation, and collaboration.
                   </p>
-                  <ul className="list">
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>Share multiple screen at a time</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>High Quality screen</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>No buffering</p>
-                      </div>
-                    </li>
-                  </ul>
+
                 </div>
               </div>
             </div>
@@ -182,35 +135,11 @@ const BusinessChoose = () => {
                   <img src={whyChoose3} alt="img" />
                 </div>
                 <div className="tab-body-text">
-                  <h2>No compromise with</h2>
-                  <h2>quality design</h2>
+                  <h2>Christmas Ball & Investor Awards</h2>
                   <p>
-                    We use as filler text for layouts, non-readability is of
-                    great importance but because those who do not know how to
-                    pursue pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain.
+                    Scotland’s premier property awards ceremony, this exclusive black-tie event is our annual celebration of the achievements and growth of Scottish property investors and TIW Network members. With a scale akin to a grand wedding, this distinguished occasion unites the finest in the industry for an evening of cocktails, networking, and heartfelt recognition. A night where excellence in property investment is honoured, and connections are built for the year ahead.
                   </p>
-                  <ul className="list">
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>Share multiple screen at a time</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>High Quality screen</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>No buffering</p>
-                      </div>
-                    </li>
-                  </ul>
+
                 </div>
               </div>
             </div>
@@ -220,35 +149,40 @@ const BusinessChoose = () => {
                   <img src={whyChoose4} alt="img" />
                 </div>
                 <div className="tab-body-text">
-                  <h2>No compromise with</h2>
-                  <h2>quality design</h2>
-                  <p>
-                    We use as filler text for layouts, non-readability is of
-                    great importance but because those who do not know how to
-                    pursue pleasure rationally encounter consequences that are
-                    extremely painful. Nor again is there anyone who loves or
-                    pursues or desires to obtain.
+                  <h2>Network After Hours</h2>
+                  <p style={{ fontStyle: "italic" }}>
+                    An Unforgettable Night of Connection, Celebration & Community
                   </p>
-                  <ul className="list">
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>Share multiple screen at a time</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>High Quality screen</p>
-                      </div>
-                    </li>
-                    <li>
-                      <div className="list-item">
-                        <span className="iconify" data-icon="bi:check-lg" />
-                        <p>No buffering</p>
-                      </div>
-                    </li>
-                  </ul>
+                  <p>
+                    Step into an evening designed for high-energy networking without the pressure. 
+                    Network After Hours is where ambitious minds, bold ideas, and great vibes collide. 
+                    Whether you're here to make new connections, strengthen existing ones, or just enjoy a great night out—this is your space.
+                  </p>
+
+                  {!isExpanded ? (
+                    <p style={{ color: "#E6AD23 ", cursor: "pointer" }} onClick={() => setIsExpanded(true)}>
+                      Read more...
+                    </p>
+                  ) : (
+                    <>
+                      <p>
+                        <span style={{ fontWeight: "600" }}>Late-Night Networking</span><br />
+                        
+                          Break away from the typical business hours. This is where real conversations happen—
+                          relaxed, authentic, a nd often game-changing.
+                        
+                      </p>
+                      <p>
+                        <span style={{ fontWeight: "600" }}>Open Bar & Great Food</span><br />
+                          Enjoy a fully stocked bar and delicious food throughout the night. 
+                          No drink tokens. No waiting. Just premium hospitality all evening long.
+                        
+                      </p>
+                      <p style={{ color: "#E6AD23 ", cursor: "pointer" }} onClick={() => setIsExpanded(false)}>
+                        Show less
+                      </p>
+                    </>
+                  )}
                 </div>
               </div>
             </div>
