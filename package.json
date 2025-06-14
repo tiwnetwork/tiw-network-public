@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@iconify/react": "^4.1.1",
+    "@supabase/supabase-js": "^2.50.0",
     "animate.css": "^4.1.1",
     "animate.css-react": "^1.1.0",
     "animejs": "^3.2.2",

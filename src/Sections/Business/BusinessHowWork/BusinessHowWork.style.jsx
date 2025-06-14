@@ -1,14 +1,58 @@
 import styled from "styled-components";
+import eventsBG from '../../../assets/images/tiwmedia/events/events-bg.png';
 
 const BusinessHowWorkStyle = styled.section`
   padding: 110px 0 110px 0;
+  background: url('${eventsBG}') center bottom;
+  .skeleton {
+    background:rgba(41, 41, 41, 0.11);
+    border-radius: 8px;
+    min-height: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .skeleton-box {
+    background: rgba(255, 255, 255, 0);
+  }
+
+  .skeleton-line {
+    height: 16px;
+    background: rgba(255,255,255,.0);
+    margin: 12px;
+    border-radius: 4px;
+  }
+
+  .skeleton::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: -150px;
+    top: 0;
+    height: 100%;
+    width: 150px;
+    background: linear-gradient(to right, transparent 0%,rgba(248, 248, 248, 0.14) 50%, transparent 100%);
+    animation: loading 1.2s infinite;
+  }
+
+  @keyframes loading {
+    0% {
+      left: -150px;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+  
+
   .how-works-card-modern {
-    background-color: rgba(255,255,255,0.05);
+    
     color: #fff;
-    padding: 30px 35px;
+    padding: 25px 25px 36px 25px;
     border-radius: 30px;
     font-family: sans-serif;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid transparent;
+    border-image: linear-gradient(to top, transparent 0%,rgba(180, 108, 40, 0) 25%,rgba(230, 171, 35, 0) 50%,rgba(180, 108, 40, 0) 75%, transparent 100%) 1;
     transition: .3s ease;
     a {
       display: flex;
@@ -33,8 +77,8 @@ const BusinessHowWorkStyle = styled.section`
     }
 
     &:hover {
-      background: rgba(255,255,255, 0.1);
-      border: 1px solid rgb(230, 171, 35);
+      border: 1px solid transparent;
+      border-image: linear-gradient(to top, transparent 0%, #B46C28 25%, #E6AD23 50%, #B46C28 75%, transparent 100%) 1;
       .image-container{
         img {
           transform: scale(1.1);
@@ -97,7 +141,7 @@ const BusinessHowWorkStyle = styled.section`
   .image-container{
     overflow: hidden;
     border-radius: 12px;
-    
+    aspect-ratio: 1 / 1;
     margin-bottom: 35px;
   }
   .how-works-image {
