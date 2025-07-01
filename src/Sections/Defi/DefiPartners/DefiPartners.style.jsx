@@ -54,6 +54,7 @@ const DefiPartnersStyle = styled.section`
           position: relative;
           opacity: 0.5;
           transition: 0.3s;
+          width: 85%;
         }
         &:hover {
           &::after {
@@ -73,8 +74,8 @@ const DefiPartnersStyle = styled.section`
           align-items: center;
           justify-content: flex-start;
           flex-direction: column;
-          min-height: 30px;
-          max-height: 30px;
+          min-height: 131px;
+          max-height: 131px;
           overflow: hidden;
           img {
             margin-bottom: 5px;
@@ -126,15 +127,18 @@ const DefiPartnersStyle = styled.section`
     .defi-backed-list {
       ul {
         li {
-          min-height: 70px;
-          max-height: 70px;
+          min-height: 138px;
+          max-height: 138px;
           padding: 10px;
           a {
-            min-height: 20px;
-            max-height: 20px;
+            min-height: 120px;
+            max-height: 120px;
             img {
-              width: 80px;
+              width: 125px;
             }
+          }
+          &:after{
+              padding: 80px 0px;
           }
         }
       }

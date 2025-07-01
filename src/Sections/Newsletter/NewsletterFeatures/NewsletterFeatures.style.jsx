@@ -4,6 +4,67 @@ const NewsletterFeaturesStyle = styled.section`
   padding-bottom: 110px;
   padding-top: 110px;
   position: relative;
+  .skeleton {
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    animation: shimmer 1.5s infinite linear;
+  }
+
+  .skeleton-title {
+    height: 18px;
+    width: 60%;
+  }
+
+  .skeleton-text {
+    height: 12px;
+    width: 80%;
+  }
+
+  .newsleter-features-card-img.skeleton {
+    height: 120px;
+    width: 100%;
+  }
+
+  @keyframes shimmer {
+    0% { background-position: -400px 0; }
+    100% { background-position: 400px 0; }
+  }
+
+  .feature-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.3s ease;
+  }
+
+  .feature-text.expanded {
+    -webkit-line-clamp: unset;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .read-more-btn {
+    background: none;
+    border: none;
+    color:rgba(255, 255, 255, 0.53);
+    padding: 0;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+  }
+
+  .learn-more-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 5px;
+    font-size: 14px;
+  }
+
+
   .radial-gradient {
     background: radial-gradient(circle at top center, #242424 0%, #131313e0 23%, #000000 64%);
     width: 100%;
@@ -100,7 +161,7 @@ const NewsletterFeaturesStyle = styled.section`
       font-weight: 800;
     }
     p {
-      margin-bottom: 16px;
+      margin-bottom: 0px;
       color: rgba(255, 255, 255, 0.8);
       font-size: 16px;
     }
