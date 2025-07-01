@@ -1,9 +1,7 @@
 import styled from "styled-components";
-import eventsBG from '../../../assets/images/tiwmedia/events/events-bg.png';
 
 const BusinessHowWorkStyle = styled.section`
   padding: 110px 0 110px 0;
-  background: url('${eventsBG}') center bottom;
   .skeleton {
     background:rgba(41, 41, 41, 0.11);
     border-radius: 8px;

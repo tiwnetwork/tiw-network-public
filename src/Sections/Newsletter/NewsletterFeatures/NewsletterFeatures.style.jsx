@@ -5,7 +5,7 @@ const NewsletterFeaturesStyle = styled.section`
   padding-top: 110px;
   position: relative;
   .skeleton {
-    background-color: #e0e0e0;
+    background-color: rgba(248, 248, 248, 0.14);
     border-radius: 6px;
     animation: shimmer 1.5s infinite linear;
   }

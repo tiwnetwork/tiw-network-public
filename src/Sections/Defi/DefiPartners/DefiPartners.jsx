@@ -2,6 +2,7 @@ import DefiPartnersStyle from "./DefiPartners.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import { partnerData } from "../../../assets/data/DefiData/DefiPartnersData";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
+import { Link } from "react-router-dom";
 
 const DefiPartners = () => {
   return (
@@ -21,10 +22,10 @@ const DefiPartners = () => {
             <ul>
               {partnerData.map((partner) => (
                 <li key={partner.id}>
-                  <a href="#">
+                  <Link to="/partners">
                     <img src={partner.src} alt={partner.alt} />
                     <img src={partner.src} alt={partner.alt} />
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
