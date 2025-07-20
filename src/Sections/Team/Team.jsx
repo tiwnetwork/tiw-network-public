@@ -15,7 +15,7 @@ const Team = () => {
             <span className="sub-title">Get to Know</span>
             <h2 className="title mt-3 mb-4">Our Senior Staff Team</h2>
             <p className="description">
-              The diverse experiences and skills within our network enable us to tackle challenges with innovative and collaborative solutions. Each member brings unique talents and perspectives, ensuring a holistic approach to every endeavor.
+              The diverse experiences and skills within our senior team empower us to tackle challenges with innovative, collaborative solutions. Each member contributes unique talents and perspectives, ensuring we take a holistic approach to every project and partnership. 
             </p>
           </ScrollAnimate>
           </div>

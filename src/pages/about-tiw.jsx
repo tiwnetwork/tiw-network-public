@@ -24,7 +24,7 @@ const AboutTIW = () => {
         <ParallaxComponent />
 
         <ChatbotChoose />
-        <TokenFeatures />
+        {/* <TokenFeatures /> */}
 
         <FeatureTeam />
         <Team />

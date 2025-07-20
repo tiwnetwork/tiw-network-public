@@ -29,14 +29,14 @@ const UserFeedback = () => {
       <div className="container">
         <ScrollAnimate delay={200}>
           <SectionTitle
-            title="A Members Perspective"
+            title="Members Perspective"
             subtitle="The power of connections"
             alignment="center"
             titleMaxW="650px"
             titleMargin="auto"
             parentClass="crypto md-mb-0"
           />
-          <p className="description text-center position-relative">TIW network, allows us to experience first-hand the  power of connections and collaboration. The network’s  events allow you to build genuine relationships, opening  doors to new opportunities and partnerships. By  bringing together like-minded professionals, TIW  creates an environment where businesses can grow,  innovate, and support one another. It’s more than just  networking; it’s about building a strong, thriving  community that drives both personal and  professional success</p>
+          <p className="description text-center position-relative">TIW Network lets you experience the power of connections and collaboration first-hand. Through its events, you can build genuine relationships that open doors to new opportunities and partnerships. By bringing together like-minded professionals, TIW encourages an environment where businesses grow, innovate, and support one another. It’s more than networking… it’s about creating a strong, thriving community that drives both personal and professional success.</p>
           <div className="layer-1">
             <button
               className="feedback-stop-btn"

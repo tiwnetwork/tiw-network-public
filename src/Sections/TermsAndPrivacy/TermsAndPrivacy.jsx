@@ -3,13 +3,15 @@ import AlignIcon from "../../assets/images/auth-and-utility/textalign-left.svg";
 import StickyBox from "react-sticky-box";
 import ScrollAnimate from "../../Components/ScrollAnimate";
 
-const TermsAndPrivacy = ({ title, data, children }) => {
+const TermsAndPrivacy = ({ title, description, data, children }) => {
   return (
     <TermsAndPrivacyStyleWrapper>
       <div className="container">
+        <div className="radial-gradient"></div>
         <ScrollAnimate delay={200}>
-          <p className="uppercase">Last updated: 28 March 2023</p>
+          <p className="uppercase effective-date">Effective Date: 7th July 2025 </p>
           {title && <h1>{title}</h1>}
+          <p className="description ">{description}</p>
         </ScrollAnimate>
 
         <div className="terms-and-service-inner">

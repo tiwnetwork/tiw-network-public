@@ -93,21 +93,21 @@ const FeatureTeam = () => {
                 <p className="sub-title">Our Mission</p>
                 <h2>Network</h2>
                 <p>
-                  TIW is a network designed to help  you build lasting wealth. Whether  you're a member, partner, or  sponsor, our network provides the  tools, resources, and connections to  accelerate your success and help  you achieve true financial growth.
+                  TIW Network is designed to help you build lasting wealth. Whether you’re a member, partner, or sponsor, our network provides the tools, resources, and connections to accelerate your success and help you achieve financial growth.  
                 </p>
               </div>
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
                 <h2>Events</h2>
                 <p>
-                  We host a range of events throughout  the year, including conferences,  Christmas balls, awards ceremonies,  NC500, family days, golf days.  Whatever our members seek, we  make it happen—creating valuable  opportunities to connect, collaborate,  and grow their network.
+                  We host a range of events throughout the year, including conferences, Christmas ball, NC500, family days and so on. Whatever our members ask for, we make happen – creating valuable opportunities to connect, collaborate, and grow their network. 
                 </p>
               </div>
               <div className="slider-item">
                 <p className="sub-title">Our Mission</p>
                 <h2>Collaboration</h2>
                 <p>
-                  We believe that true wealth is built  through strong partnerships and shared opportunities. Our platform fosters  collaboration between members,  partners, and sponsors, creating an  ecosystem where ideas, resources, and  expertise come together.
+                  We believe that true wealth is built through strong partnerships and shared opportunities. Our platform fosters collaboration between members, partners, and sponsors, creating an eco-system where ideas, resources, and expertise are shared.  
                 </p>
               </div>
             </Slider>

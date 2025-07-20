@@ -19,7 +19,7 @@ const WhyChoose = () => {
               <ScrollAnimate delay={200}>
                 <h4>Exclusive Supplier Discounts</h4>
                 <p>
-                  Joining TIW Network grants you early access to exclusive property deals before they hit the public market.
+                  Joining TIW Network allows you access to exclusive trade deals from top suppliers. 
                 </p>
               </ScrollAnimate>
             </div>

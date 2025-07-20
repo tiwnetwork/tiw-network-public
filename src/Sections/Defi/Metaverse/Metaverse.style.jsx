@@ -9,14 +9,16 @@ const MetaverseStyle = styled.section`
   
   
   .image-row {
-    height: 180px;
+    height: 100%;
     overflow: hidden;
+
+
   }
 
   .image-row img {
     object-fit: cover;
     height: 100%;
-    width: 100%;
+    width: auto;
     display: block;
     border-radius: 10px;
   }
@@ -175,7 +177,7 @@ const MetaverseStyle = styled.section`
     .overlay {
       background: rgba(92, 92, 92, 0.05);
       border-radius: 30px;
-      height: 100%;
+      height: auto;
       width: 100%;
       padding: 60px 70px 70px 70px;
       position: relative;
@@ -264,9 +266,10 @@ const MetaverseStyle = styled.section`
       background: rgba(92, 92, 92, 0.05);
       border-radius: 30px;
       width: 100%;
+      min-height: 600px;
       padding: 68px 40px 45px 40px;
       position: relative;
-      height: 595px;
+      height: auto;
       padding: 60px 70px 70px 70px;
 
       z-index: 1;
@@ -317,6 +320,10 @@ const MetaverseStyle = styled.section`
       padding: 40px 30px;
       height: auto;
     }
+    .image-row {
+      height: 100%;
+      gap: 20px; 
+    } 
     .defi-metaverse-card3 .overlay {
       height: auto;
     }

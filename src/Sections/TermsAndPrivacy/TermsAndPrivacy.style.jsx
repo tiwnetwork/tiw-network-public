@@ -1,29 +1,51 @@
 import styled from "styled-components";
 
 const TermsAndPrivacyStyleWrapper = styled.section`
-  padding-top: 111px;
-  padding-bottom: 127px;
-  margin-top: 90px;
+  padding-top: 200px;
+  padding-bottom: 120px;
 
   h1 {
     margin-top: 11px;
+    color: #fff;
   }
-
+  h2, h3, h4{
+    color: #fff;
+  }
   .terms-and-service-inner {
     margin-top: 112px;
   }
-
+  .description, .effective-date {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .radial-gradient {
+    background: radial-gradient(circle at top center, #242424 0%, #131313e0 23%, #000000 64%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
   .terms-and-service-content {
+    ul{
+      color: rgba(255, 255, 255, 0.8);
+      li {
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
     p {
       margin-bottom: 20px;
+      color: rgba(255, 255, 255, 0.8);
       b {
-        color: ${({ theme }) => theme.colors.title};
+        color: rgba(255, 255, 255, 0.8);
       }
       strong {
-        color: ${({ theme }) => theme.colors.title};
+        color: rgba(255, 255, 255, 1);
+        font-weight: 700;
       }
       a {
-        color: ${({ theme }) => theme.colors.primary};
+        color: rgba(255, 255, 255, 1);
+        font-weight: 700;
       }
     }
     h4 {
@@ -33,7 +55,7 @@ const TermsAndPrivacyStyleWrapper = styled.section`
 
   .content-table-title {
     text-transform: uppercase;
-    color: ${({ theme }) => theme.colors.primary};
+    color: #fff;
     margin-bottom: 20px;
     img {
       margin-right: 15px;
@@ -43,7 +65,7 @@ const TermsAndPrivacyStyleWrapper = styled.section`
   .terms-list {
     li {
       line-height: 36px;
-
+      color:rgba(255, 255, 255, 0.8);
       &:not(:first-child) {
         margin-top: 5px;
       }
@@ -51,7 +73,7 @@ const TermsAndPrivacyStyleWrapper = styled.section`
       a {
         &.active,
         &:hover {
-          color: ${({ theme }) => theme.colors.title};
+          color: #fff;
         }
       }
     }
@@ -66,7 +88,7 @@ const TermsAndPrivacyStyleWrapper = styled.section`
         a {
           &.active,
           &:hover {
-            color: ${({ theme }) => theme.colors.title};
+            color: #fff;
           }
         }
       }

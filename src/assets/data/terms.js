@@ -4,70 +4,70 @@ const data = [
     delay: 200,
     title: "Use of Service",
     description:
-      "<p>You are granted a non-exclusive, non-transferable, revocable license to use the Service for your personal or commercial use. You agree to use the Service only for lawful purposes and in a way that does not infringe on the rights of others. looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus</p>",
+      "<p>We grant you a non-exclusive, non-transferable, revocable license to use the Service for your personal or commercial purposes, in compliance with all applicable laws and regulations. You agree not to use the Service in any way that may infringe the rights of others, interfere with the operation of the Service, or violate any laws. </p>",
   },
   {
     contentId: "two",
     delay: 250,
     title: "Your account",
     description:
-      '<p>Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("Content"). You are responsible for the Content that you post on or through the Service, including its legality, reliability, and appropriatenes.</p> <p>Some parts of the Service are billed on a subscription basis. You will be billed in advance on a recurring subscription that you choose. </p>',
+      '<p>To access certain features of the Service, you may be required to create an account. You are responsible for maintaining the confidentiality of your account credentials and for any activity conducted under your account. </p><p>You may post, link, store, share, or otherwise make available content, including text, graphics, videos, or other material ("Content"). You are solely responsible for any Content you post, including its legality, reliability, and appropriateness.</p>',
   },
   {
     contentId: "three",
     delay: 300,
     title: "Payment and Subscription",
     description:
-      '<p>Some parts of the Service may require payment before access is granted. If you choose to subscribe to any of our paid services, you agree to pay all fees associated with the subscription. Payment may be made through a third-party      payment processor, and you agree to provide accurate payment information.</p> <p><strong>Taxes:</strong> If you wish to purchase any product or service made available through the Service ("<b>Purchase</b>"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your name, address, and payment information.</p> <p><strong>Charges:</strong> Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material.</p>',
+      '<p>Some parts of the Service are offered on a subscription basis. By purchasing a subscription, you agree to pay all applicable fees in advance on a recurring schedule as described at the time of purchase.</p><p><strong>Payment Processing:</strong> Payments may be handled by a third-party payment processor. You agree to provide accurate billing information, including a valid payment method.</p><p><strong>Taxes:</strong> You are responsible for any applicable taxes related to your purchases. </p>',
   },
   {
     contentId: "four",
     delay: 350,
     title: "Intellectual Property",
     description:
-      '<p>All content on the Service, including but not limited to text, graphics, logos, images, and software, is the property of [<b>Your Company</b>] or its licensors and is protected by copyright and other intellectual property laws. You may not copy, reproduce, distribute, or create derivative works based on the content without our prior written consent. </p> <p>(i) Our Service allows you to post, link, store, share and otherwise make available certain information, text, graphics, videos, or other material ("<b>Content</b>"). <br /> (ii) You are responsible for the Content that you post on or through the Service, including its legality, reliability, and appropriateness. <br /> (iii) For any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services. </p>',
+      '<p>All content provided on the Service—including but not limited to text, graphics, logos, images, and software—is the property of <strong>TIW Network Ltd</strong> or its licensors and is protected by copyright, trademark, and other intellectual property laws.</p><p>You may not reproduce, distribute, modify, or create derivative works without our prior written consent.</p>',
   },
   {
     contentId: "five",
     delay: 400,
     title: "User Content",
     description:
-      '<p>You are solely responsible for any content you upload, submit, or otherwise make available on the Service ("User Content"). You agree not to post User Content that is illegal, defamatory, or infringes on the rights of others. We reserve the right to remove any User Content that violates these Terms.</p>',
+      '<p>You are solely responsible for any User Content you submit or upload. You agree not to post Content that: </p><ul><li>is unlawful, defamatory, obscene, or offensive,</li><li>infringes any third-party rights, or</li><li>violates any applicable laws.</li></ul><p>We reserve the right to remove any User Content at our discretion.</p>',
   },
   {
     contentId: "six",
     delay: 450,
     title: "Limitation of Liability",
     description:
-      "<p>In no event shall [Your Company] be liable for any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use of the Service, including but not limited to lost profits, loss of data, or any other damages, whether based on contract, tort, strict liability, or any other theory of liability.</p>",
+      "<p>To the fullest extent permitted by law, TIW Network Ltd shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of or relating to your use of or inability to use the Service. This includes, but is not limited to, damages for lost profits, data loss, or other intangible losses. </p>",
   },
   {
     contentId: "seven",
     delay: 500,
     title: "Termination",
     description:
-      "<p>We reserve the right to terminate or suspend your access to the Service at any time, with or without cause, without prior notice or liability.</p>",
+      "<p>We may suspend or terminate your access to the Service at any time, without notice or liability, for any reason, including if you breach these Terms. </p>",
   },
   {
     contentId: "eight",
     delay: 550,
     title: "Governing Law",
     description:
-      "<p>These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions. the content, privacy policies, or practices of any third-party web sites or services. You further acknowledge and agree that [Your Company] shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with use of or reliance on any such content, goods or services available on or through any such web sites or services </p>",
+      "<p>These Terms shall be governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of laws principles. </p><p>We are not responsible for the content, privacy policies, or practices of any third-party websites or services linked to or from the Service. You agree that we will not be liable for any damage or loss related to your use of such third-party services. </p>",
   },
   {
     contentId: "nine",
     delay: 600,
     title: "Changes to Terms",
     description:
-      "<p>We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.</p>",
+      "<p>We reserve the right to update or modify these Terms at our sole discretion. If we make material changes, we will provide notice (for example, via email or a prominent notice on our website) at least 30 days before the new Terms take effect. What constitutes a material change will be determined in our sole discretion. </p>",
   },
   {
     contentId: "ten",
     delay: 650,
     title: "Contact Us",
     description:
-      '<p>If you have any questions about these Terms, please contact us at [<a href="/contact-us">Contact page</a>].</p>',
+      '<p>If you have any questions about these Terms, please contact us at: <a href ="/contact-us">https://tiwnetwork.co.uk/contact-us</a></p>',
   },
 ];
 

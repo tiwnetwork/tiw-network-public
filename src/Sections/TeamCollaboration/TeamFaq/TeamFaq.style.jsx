@@ -135,6 +135,7 @@ const TeamFaqStyleWrapper = styled.section`
       }
       &.collapsed {
         //  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.08);
+
       }
     }
 
@@ -185,6 +186,7 @@ const TeamFaqStyleWrapper = styled.section`
 
     .accordion-collapse.show {
       border-radius: 15px;
+      
       box-shadow: 0px 10px 15px ${({ theme }) => theme.colors.blackColor}14;
     }
 

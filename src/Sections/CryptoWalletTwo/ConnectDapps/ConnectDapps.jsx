@@ -14,10 +14,10 @@ const ConnectDapps = () => {
         <div className="connect-dapps-content">
         <ScrollAnimate delay={200}>
         <SectionTitle
-          title="Join Our Engaging WhatsApp Subgroups Today"
+          title="Join Our Engaging WhatsApp Community Today"
           subtitle="CONNECT AND INSPIRE"
           alignment="center"
-          titleMaxW="675px"
+          titleMaxW="720px"
           titleMargin="auto"
           parentClass="crypto2"
         />

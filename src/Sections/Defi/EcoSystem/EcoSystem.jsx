@@ -38,8 +38,8 @@ const EcoSystem = () => {
               Exclusive <br/> Events
             </li>
             <li>
-            Off-Property <br />
-            Deals
+            Off-Market<br />
+            Property Deals
             </li>
             <li>
             Group Chats <br/>and Forums

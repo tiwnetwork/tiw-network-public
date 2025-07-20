@@ -35,7 +35,7 @@ const Metaverse = () => {
                         <div className="defi">
                           <img src={tiwlogo} alt="icon" className="tiwlogo" />
                           <h2 className="title resize">
-                            Powerful Events
+                            Inspiring Events
                           </h2>
                         </div>
 
@@ -43,7 +43,7 @@ const Metaverse = () => {
 
                           <div className="card-left-text">
                             <p>
-                              From our Christmas Ball to business conferences and relaxing spa days, we host exclusive events. designed to connect the right people in the right room.
+                              From our Christmas Ball to business conferences and adventurous road trips, we host exclusive events all year round. What our members want, we make happen, creating valuable opportunities to connect, collaborate, and grow their network. 
                             </p>
                           </div>
                         </div>
@@ -68,10 +68,10 @@ const Metaverse = () => {
                       <div className="card2-text">
                         <img src={tiwlogo} alt="icon" className="tiwlogo" />
                         <h3 className="mb-4">
-                          💰 Exclusive Discounts
+                          Community
                         </h3>
                         <p>
-                          Save £1,000s on kitchens, bathrooms, flooring, estate agency, legals, trades, and more! from our Partners Directory.
+                          You’re never more than a message away from the answer you need. From legal questions to trade contacts or deal advice, our community has your back. Connect in 25+ active groups and get instant support from people who’ve been there. 
                         </p>
                       </div>
                     </div>
@@ -86,12 +86,12 @@ const Metaverse = () => {
                 <div className="overlay">
                   
                   <img src={tiwlogo} alt="icon" className="tiwlogo" />
-                  <h3>25+ Active Subgroups</h3>
+                  <h3>Partners</h3>
                   <p>
-                    Dedicated forums for off-market deals, JV opportunities, renovations, and niche topics like alternative investments. 
+                    Members save thousands on everything from kitchens to legal fees. As part of TIW, you get access to exclusive trade-only pricing with partners like B&Q and Wren Kitchens, plus expert advice from leading companies in the sector. 
                   </p>
                   
-                  <div className="container mt-5">
+                  <div className="container mt-4">
                   <div className="row image-row g-0">
                     <div className="col-sm-5">
                       <img src={cardimg1} alt="Image 1" />

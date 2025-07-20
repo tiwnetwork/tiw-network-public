@@ -23,7 +23,6 @@ const PricingPlanCards = () => {
           <div className="section-title text-center mb-5" >
             <h2 className="title" data-splitting>
                 Pricing Plan
-              
             </h2>
           </div>
         </ScrollAnimate>

@@ -4,7 +4,6 @@ import Header from "../Sections/Header/Header";
 import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 
 import PricingPlanCards from "../Sections/PricingPlan/PricingPlanCards/PricingPlanCards";
-import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
 
 const Home = () => {
   return (

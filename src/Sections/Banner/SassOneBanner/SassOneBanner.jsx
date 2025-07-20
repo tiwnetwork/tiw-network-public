@@ -77,10 +77,7 @@ const SassOneBanner = () => {
                 Your <span className="gold-gradient">All-in-One</span> Member Dashboard
               </h1>
               <p>
-                Discover the TIW Network member dashboard – your gateway to exclusive events,
-                vital announcements, and valuable resources. Seamlessly register for events,
-                access partner data, explore trade deals, and download essential materials.
-                Stay connected and informed with everything you need, all in one place.
+                Discover the TIW Network member dashboard - your gateway to exclusive events, key updates, and essential resources. Easily register for events, access partner information, explore property deals, and download important materials. Stay connected and informed, all in one place. 
               </p>
             </div>
           </ScrollAnimate>

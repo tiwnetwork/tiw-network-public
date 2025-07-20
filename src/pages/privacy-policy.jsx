@@ -1,16 +1,15 @@
 import Layout from "../Layout";
 import Header from "../Sections/Header/Header";
-import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
-import FooterTwo from "../Sections/Footer/FooterTwo";
 import PrivacyPolicySection from "../Sections/TermsAndPrivacy/PrivacyPolicy";
 
 const PrivacyPolicy = () => {
   return (
-    <Layout pageTitle="Staco - Privacy Policy">
-      <Header variant={"main-header"} />
-      <PrivacyPolicySection />
-      <StartBuildingComponent />
-      <FooterTwo />
+
+    <Layout pageTitle="Privacy Policy | TIW Network" scrollVariant={"crypto"}>
+      <div className="crypto-wallet-body">
+        <Header variant="crypto" />
+        <PrivacyPolicySection />
+      </div>
     </Layout>
   );
 };

@@ -17,7 +17,7 @@ export const faqData = [
     {
         question: 'What if I’m not based in Scotland?',
         answer:
-            "Many members invest remotely, and we host events across various regions, both in-person and virtually.",
+            "Many of our members invest remotely and find great value in staying connected through our online community and virtual events.",
     },
     {
         question: 'Do I need to be actively investing to join?',
@@ -27,19 +27,19 @@ export const faqData = [
     {
         question: 'What kinds of events do you host?',
         answer:
-            "We organise networking social gatherings, Christmas ball, Business Conferences, Virtual Conferences, Property Showcases, Track Days, Golf Days, Women's Events, which are all focused on fostering collaboration and sharing industry insights.",
+            "We host a diverse calendar of events, from networking social events, our Christmas Ball, and business conferences to virtual meetups, property showcases, walk and talks, family days, dedicated women’s events and additional ad hoc events that can alternate each year including track days, golf days, spa days, whiskey tasting etc. Each is focused on bringing people together to collaborate and share industry knowledge.",
     },
 ];
 export const faqData2 = [
     {
         question: 'How can I get involved in property deals?',
         answer:
-            'Our network has its own section for off marketing and on market deals, where members can share, discuss and sell deals.',
+            'Our members’ area gives you the opportunity to share secured deals, including both on-market and off-market opportunities. There’s also a dedicated WhatsApp subgroup where members can share deals directly and stay connected in real time.',
     },
     {
         question: 'Do you offer mentorship or coaching?',
         answer:
-            'TIW does not offer direct mentorship or coaching but co-owner Steven Clark run This is Property, which hosts various property workshop events.',
+            'While TIW doesn’t provide direct mentorship or coaching, our co-owner Steven Clark leads This is Property, offering a range of property workshop events for those looking to deepen their knowledge and skills.',
     },
     {
         question: 'Can I attend events if I’m not yet a member?',
@@ -54,7 +54,7 @@ export const faqData2 = [
     {
         question: 'What makes this network different from others?',
         answer:
-            'Our network is focused on curated connections, offering high-quality, actionable insights and fostering genuine relationships to help you succeed in property investment and development.',
+            'Our networks main focus is on connecting like-minded professionals, sharing practical, high-value insights, and fostering genuine relationships to help you thrive in property investment and development.',
     },
     {
         question: 'Can I collaborate with others in the network?',
