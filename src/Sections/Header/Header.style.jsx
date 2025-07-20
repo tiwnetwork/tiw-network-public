@@ -1558,7 +1558,7 @@ const HeaderStyleWrapper = styled.header`
     &.crypto-token,
     &.defi {
       background: transparent;
-
+      overflow: hidden;
       .logo-light {
         display: none;
       }
@@ -1751,6 +1751,7 @@ const HeaderStyleWrapper = styled.header`
     .header-section {
       &.crypto-header {
         background: transparent;
+        
       }
     }
     .download-wallet-btns {
