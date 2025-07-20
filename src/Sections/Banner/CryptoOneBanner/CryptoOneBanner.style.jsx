@@ -5,6 +5,9 @@ const CryptoOneBannerStyle = styled.section`
   .container{
     max-width: 1400px!important;
   }
+  .cd-words-wrapper {
+    display: block;
+  }
   .crypto-hero-section-text {
     text-align: center;
     h1 {
