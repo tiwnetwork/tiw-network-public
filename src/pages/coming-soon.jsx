@@ -4,7 +4,7 @@ import ComingSoonSection from "../Sections/ComingSoon/ComingSoonSection"
 
 const ComingSoon = () => {
   return (
-    <Layout pageTitle="TIW Network Coming Soon!" scrollVariant={"crypto"}>
+    <Layout pageTitle="TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
       <div className="crypto-wallet-body">
         <ComingSoonSection />
       </div>

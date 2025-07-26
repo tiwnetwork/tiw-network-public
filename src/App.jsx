@@ -27,7 +27,6 @@ import BlogDetails from "./pages/blog-details";
 import AboutUs from "./pages/about-us";
 import OurServices from "./pages/our-services";
 import ContactUs from "./pages/ContactUs";
-import PricingPlan from "./pages/pricing-plan";
 import Error from "./pages/Error";
 import ScrollToTop from "./ScrollToTop";
 import WhyJoinTIW from "./pages/why-join-us";
