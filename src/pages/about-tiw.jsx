@@ -22,7 +22,7 @@ const AboutTIW = () => {
         <AppFeatures />
         <ParallaxComponent />
 
-        <ChatbotChoose />
+        {/* <ChatbotChoose /> */}
         {/* <TokenFeatures /> */}
 
         <FeatureTeam />
