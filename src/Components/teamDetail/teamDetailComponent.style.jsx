@@ -1,12 +1,83 @@
 // teamDetailComponent.style.jsx
-import styled from "styled-components";
 
+import styled, { keyframes } from "styled-components";
+
+
+const shimmer = keyframes`
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+`;
+
+export const SkeletonCard = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background: #2a2a2a;
+  height: 600px;
+  color: rgba(255, 255, 255, 0.8);
+`;
+
+export const SkeletonLeft = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  max-width: 300px;
+`;
+
+export const SkeletonAvatar = styled.div`
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #333, #444, #333);
+  background-size: 200% 100%;
+  animation: ${shimmer} 1.5s infinite;
+`;
+
+export const SkeletonText = styled.div`
+  width: ${(props) => props.width || "70%"};
+  height: 16px;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #333, #444, #333);
+  background-size: 200% 100%;
+  animation: ${shimmer} 1.5s infinite;
+`;
+
+export const SkeletonRight = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  gap: 12px;
+`;
+
+export const SkeletonTitle = styled(SkeletonText)`
+  width: 60%;
+  height: 24px;
+`;
+
+export const SkeletonParagraph = styled(SkeletonText)`
+  width: 100%;
+  height: 14px;
+`;
 
 export const Container = styled.div`
   
   display: flex;
   color: rgba(255,255,255,.8);
   justify-content: center;
+  max-width: 1210px;
+  margin: 200px auto 0 auto;
+  align-items: center;
+  height: auto;
   &:before {
     content: '';
     position: absolute;
@@ -35,10 +106,9 @@ export const Card = styled.div`
   overflow: hidden;
   max-width: 1210px;
   width: 100%;
-  padding: 64px;
+  padding: 30px;
   border: 1px solid #262626;
   position: relative;
-  margin-top: 200px;
 
   @media (max-width: 768px) {
     flex-direction: column;
@@ -50,7 +120,7 @@ export const Card = styled.div`
 export const LeftSide = styled.div`
   flex: 1;
   background: transparent;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   border: 1px solid #262626;
   border-radius: 16px;
@@ -60,7 +130,7 @@ export const LeftSide = styled.div`
 
 export const Image = styled.img`
   width: auto;
-  height: 320px;
+  height: auto;
   object-fit: cover;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -69,13 +139,15 @@ export const Image = styled.img`
 export const Label = styled.p`
   font-weight: bold;
   font-size: 16px;
-  width: 110px;
+  width: auto;
+  
+  margin-right: 30px;
 `;
 
 export const InfoText = styled.p`
   font-size: 16px;
-  color: #ccc;
-  width: 210px;
+  color: rgba(255, 255, 255, 0.8);
+  width: auto;
 `;
 
 export const SocialIcons = styled.div`
