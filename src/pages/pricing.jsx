@@ -5,7 +5,7 @@ import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 
 import PricingPlanCards from "../Sections/PricingPlan/PricingPlanCards/PricingPlanCards";
 
-const Home = () => {
+const Pricing = () => {
   return (
     <Layout pageTitle="TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
       <div className="crypto-wallet-body">
@@ -17,4 +17,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Pricing;
