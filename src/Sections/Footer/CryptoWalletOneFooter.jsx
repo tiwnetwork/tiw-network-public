@@ -101,13 +101,7 @@ const CryptoWalletOneFooter = () => {
               <div className="chatbot-footer-bottom-left pt-5">
                 <ul>
                   <li>
-                    <a href="#">Legal</a>
-                  </li>
-                  <li>
                     <a href="/terms">Terms of use</a>
-                  </li>
-                  <li>
-                    <a href="#">Cookies</a>
                   </li>
                   <li>
                     <a href="/privacy-policy">Privacy policy</a>
@@ -132,7 +126,7 @@ const CryptoWalletOneFooter = () => {
                 <p className="address">195 Queensferry Road, Rosyth, Dunfermline, KY11 2JH</p>
                 <p>
                   Say hello to :{" "}<br/>
-                  <a href="mailto:support@mail.com">info@tiwnetwork.co.uk</a>
+                  <a href="mailto:info@tiwnetwork.co.uk">info@tiwnetwork.co.uk</a>
                 </p>
                 <div className="crypto-footer-social">
                   <div className="crypto-footer-social-list">
@@ -152,7 +146,7 @@ const CryptoWalletOneFooter = () => {
           <div className="row">
            <div className="col-lg-8 col-md-6">
             <div className="footer-copyright crypto">
-              © {new Date().getFullYear()}, <a href="#">TIW Network Ltd.</a> All Rights Reserved.
+              © {new Date().getFullYear()}, <a href="/">TIW Network Ltd.</a> All Rights Reserved.
             </div>
           </div>
 

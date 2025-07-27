@@ -43,6 +43,7 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home/>} />
+        <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="/about" element={<AboutTIW />} />
         <Route path="/about/:id" element={<TeamDetail />} />
         <Route path="/why-join-us" element={<WhyJoinTIW />} />
