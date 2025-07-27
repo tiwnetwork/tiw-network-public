@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const TeamStyleWrapper = styled.section`
-  padding: 0px 0 110px 0;
+  padding: 110px 0 110px 0;
   .container{
     max-width: 1140px!important;
   }

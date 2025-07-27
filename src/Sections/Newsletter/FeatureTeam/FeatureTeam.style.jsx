@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ArrowImg from "../../../assets/images/icons/arrow-right-white.svg";
 
 const FeatureTeamStyle = styled.section`
-  padding: 110px 0;
+  padding: 110px 0 62px;
   background-color: #000;
   p.sub-title{
     color: #EFBA30;

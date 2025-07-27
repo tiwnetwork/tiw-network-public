@@ -71,7 +71,7 @@ const Team = () => {
     <TeamStyleWrapper>
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-md-7 text-center mb-30">
+          <div className="col-md-8 text-center mb-30">
             <ScrollAnimate delay={200}>
               <span className="sub-title">Get to Know</span>
               <h2 className="title mt-3 mb-4">Our Senior Staff Team</h2>

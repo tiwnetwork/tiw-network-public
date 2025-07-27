@@ -12,6 +12,7 @@ import CrossPlatform from "../Sections/CryptoWallet/CrossPlatform/CrossPlatform"
 import TeamFaq from "../Sections/TeamCollaboration/TeamFaq/TeamFaq";
 import AppFeatures from "../Sections/AppLanding/AppFeatures/AppFeatures";
 import ChatbotChoose from "../Sections/Chatbot/ChatbotChoose/ChatbotChoose";
+import FinanceBenefits from "../Sections/Finance/FinanceBenefits/FinanceBenefits";
 
 const AboutTIW = () => {
   return (
@@ -26,6 +27,8 @@ const AboutTIW = () => {
         {/* <TokenFeatures /> */}
 
         <FeatureTeam />
+        
+        <FinanceBenefits />
         <Team />
         <UserFeedback />
         <TeamFaq />

@@ -2,15 +2,10 @@ import { useRef, useState, useEffect } from "react";
 import Slider from "react-slick";
 import FinanceBenefitsStyle from "./FinanceBenefits.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import CustomPieProgress from "./../../../Components/CustomPieProgress";
-
-import ShapeImg from "../../../assets/images/shape/item-shape.svg";
-import benefitsImg2 from "../../../assets/images/finance-index/benefits-img2.png";
-import benefitsChart1 from "../../../assets/images/finance-index/benefits-chart1.png";
-import benefitsImg3 from "../../../assets/images/finance-index/benefits-img3.png";
-import benefitsImg from "../../../assets/images/finance-index/benefits-img.png";
-import benefitsChart3 from "../../../assets/images/finance-index/benefits-chart3.png";
-import benefitsImg4 from "../../../assets/images/finance-index/benefits-img4.png";
+import visionImg1 from "../../../assets/images/tiwmedia/about-us/vision-1.jpg";
+import visionImg2 from "../../../assets/images/tiwmedia/about-us/vision-2.jpg";
+import visionImg3 from "../../../assets/images/tiwmedia/about-us/vision-3.jpg";
+import visionImg4 from "../../../assets/images/tiwmedia/about-us/vision-4.jpg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
 const FinanceBenefits = () => {
@@ -21,7 +16,7 @@ const FinanceBenefits = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     infinite: true,
     asNavFor: sliderNavRef.current,
@@ -33,12 +28,13 @@ const FinanceBenefits = () => {
     slidesToScroll: 1,
     asNavFor: sliderForRef.current,
     dots: false,
-    autoplay: true,
+    autoplay: false, 
     autoplaySpeed: 5000,
     centerMode: false,
     focusOnSelect: true,
     ref: sliderNavRef,
   });
+
 
   useEffect(() => {
     setSettingsFor((prevSettings) => ({
@@ -57,14 +53,28 @@ const FinanceBenefits = () => {
       <div className="container">
         <ScrollAnimate delay={200}>
           <SectionTitle
-            title="Most useful features You must need"
-            subtitle="Benefits"
-            titleMaxW="480px"
+            title="The Vision"
+            subtitle="TIW NETWORK"
+            titleMaxW="100%"
             subtitleClass="green-color"
-            parentClass="v6 text-center"
-            titleMargin="auto"
+            parentClass="v6 text-center md:text-left"
           />
         </ScrollAnimate>
+        <div className="col-md-10 description">
+          <p>
+            At TIW Network, we envision a thriving, inclusive property sector that
+            transforms communities across Scotland.
+          </p>
+          <p>
+            By 2030, our members will lead Scotland’s housing market through innovation,
+            sustainability, and collaboration, empowering our members to create affordable,
+            energy-efficient homes that improve lives.
+          </p>
+          <p>Our vision is built on four commitments:</p>
+        </div>
+
+
+
         <div className="benefits-content">
           <div className="row">
             <div className="col-md-6">
@@ -72,87 +82,28 @@ const FinanceBenefits = () => {
                 <div className="benefits-left-section slider-benefits-for">
                   <Slider {...settingsFor} className="slider-benefits-for">
                     <div className="benefits-img-bg">
-                      <div className="benefits-img-tag benefits-img-tag1">
-                        ESG
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag2">
-                        Crypto
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag3">
-                        Private investment
-                      </div>
+
                       <div className="about-feature-img benefits-img">
-                        <img src={benefitsImg2} alt="img" />
-                        <div className="overlay">
-                          <div className="overlay-item success-rate">
-                            <img
-                              className="rotate-icon"
-                              src={ShapeImg}
-                              alt="icon"
-                            />
-                            <div className="success-rate-content">
-                              <div className="progress pie_progress">
-                                <CustomPieProgress
-                                  Text="Success rate"
-                                  TextColor="#444444"
-                                  Percentage={92}
-                                  ValueColor="#000000"
-                                  PathColor="#00CEC9"
-                                  TrailColor="rgba(0, 206, 201, 0.2)"
-                                />
-                                <p>Success rate</p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                        <img src={visionImg1} alt="img" />
+
                       </div>
                     </div>
                     <div className="benefits-img-bg benefits-img-bg2">
-                      <div className="benefits-img-tag benefits-img-tag1">
-                        Crypto Trade
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag2">
-                        Investment Committee
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag3">
-                        Planning
-                      </div>
-                      <div className="benefits-img-chart">
-                        <img src={benefitsChart1} alt="" />
-                      </div>
+
                       <div className="about-feature-img benefits-img">
-                        <img src={benefitsImg3} alt="img" />
+                        <img src={visionImg2} alt="img" />
                       </div>
                     </div>
                     <div className="benefits-img-bg benefits-img-bg3">
-                      <div className="benefits-img-tag benefits-img-tag1">
-                        Riskalyze
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag2">
-                        Crypto Trade
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag3">
-                        Private Enquity
-                      </div>
+
                       <div className="about-feature-img benefits-img">
-                        <img src={benefitsImg} alt="img" />
+                        <img src={visionImg3} alt="img" />
                       </div>
                     </div>
                     <div className="benefits-img-bg benefits-img-bg4">
-                      <div className="benefits-img-tag benefits-img-tag1">
-                        High Net Worth
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag2">
-                        Riskalyze
-                      </div>
-                      <div className="benefits-img-tag benefits-img-tag3">
-                        Private Enquity
-                      </div>
-                      <div className="benefits-img-chart">
-                        <img src={benefitsChart3} alt="" />
-                      </div>
+
                       <div className="about-feature-img benefits-img">
-                        <img src={benefitsImg4} alt="img" />
+                        <img src={visionImg4} alt="img" />
                       </div>
                     </div>
                   </Slider>
@@ -165,51 +116,41 @@ const FinanceBenefits = () => {
                   <Slider {...settingsNav} className="slider-benefits-nav">
                     <div className="benefits-slider-nav">
                       <button className="benefits-nav-btn">
-                        Financial advisor program
+                        Building Scotland’s Largest Property Network
                       </button>
                       <div className="benefits-nav-content">
                         <p>
-                          We use as filler text for layouts, non-readability is of
-                          great importance but because those who do not know how
-                          to pursue pleasure rationally encounter consequences
-                          that are extremely painful. Nor again is there anyone
+                          Building Scotland’s Largest Property Network Uniting investors and partners to drive collaboration and mutual growth.
+
                         </p>
                       </div>
                     </div>
                     <div className="benefits-slider-nav">
                       <button className="benefits-nav-btn">
-                        Business growth
+                        Driving Change in Housing
                       </button>
                       <div className="benefits-nav-content">
                         <p>
-                          We use as filler text for layouts, non-readability is of
-                          great before importance but because those who do not
-                          know how to pursue pleasure rationally encounter
-                          consequences.
+                          Creating innovative, accessible housing solutions that meet Scotland’s needs.
+
                         </p>
                       </div>
                     </div>
                     <div className="benefits-slider-nav">
-                      <button className="benefits-nav-btn">Marketing plan</button>
+                      <button className="benefits-nav-btn">Championing Sustainability and Innovation</button>
                       <div className="benefits-nav-content">
                         <p>
-                          We use as filler text for layouts, non-readability is of
-                          great before importance but because those who do not
-                          know how to pursue pleasure rationally encounter
-                          consequences.
+                          Leading with sustainable practices and cutting-edge technology.
                         </p>
                       </div>
                     </div>
                     <div className="benefits-slider-nav">
                       <button className="benefits-nav-btn">
-                        Ethical finance guide
+                        Uplifting Communities
                       </button>
                       <div className="benefits-nav-content">
                         <p>
-                          We use as filler text for layouts, non-readability is of
-                          great importance but because those who do not know how
-                          to pursue pleasure rationally encounter consequences
-                          that are extremely painful. Nor again is there anyone
+                          Developing vibrant neighbourhoods with high-quality, affordable homes.
                         </p>
                       </div>
                     </div>
@@ -218,7 +159,7 @@ const FinanceBenefits = () => {
               </ScrollAnimate>
             </div>
           </div>
-        </div>
+          <p className="vision-footer">We are dedicated to fostering an inclusive industry by supporting greater participation from women and underrepresented groups. Together, we will revolutionise Scotland’s property landscape for generations to come.</p> </div>
       </div>
     </FinanceBenefitsStyle>
   );

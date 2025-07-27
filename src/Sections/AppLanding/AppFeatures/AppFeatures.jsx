@@ -23,7 +23,7 @@ const AppFeatures = () => {
                   TIW Network is Scotland’s leading property investors network, dedicated to empowering business owners and property investors. We facilitate valuable connections, encourage collaboration, and provide the resources needed for members to grow their businesses and property portfolios.
                 </p>
                 <p className="text-para">
-                  Our members benefit from exclusive industry insights, high-quality events, and investment opportunities within a dynamic, supportive community. Whether you’re expanding your network, scaling your business, or exploring new ventures. 
+                  Our members benefit from exclusive industry insights, high-quality events, and investment opportunities within a dynamic, supportive community. Whether you’re expanding your network, scaling your business, or exploring new ventures.
                 </p>
               </div>
             </ScrollAnimate>

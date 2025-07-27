@@ -32,7 +32,7 @@ const PricingPlanCards = () => {
             {pricingPlansData.map((plan, index) => (
               <div
                 key={index}
-                className={`col-lg-4 col-md-6 mb-4 ${plan.type.toLowerCase()}-card`}
+                className={`col-lg-6 col-md-6 mb-4 ${plan.type.toLowerCase()}-card`}
               >
                 <div className={`pricing-plan-card ${plan.type.toLowerCase()}-card`}>
                   <div className={`pricing-plan-card-header ${plan.type.toLowerCase()}`}>
@@ -78,18 +78,26 @@ const PricingPlanCards = () => {
             <div className="col-lg-12 col-md-6 mb-5">
               <div className="pricing-plan-card enterprise-card">
                 <div className="row">
-                  <div className="col-lg-4">
+                  <div className="col-lg-5">
                     <div className="pricing-plan-card-content">
                       <div className="pricing-plan-card-header enterprise ✨">
-                        <h6>MENTORSHIP ✨</h6>
-                        <p>Custom Plan for your big Business</p>
+                        <h6>Business ✨</h6>
+                        <p>Personalized for the business needs</p>
                         <h3>
-                          Starting at £499 <span>/month</span>
+                          Starting at £250 <span>/month</span>
                         </h3>
                       </div>
                     </div>
+                    <div className="pricing-plan-card-content mt-4">
+                      <button href="/contact-us" className="best-pricing-btn">
+                        Let's Talk
+                        <span className="icon">
+                          <img src={rightArrow} alt="icon" />
+                        </span>
+                      </button>
+                    </div>
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-7">
                     <button className="pricing-plan-show-btn pricing-plan-show-btn4">
                       View plan features
                     </button>
@@ -97,29 +105,18 @@ const PricingPlanCards = () => {
                       <div className="best-pricing-card-body m-0">
                         <ul className="list m-0">
                           <li className="list-item">
-                            All from <b>Groth</b> &amp; <b>Business Plan</b>
+                            All from <b>Single</b> &amp; <b>Duo Plan</b>
                           </li>
-                          <li className="list-item">Unlimited Attendees</li>
-                          <li className="list-item">No time limit</li>
-                          <li className="list-item">100+ whiteboards</li>
-                          <li className="list-item">Unlimited storage</li>
+                          <li className="list-item">Staff members included in your plan with their own dashboard access</li>
+                          <li className="list-item">Shared access to resources, tools, and property deal data for your team</li>
+                          <li className="list-item">Advertising and sponsorship opportunities within the TIW Network</li>
+                          <li className="list-item">Priority access to sponsorship at TIW events and webinars</li>
+                          <li className="list-item">Brand promotion across TIW’s digital channels and newsletters</li>
                         </ul>
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4">
-                    <div className="pricing-plan-card-content right">
-                      <button href="/contact-us" className="best-pricing-btn">
-                        Let's Talk
-                        <span className="icon">
-                          <img src={rightArrow} alt="icon" />
-                        </span>
-                      </button>
-                      <div className="pricing-plan-img">
-                        <img src={pricingPlanImg} alt="img" />
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
             </div>

@@ -11,10 +11,20 @@ const CrossPlatformStyle = styled.section`
   .btn-group{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
     flex-wrap: wrap;
     width: 100%;
+    @media screen and (max-width: 767px) {
+        justify-content: center;
+        
+      }
+  }
+  .title-section{
+    max-width: 480px;
+  }
+  .list{
+    color: rgba(255, 255, 255, 0.8);
   }
   .crypto-glow-btn{
     margin: 0 0;
@@ -23,8 +33,14 @@ const CrossPlatformStyle = styled.section`
     padding: 12px 39px;
     width: 220px;
   }
+  .featured-list-title{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    }
   .cross-platform-card {
-    max-width: 925px;
+    max-width: 1100px;
     width: 100%;
     margin: auto;
     background: transparent;
@@ -33,14 +49,17 @@ const CrossPlatformStyle = styled.section`
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
-    flex-direction: column;
+    justify-content: space-between;
     gap: 15px;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      }
     .section-title {
       position: relative;
       z-index: 2;
       margin-bottom: 0px;
+      text-align: center;
     }
     .cross-platform-mesh-grad {
       position: absolute;
@@ -48,7 +67,7 @@ const CrossPlatformStyle = styled.section`
     }
     .paragraph{
       color: rgba(255, 255, 255, 0.8);
-      text-align: center;
+      text-align: left;
     }
   }
 
@@ -63,7 +82,12 @@ const CrossPlatformStyle = styled.section`
       max-width: 410px;
       padding: 60px 0px;
       h2{
-        max-width: 303px;
+        max-width: 367px;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .paragraph{
+        text-align: center;
       }
     }
   }

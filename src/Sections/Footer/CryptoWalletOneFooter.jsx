@@ -150,11 +150,12 @@ const CryptoWalletOneFooter = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-8 col-md-6">
-              <div className="footer-copyright crypto">
-                © 2023, <a href="#">Staco Inc.</a> All Rights Reserved.
-              </div>
+           <div className="col-lg-8 col-md-6">
+            <div className="footer-copyright crypto">
+              © {new Date().getFullYear()}, <a href="#">TIW Network Ltd.</a> All Rights Reserved.
             </div>
+          </div>
+
           </div>
         </div>
       </div>

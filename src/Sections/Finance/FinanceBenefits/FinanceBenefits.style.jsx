@@ -1,27 +1,49 @@
 import styled from "styled-components";
 
-import PlusImg from "../../../assets/images/icons/accordion-plus.png";
-import MinusImg from "../../../assets/images/icons/accordion-minus-green.png";
+import PlusImg from "../../../assets/images/icons/accordion-plus-white.png";
+import MinusImg from "../../../assets/images/icons/accordion-minus-white.png";
+import VisionBG from "../../../assets/images/tiwmedia/about-us/vision-bg.jpg";
 
 const FinanceBenefitsStyle = styled.section`
-  background: ${({ theme }) => theme.colors.whiteColor};
-
+  padding: 110px 0;
+  background: 
+    linear-gradient(138deg, rgba(248, 198, 61, 0), rgba(230, 173, 35, .9), rgba(206, 121, 2, .9), rgba(206, 121, 2, 0)), url(${VisionBG});
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+ 
+  .vision-footer{
+  color: #fff;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    max-width: 900px;
+  }
+  .description{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  .green-color {
+      color: #fff !important;
+      background: unset !important;
+      -webkit-text-fill-color: unset;
+  }
   .benefits-content {
-    padding-top: 28px;
+    padding-top: 50px;
   }
   /*-- benefits-img --*/
   .benefits-left-section {
-    background: ${({ theme }) => theme.colors.v6BG};
-    border-radius: 30px;
+    background: transparent;
+    border-radius: 20px;
   }
   .benefits-img-bg {
     background: transparent;
-    padding: 40px;
+    padding: 0px;
     position: relative;
     .benefits-img-tag {
       position: absolute;
       background: ${({ theme }) => theme.colors.primary6};
-      color: ${({ theme }) => theme.colors.textColor};
+      color: #fff;
       border-radius: 20px;
       padding: 10px 23px;
       z-index: 111;
@@ -133,12 +155,13 @@ const FinanceBenefitsStyle = styled.section`
     .benefits-img {
       border-radius: 10px;
       border-bottom-right-radius: 50%;
-      max-width: 90%;
+      max-width: 100%;
       > img {
         height: 100%;
-        width: 390px;
+        width: 100%;
         max-width: 100%;
         overflow: hidden;
+        border-radius: 20px;
       }
     }
   }
@@ -172,17 +195,17 @@ const FinanceBenefitsStyle = styled.section`
   .benefits-faq {
     padding-left: 50px;
     .slider-benefits-content {
-      border-top: 1px solid ${({ theme }) => theme.colors.blackColor}26;
+      border-top: 1px solid #fff;
     }
     .benefits-slider-nav {
-      border-bottom: 1px solid ${({ theme }) => theme.colors.blackColor}26;
+      border-bottom: 1px solid #fff;
       padding: 26px 0px;
       .benefits-nav-btn {
         font-family: ${({ theme }) => theme.fonts.PlusJakartaSans};
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
-        color: ${({ theme }) => theme.colors.title};
+        color: #fff;
         position: relative;
         width: 100%;
         text-align: left;
@@ -205,6 +228,7 @@ const FinanceBenefitsStyle = styled.section`
           padding-top: 15px;
           max-width: 515px;
           width: 100%;
+          color: #fff;
         }
       }
     }
@@ -225,7 +249,7 @@ const FinanceBenefitsStyle = styled.section`
           content: "";
           height: 1px;
           width: 30%;
-          background: ${({ theme }) => theme.colors.primary6Deep};
+          background: #fff;
           animation: lineProgress 3s linear infinite;
           -webkit-animation: lineProgress 5s linear infinite;
         }
