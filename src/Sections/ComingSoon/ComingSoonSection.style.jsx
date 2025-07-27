@@ -40,7 +40,7 @@ const ComingSoonSectionStyle = styled.section`
         margin-bottom: 1.5rem;
     }
     .overlay {
-    background: rgba(16, 23, 34, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     height: 100vh;
     position: relative;
     z-index: 1;
