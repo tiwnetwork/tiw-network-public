@@ -22,14 +22,33 @@ const BusinessHowWork = () => {
       if (error) {
         console.error("Error fetching events:", error);
       } else {
-        // Optional: Sort or format if needed 
-        setEventsData(data);
+        const now = new Date();
+
+        const sortedData = data.sort((a, b) => {
+          const dateA = new Date(a.date_time);
+          const dateB = new Date(b.date_time);
+
+          const isAFuture = dateA >= now;
+          const isBFuture = dateB >= now;
+
+          if (isAFuture && !isBFuture) return -1; // A future, B past → A first
+          if (!isAFuture && isBFuture) return 1;  // B future, A past → B first
+
+          // Both future → earlier first
+          if (isAFuture && isBFuture) return dateA - dateB;
+
+          // Both past → most recent past first (closest to now)
+          return dateB - dateA;
+        });
+
+        setEventsData(sortedData);
       }
       setLoading(false);
     };
 
     fetchEvents();
   }, []);
+
 
   // ✅ Filter fetched data based on search term
   const filteredEvents = eventsData.filter((event) =>

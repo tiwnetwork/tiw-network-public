@@ -52,7 +52,7 @@ const NetworkCallFeed = () => {
               </div>
               <div className="event-action">
                 <Link to="/pricing">
-                  <a>Book event &nbsp; &gt;</a>
+                  <a>Join Conference &nbsp; &gt;</a>
                 </Link>
                 
               </div>

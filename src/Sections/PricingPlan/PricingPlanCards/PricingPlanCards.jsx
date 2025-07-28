@@ -7,6 +7,7 @@ import ScrollAnimate from "../../../Components/ScrollAnimate";
 import { useEffect } from "react";
 import Splitting from "splitting";
 import ScrollOut from "scroll-out";
+import { Link } from "react-router-dom";
 
 const PricingPlanCards = () => {
   useEffect(() => {
@@ -47,19 +48,17 @@ const PricingPlanCards = () => {
                     </h3>
                     <p>{plan.trial}</p>
                   </div>
-                  <button
-                    className={`pricing-plan-show-btn pricing-plan-show-btn${index + 1
-                      }`}
-                  >
-                    View plan features
-                  </button>
                   <div className="best-pricing-card-body">
-                    <button className={`best-pricing-btn ${plan.btnClass}`}>
+                    <button
+                      className={`best-pricing-btn ${plan.btnClass}`}
+                      onClick={() => window.location.href = "https://dashboard.tiwnetwork.co.uk/auth"}
+                    >
                       {plan.btnText}
                       <span className="icon">
                         <img src={rightArrow} alt="icon" />
                       </span>
                     </button>
+
                     <ul className="list">
                       {plan.features.map((feature, i) => (
                         <li key={i}>{feature}</li>
@@ -89,12 +88,13 @@ const PricingPlanCards = () => {
                       </div>
                     </div>
                     <div className="pricing-plan-card-content mt-4">
-                      <button href="/contact-us" className="best-pricing-btn">
-                        Let's Talk
-                        <span className="icon">
-                          <img src={rightArrow} alt="icon" />
-                        </span>
-                      </button>
+                    <Link to="/contact-us" className="best-pricing-btn">
+                      Let's Talk
+                      <span className="icon">
+                        <img src={rightArrow} alt="icon" />
+                      </span>
+                    </Link>
+
                     </div>
                   </div>
                   <div className="col-lg-7">

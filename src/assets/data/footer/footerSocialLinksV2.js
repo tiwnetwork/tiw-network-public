@@ -2,35 +2,35 @@
 import FacebookImg from "../../images/icons/crypto-wallet1/facebook.svg";
 import Linkdin from "../../images/icons/crypto-wallet1/linkdin.svg";
 import InstagramImg from "../../images/icons/crypto-wallet1/instagram.svg";
-import youtubeImg from "../../images/icons/crypto-wallet1/yt.svg";
+import tiktokImg from "../../images/icons/tik-tokwhite.png";
 import xImg from "../../images/icons/crypto-wallet1/x.svg";
 
 const Data = [
   {
     title: "facebook",
-    url: "#",
+    url: "https://www.facebook.com/tiwnetwork",
     img: FacebookImg,
   },
   {
     title: "instagram",
-    url: "#",
+    url: "https://www.instagram.com/tiw_network",
     img: InstagramImg ,
   },
   {
     title: "twitter",
-    url: "#",
+    url: "https://x.com/tiwnetwork",
     img: xImg,
   },
   
   {
     title: "linkdin",
-    url: "#",
+    url: "https://www.linkedin.com/company/tiwnetwork",
     img: Linkdin,
   },
   {
-    title: "youtube",
-    url: "#",
-    img: youtubeImg,
+    title: "tiktok",
+    url: "https://www.tiktok.com/@tiwnetwork",
+    img: tiktokImg,
   },
 ];
 

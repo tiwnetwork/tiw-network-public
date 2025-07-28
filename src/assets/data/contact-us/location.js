@@ -8,11 +8,11 @@ const data = [
     title: "TIW Network HQ",
     address: "195 Queensferry Road, Rosyth, Dunfermline, KY11 2JH",
   },
-  {
-    icon: Icon2,
-    title: "Call Us",
-    phoneNumbers: ["+44 123 456 7890"],
-  },
+  // {
+  //   icon: Icon2,
+  //   title: "Call Us",
+  //   phoneNumbers: ["+44 123 456 7890"],
+  // },
   {
     icon: Icon3,
     title: "Mail Us",

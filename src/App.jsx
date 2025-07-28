@@ -42,7 +42,7 @@ const App = () => {
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/coming-soon" element={<Home/>} />
+        <Route path="/homepage" element={<Home/>} />
         <Route path="/" element={<ComingSoon />} />
         <Route path="/about" element={<AboutTIW />} />
         <Route path="/about/:id" element={<TeamDetail />} />

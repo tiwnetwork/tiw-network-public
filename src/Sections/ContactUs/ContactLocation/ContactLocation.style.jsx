@@ -23,7 +23,7 @@ const ContactLocationStyle = styled.section`
     top: 30px;
     left: 30px;
     width: 350px;
-    height: 390px;
+    height: auto;
     padding: 30px;
     background-color: #000;
     border-radius: 20px;

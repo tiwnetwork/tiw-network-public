@@ -7,7 +7,7 @@ import PricingPlanCards from "../Sections/PricingPlan/PricingPlanCards/PricingPl
 
 const Pricing = () => {
   return (
-    <Layout pageTitle="TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
+    <Layout pageTitle="Pricing | TIW Network - A Business Network Where Opportunities Flourish" scrollVariant={"crypto"}>
       <div className="crypto-wallet-body">
         <Header variant="crypto" />
         <PricingPlanCards />
