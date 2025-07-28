@@ -11,17 +11,15 @@ const CryptoWalletOneFooter = () => {
       title: "Navigation",
       links: [
         { text: "Home", url: "/", badgeClass: "none" },
-        { text: "Log In", url: "#", badgeClass: "none" },
-        { text: "Support", url: "#", badgeClass: "none" },
-        { text: "Join Us", url: "#", badgeClass: "none" },
-        { text: "FAQ", url: "/#faq-section", badgeClass: "none" },
+        { text: "Log In", url: "https://dashboard.tiwnetwork.co.uk", badgeClass: "none" },
+        { text: "Support", url: "/contact-us", badgeClass: "none" },
+        { text: "Join Us", url: "/pricing", badgeClass: "none" },
       ],
     },
     {
       title: "Company",
       links: [
         { text: "Why Join Us", url: "/why-join-us", badgeClass: "none" },
-        { text: "Who We Are", url: "/about", badgeClass: "none" },
         { text: "Partners", url: "/partners", badgeClass: "none" },
         { text: "Events", url: "/events", badgeClass: "none" },
         { text: "Contact Us", url: "/contact-us", badgeClass: "none" },
