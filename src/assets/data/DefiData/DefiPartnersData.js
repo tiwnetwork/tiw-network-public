@@ -20,6 +20,8 @@ import logo18 from '../../../assets/images/tiwmedia/partners/white-logo/18.png';
 import logo19 from '../../../assets/images/tiwmedia/partners/white-logo/19.png';
 import logo20 from '../../../assets/images/tiwmedia/partners/white-logo/20.png';
 import logo21 from '../../../assets/images/tiwmedia/partners/white-logo/21.png';
+import logo22 from '../../../assets/images/tiwmedia/partners/white-logo/22.png';
+import logo23 from '../../../assets/images/tiwmedia/partners/white-logo/23.png';
 
 export const partnerData = [
     { id: 1, src: logo1, alt: 'Partner Logo 1' },
@@ -43,4 +45,6 @@ export const partnerData = [
     { id: 19, src: logo19, alt: 'Partner Logo 19' },
     { id: 20, src: logo20, alt: 'Partner Logo 20' },
     { id: 21, src: logo21, alt: 'Partner Logo 21' },
+    { id: 22, src: logo22, alt: 'Partner Logo 22' },
+    { id: 23, src: logo23, alt: 'Partner Logo 23' },
 ];
