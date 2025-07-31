@@ -5,7 +5,7 @@ import tiwLogo from "../../assets/images/tiwmedia/tiwlogo370px.svg";
 
 const ComingSoonSection = () => {
   // Set your launch date here
-  const launchDate = new Date("2025-07-31T20:00:00+01:00").getTime();
+  const launchDate = new Date("2025-08-01T12:00:00+01:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
