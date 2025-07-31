@@ -2,7 +2,7 @@ import ConnectDappsStyle from "./ConnectDapps.style";
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 import coinIconsImg from "../../../assets/images/crypto2/coin_icons.svg";
 import arrowRightBlueImg from "../../../assets/images/crypto2/arrow-right-blue.svg";
-import mockupImg from "../../../assets/images/crypto2/mockup.png";
+import mockupImg from "../../../assets/images/tiwmedia/phone.png";
 import dottedLineImg from "../../../assets/images/crypto2/dotted_line.svg";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 

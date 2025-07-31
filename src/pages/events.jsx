@@ -5,7 +5,7 @@ import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
 import BusinessHowWork from "../Sections/Business/BusinessHowWork/BusinessHowWork";
 import OurSkil from "../Sections/OurServices/OurSkil/OurSkil";
-import CTAImage from "../assets/images/tiwmedia/events/eventsCta.png";
+import CTAImage from "../assets/images/tiwmedia/events/event-cta.png";
 import BusinessChoose from "../Sections/Business/BusinessChoose/BusinessChoose";
 
 const Events = () => {

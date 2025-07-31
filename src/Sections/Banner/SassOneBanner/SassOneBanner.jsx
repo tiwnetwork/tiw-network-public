@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import SassOneBannerStyle from "./SassOneBanner.style";
 import ScrollAnimate from "../../../Components/ScrollAnimate";
 
-import index5BannerImg from "../../../assets/images/sass1/index5-banner-img.png";
+import index5BannerImg from "../../../assets/images/tiwmedia/homepage-all-in-one.png";
 import laptopshadow from "../../../assets/images/tiwmedia/laptopshadow.png";
 
 const SassOneBanner = () => {

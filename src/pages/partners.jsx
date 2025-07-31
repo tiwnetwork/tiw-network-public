@@ -5,7 +5,7 @@ import CryptoWalletOneFooter from "../Sections/Footer/CryptoWalletOneFooter";
 import StartBuildingComponent from "../Components/StartBuilding/StartBuildingComponent";
 import NewsletterFeatures from "../Sections/Newsletter/NewsletterFeatures/NewsletterFeatures";
 import OurSkil from "../Sections/OurServices/OurSkil/OurSkil";
-import CTAImage from "../assets/images/tiwmedia/partners/partnersctaimg.png";
+import CTAImage from "../assets/images/tiwmedia/partners/partners-cta-block.png";
 
 const Partners = () => {
   return (
