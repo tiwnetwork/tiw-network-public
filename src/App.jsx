@@ -35,15 +35,13 @@ import NetworkCalls from "./pages/network-calls";
 import Partners from "./pages/partners";
 import Pricing from "./pages/pricing";
 import TeamDetail from "./pages/team-details";
-import ComingSoon from "./pages/coming-soon";
 
 const App = () => {
   return (
     <BrowserRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/homepage" element={<Home/>} />
-        <Route path="/" element={<ComingSoon />} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<AboutTIW />} />
         <Route path="/about/:id" element={<TeamDetail />} />
         <Route path="/why-join-us" element={<WhyJoinTIW />} />
