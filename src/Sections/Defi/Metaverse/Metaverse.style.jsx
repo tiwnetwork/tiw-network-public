@@ -156,7 +156,7 @@ const MetaverseStyle = styled.section`
       height: 400px;
       background: radial-gradient(circle at left top, #1a1a1a 0%, transparent 70%);
       pointer-events: none;
-      z-index: 0; 
+      z-index: 2; 
       transition: 0.3s ease;
       opacity: 0;
     }

@@ -6,10 +6,10 @@ import ScrollAnimate from "../../../Components/ScrollAnimate";
 import tiwlogo from "../../../assets/images/logo/TIW-Logo.png";
 
 import cardimg1 from "../../../assets/images/tiwmedia/homepage-benefits/3.png";
-import cardimg2 from "../../../assets/images/tiwmedia/homepage-benefits/4.webp";
 import metavarseCardBgImg from "../../../assets/images/tiwmedia/homepage-benefits/2.png";
 import metavarseImg2Img from "../../../assets/images/tiwmedia/homepage-benefits/1.png";
 
+import cardimg2 from "../../../assets/images/tiwmedia/homepage-benefits/4.png";
 
 const Metaverse = () => {
 
@@ -98,6 +98,7 @@ const Metaverse = () => {
                     </div>
 
                     <div className="col-sm-7">
+                    
                       <img src={cardimg2} alt="Image 2" />
                     </div>
                   </div>

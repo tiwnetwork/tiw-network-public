@@ -11,7 +11,6 @@ const NewsletterFeatures = () => {
   const [loading, setLoading] = useState(true);
   const [expandedItems, setExpandedItems] = useState(new Set());
 
-  // Fetch and reverse partners list
   useEffect(() => {
     const fetchPartners = async () => {
       setLoading(true);
@@ -22,7 +21,32 @@ const NewsletterFeatures = () => {
       if (error) {
         console.error("Error fetching partners:", error.message);
       } else if (data) {
-        setPartners([...data].reverse());
+        const priorityNames = [
+          "GO Financial Services",
+          "Prime Property Auctions",
+          "Wren Kitchens",
+          "B&Q (Tradepoint)",
+          "LTJ Architecture",
+          "Maloco Mowat Parker",
+          "This Is Property"
+        ];
+
+        const sortedData = data.sort((a, b) => {
+          const aIndex = priorityNames.indexOf(a.name);
+          const bIndex = priorityNames.indexOf(b.name);
+
+          const aIsPriority = aIndex !== -1;
+          const bIsPriority = bIndex !== -1;
+
+          if (aIsPriority && bIsPriority) return aIndex - bIndex;
+          if (aIsPriority) return -1;
+          if (bIsPriority) return 1;
+
+          // Neither are priority → sort alphabetically
+          return a.name.localeCompare(b.name);
+        });
+
+        setPartners(sortedData);
       }
 
       setLoading(false);
