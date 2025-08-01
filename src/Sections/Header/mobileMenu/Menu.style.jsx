@@ -3,6 +3,7 @@ import styled from "styled-components";
 const MobileMenuStyleWrapper = styled.div`
   position: fixed;
   z-index: 99999;
+
   .offcanvasStaco-body {
     -ms-overflow-style: none;
     background: #000;

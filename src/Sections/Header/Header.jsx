@@ -91,7 +91,7 @@ const Header = ({ variant, ...props }) => {
         variant={variant}
         {...props}
       >
-        <div className="container">
+        <div className="container-full-width">
           <div className="row">
             <div className="col-md-12">
               <nav className="navbar navbar-expand-lg">
@@ -388,12 +388,12 @@ const Header = ({ variant, ...props }) => {
 
                       {variant === "crypto" && (
                         <li>
-                          <NavLink to="/pricing" className="crypto-glow-btn">
+                          <a href="https://dashboard.tiwnetwork.co.uk/" className="crypto-glow-btn">
                             <span className="btn-inner">
-                              <span className="btn-normal-text">Get Started</span>
-                              <span className="btn-hover-text">Get Started</span> {/*Header nav main button*/}
+                              <span className="btn-normal-text">Log In</span>
+                              <span className="btn-hover-text">Log In</span> {/*Header nav main button*/}
                             </span>
-                          </NavLink>
+                          </a>
                         </li>
                       )}
 

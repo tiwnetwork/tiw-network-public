@@ -34,9 +34,7 @@ const CryptoWalletOneFooter = () => {
         <TagembedWidget />
 
       </ScrollAnimate>
-            <div className="radial-gradient">
-
-      </div>
+      <div className="radial-gradient"></div>
       <div className="container">  
         <div className="chatbot-footer-card crypto-wallet">
           <div className="row flex-row-reverse">

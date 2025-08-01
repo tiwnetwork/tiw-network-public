@@ -307,6 +307,9 @@ button {
 
 /*-- custom bootstrap style start --*/
 @media (min-width: 1400px) {
+  .container-full-width{
+    max-width: 100% !important;
+  }
   .container,
   .container-lg,
   .container-md,

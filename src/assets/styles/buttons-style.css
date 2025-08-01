@@ -548,22 +548,23 @@
   opacity: 0;
 }
 .crypto-glow-btn {
-  padding: 12px 39px;
-  background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
-  border-radius: 50px;
-  max-width: 220px;
-  width: 100%;
-  margin: 0px auto;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: capitalize;
-  color: #111 !important;
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  font-weight: 700;
+    padding: 12px 30px;
+    background: linear-gradient(90deg, #F8C73D 0%, #E6AD23 51.56%, #ce7902 100%);
+    border-radius: 50px;
+    max-width: 189px;
+    width: 100%;
+    margin: 0px auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    color: #111 !important;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    font-weight: 700;
+
 }
 .crypto-glow-btn .btn-inner {
   display: inline-block;

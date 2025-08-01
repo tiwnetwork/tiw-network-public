@@ -25,8 +25,12 @@ const Data = [
     url: "/network-calls",
   },
   {
-    title: "Sign Up",
+    title: "Pricing",
     url: "/pricing",
+  },
+  {
+    title: "Log In",
+    url: "https://dashboard.tiwnetwork.co.uk/",
   },
 ];
 

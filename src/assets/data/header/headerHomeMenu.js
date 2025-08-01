@@ -24,6 +24,10 @@ const data = [
     title: "Network Calls",
     url: "/network-calls",
   },
+  {
+    title: "Pricing",
+    url: "/pricing",
+  },
   
 
 ];

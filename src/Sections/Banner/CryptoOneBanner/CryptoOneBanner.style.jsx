@@ -7,11 +7,14 @@ const CryptoOneBannerStyle = styled.section`
   }
   .cd-words-wrapper {
     display: block;
+    b{
+      font-weight: 800;
+    }
   }
   .crypto-hero-section-text {
     text-align: center;
     h1 {
-      font-weight: 700;
+      font-weight: 800;
       font-size: 70px;
       line-height: 90px;
       text-align: center;
